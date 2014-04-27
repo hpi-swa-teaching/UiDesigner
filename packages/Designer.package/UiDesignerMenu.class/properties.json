@@ -1,0 +1,15 @@
+{
+	"category" : "Designer-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"ui",
+		"transformations" ],
+	"name" : "UiDesignerMenu",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

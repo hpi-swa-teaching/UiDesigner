@@ -1,0 +1,5 @@
+accessing
+prop
+	"nil"
+	
+	^ prop

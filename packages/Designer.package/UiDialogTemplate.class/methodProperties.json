@@ -1,0 +1,7 @@
+{
+	"class" : {
+		"isTemplate" : "mt 10/30/2010 13:16:43.609" },
+	"instance" : {
+		"cancelButton" : "mt 10/30/2010 13:16:18.223",
+		"initializePanel" : "mt 10/30/2010 13:16:18.282",
+		"okButton" : "mt 10/30/2010 13:16:18.178" } }

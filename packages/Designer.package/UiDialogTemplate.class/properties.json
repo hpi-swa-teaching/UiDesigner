@@ -1,0 +1,18 @@
+{
+	"category" : "Designer-Templates",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"unnamedMorph1",
+		"unnamedMorph2",
+		"unnamedMorph3",
+		"okButton",
+		"cancelButton" ],
+	"name" : "UiDialogTemplate",
+	"pools" : [
+		 ],
+	"super" : "UserInterface",
+	"type" : "normal" }

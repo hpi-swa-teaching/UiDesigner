@@ -1,0 +1,5 @@
+accessing
+widgetList
+	"nil"
+	
+	^ widgetList

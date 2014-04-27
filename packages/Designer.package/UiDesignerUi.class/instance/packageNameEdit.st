@@ -1,0 +1,5 @@
+accessing
+packageNameEdit
+	"nil"
+	
+	^ packageNameEdit

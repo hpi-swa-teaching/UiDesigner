@@ -1,0 +1,28 @@
+{
+	"category" : "Designer-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"unnamedMorph1",
+		"newBtn",
+		"openBtn",
+		"saveBtn",
+		"unnamedMorph2",
+		"unnamedMorph3",
+		"packageNameEdit",
+		"prop",
+		"propertyScroller",
+		"unnamedMorph4",
+		"widgetList",
+		"unnamedMorph5",
+		"unnamedMorph6",
+		"filterEdit",
+		"centralScroller" ],
+	"name" : "UiDesignerUi",
+	"pools" : [
+		 ],
+	"super" : "UserInterface",
+	"type" : "normal" }
