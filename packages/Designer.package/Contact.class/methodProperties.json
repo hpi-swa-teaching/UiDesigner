@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"initialize" : "SR 4/30/2014 11:26",
+		"open" : "SR 4/30/2014 11:04",
+		"removeContact" : "SR 4/30/2014 11:32",
+		"saveContact" : "SR 4/30/2014 11:30",
+		"ui" : "SR 4/30/2014 11:17" } }

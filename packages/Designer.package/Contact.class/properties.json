@@ -1,0 +1,14 @@
+{
+	"category" : "Designer-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"ui" ],
+	"name" : "Contact",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }
