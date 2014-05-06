@@ -1,3 +1,3 @@
 as yet unclassified
 ui
-	^ui ifNil: [ui := ContactDialogUi new].
+	^ui ifNil: [ui := UIContactDemoUi new].
