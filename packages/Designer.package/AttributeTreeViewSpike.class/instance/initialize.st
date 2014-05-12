@@ -3,26 +3,14 @@ initialize
 	super initialize.
 	self ui setupUi: self.
 	
-	treeModel := UiWidgetModel new.
+	treeModel := UiAttributeModel new.
 	
 	self ui treeView removeAllColumns; model: nil; 
-			addColumn: ((UiItemViewColumnSpec newFrom: {#text -> #yourself. #icon -> #yourself. #balloonText -> #yourself})
-			textConverter: [:node | (node includesKey: #category)
-					ifTrue: [('<b>'
-							, (node at: #category) , '</b>') asHtmlText]
-					ifFalse: [(node at: #class) widgetClassName]];
-			
-			iconConverter: [:node | (node includesKey: #class)
-					ifTrue: [(node at: #class) widgetClassIcon]];
-			
-			balloonTextConverter: [:node | (node includesKey: #class)
-					ifTrue: [(node at: #class) name]]); addColumn: ((UiItemViewColumnSpec newFrom: {#icon -> #yourself. #balloonText -> #yourself})
-			iconConverter: [:node | ((node includesKey: #class)
-						and: [(node at: #class) isExperimentalWidgetClass])
-					ifTrue: [UiFugueIcons exclamationFrameIcon]];
-			
-			balloonTextConverter: [:node | ((node includesKey: #class)
-						and: [(node at: #class) isExperimentalWidgetClass])
-					ifTrue: ['For experimental use only.']]); model: UiWidgetModel new.
+			addColumn: ((UiItemViewColumnSpec newFrom: {#text -> #yourself})
+			textConverter: [:node | (node includesKey: #attributeOriginClass)
+					ifTrue: [('<b>' , (node at: #attributeOriginClass) , '</b>') asHtmlText]
+					ifFalse: [node at: #propertyName]] ).
 				
-	self ui treeView model: treeModel
+	self ui treeView model: treeModel.
+	
+	treeModel setNewWidget: (UiPushButton new)

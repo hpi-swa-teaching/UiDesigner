@@ -2,18 +2,17 @@ updating
 setNewWidget: widget
 	self attributes: (OrderedCollection new).
 	
-	Morph allSubclassesDo: [:c | | node |
+	widget class allInstVarNames do: [ :variableName | | node |
 		node := self attributes
-			detect: [:n | (n at: #category) = c widgetCategory]
+			detect: [:n | (n at: #attributeOriginClass) = (widget class)]
 			ifNone: [self attributes add: (UiPropertyItemNode new
 				addDefaultGroup;
-				at: #category put: c widgetCategory;
+				at: #attributeOriginClass put: (widget class);
 				yourself)].
 		
-		(c isWidgetClass or: [c widgetCategory = Morph widgetCategory])
-			ifTrue: [node addChild: (
-				UiPropertyItemNode new
-					at: #class put: c;
-					yourself)]].
+		node addChild: (
+			UiPropertyItemNode new
+			at: #propertyName put: variableName;
+			yourself) ].
 			
 	self modelReset.

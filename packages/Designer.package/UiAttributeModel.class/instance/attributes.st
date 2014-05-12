@@ -1,4 +1,4 @@
 accessing
 attributes
 
-	^ attributes
+	^ attributes ifNil: [ attributes := OrderedCollection new ]
