@@ -1,5 +1,6 @@
 updating
 setNewWidget: widget
+	" pass me a widget INSTANCE to have all its attributes listed "
 	self attributes: (OrderedCollection new).
 	
 	widget class allInstVarNames do: [ :variableName | | node |
@@ -13,6 +14,7 @@ setNewWidget: widget
 		node addChild: (
 			UiPropertyItemNode new
 			at: #propertyName put: variableName;
+			at: #propertyValue put: 'placeholder value';
 			yourself) ].
 			
 	self modelReset.
