@@ -6,8 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"ui" ],
-	"name" : "Contact",
+		"ui",
+		"treeModel" ],
+	"name" : "AttributeTreeViewSpike",
 	"pools" : [
 		 ],
 	"super" : "Morph",

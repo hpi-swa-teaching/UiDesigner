@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"ui" ],
-	"name" : "Contact",
+		"treeView" ],
+	"name" : "AttributeTreeViewUi",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "UserInterface",
 	"type" : "normal" }
