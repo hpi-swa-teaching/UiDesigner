@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"connectViewWith:and:" : "tg 5/14/2014 13:28",
 		"initialize" : "tg 5/13/2014 11:55",
 		"open" : "tg 5/13/2014 12:28",
 		"ui" : "tg 5/13/2014 12:10",

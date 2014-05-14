@@ -6,7 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"ui" ],
+		"ui",
+		"editorFactory",
+		"editor",
+		"aMorph" ],
 	"name" : "UiSaveDialog",
 	"pools" : [
 		 ],

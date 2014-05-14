@@ -3,6 +3,7 @@ save
 	
 	| generator warnings warningsDialog uiSaveDialog |
 	uiSaveDialog := UiSaveDialog new..
+	uiSaveDialog connectViewWith: container and: propertyTable.
 	uiSaveDialog open.
 	generator := UiCodeGenerator new
 		category: self ui packageNameEdit theText;
