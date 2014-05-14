@@ -1,7 +1,9 @@
 save/load
 save
 	
-	| generator warnings warningsDialog |
+	| generator warnings warningsDialog uiSaveDialog |
+	uiSaveDialog := UiSaveDialog new..
+	uiSaveDialog open.
 	generator := UiCodeGenerator new
 		category: self ui packageNameEdit theText;
 		source: container.
@@ -29,3 +31,5 @@ and will be overwritten.').
 		inform: 'UI class was created successfully to:', String cr, '[', generator category, '] ', generator uiClassName
 		title: 'Done.'
 		at: self center.	
+			
+	self addMorph: (UiSaveDialog new open).

@@ -1,0 +1,20 @@
+{
+	"category" : "Designer-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"okButton",
+		"cancelButton",
+		"autoGenerationCheckbox",
+		"classNameInput",
+		"packageNameInput",
+		"classNameLabel",
+		"packageNameLabel" ],
+	"name" : "UiSaveDialogUi",
+	"pools" : [
+		 ],
+	"super" : "UserInterface",
+	"type" : "normal" }
