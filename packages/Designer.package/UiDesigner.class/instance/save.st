@@ -1,10 +1,8 @@
 save/load
 save
 	
-	| generator warnings warningsDialog uiSaveDialog |
-	uiSaveDialog := UiSaveDialog new..
-	uiSaveDialog connectViewWith: container and: propertyTable.
-	uiSaveDialog open.
+	| generator warnings warningsDialog |
+	
 	generator := UiCodeGenerator new
 		category: self ui packageNameEdit theText;
 		source: container.
@@ -33,4 +31,3 @@ and will be overwritten.').
 		title: 'Done.'
 		at: self center.	
 			
-	self addMorph: (UiSaveDialog new open).

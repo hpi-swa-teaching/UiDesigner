@@ -9,7 +9,10 @@
 		"ui",
 		"editorFactory",
 		"editor",
-		"aMorph" ],
+		"aMorph",
+		"s",
+		"uiDesigner",
+		"aUiDesigner" ],
 	"name" : "UiSaveDialog",
 	"pools" : [
 		 ],

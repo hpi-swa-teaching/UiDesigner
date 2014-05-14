@@ -26,5 +26,5 @@ initialize
 	self connect: self ui filterEdit signal: #textEdited: toSelector: #nameFilter:.		
 		
 	self connect: self ui newBtn signal: #clicked: toSelector: #reset.
-	self connect: self ui saveBtn signal: #clicked: toSelector: #save.
+	self connect: self ui saveBtn signal: #clicked: toSelector: #openSaveDialog..
 	self connect: self ui openBtn signal: #clicked: toSelector: #load.
