@@ -5,7 +5,7 @@ initializePanel
 	|  |
 	
 	panel := UiContainer new.
-	panel extent: (500@300).
+	panel extent: (529@293).
 	panel position: (0@0).
 	panel hResizing: (#rigid).
 	panel vResizing: (#rigid).
@@ -25,15 +25,48 @@ initializePanel
 	panel frameFractions: (0@0 corner: 1@1).
 	panel frameOffsets: (0@0 corner: 0@0).
 	panel balloonText: (nil).
-	panel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
-	panel color: (Color transparent).
+	panel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
+	panel color: (Color lightGray).
 	panel borderWidth: (0).
 	panel borderStyle2: (#simple).
 	panel borderColor: (Color black).
 	panel setProperty: #objectName toValue: 'panel'.
+	button := UiPushButton new.
+	button changeTableLayout.
+	button extent: (74@20).
+	button position: (25@116).
+	button hResizing: (#shrinkWrap).
+	button vResizing: (#shrinkWrap).
+	button minWidth: (2).
+	button minHeight: (2).
+	button cellInset: (4).
+	button cellPositioning: (#center).
+	button cellSpacing: (#none).
+	button layoutInset: (2@0 corner: 2@0).
+	button listCentering: (#topLeft).
+	button listDirection: (#leftToRight).
+	button listSpacing: (#none).
+	button maxCellSize: (1073741823).
+	button minCellSize: (0).
+	button wrapCentering: (#topLeft).
+	button wrapDirection: (#none).
+	button frameFractions: (0@0 corner: 1@1).
+	button frameOffsets: (0@0 corner: 0@0).
+	button balloonText: (nil).
+	button balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.749)).
+	button enabled: (true).
+	button setProperty: #iconByDesigner toValue: 'nil'.
+	button icon: (nil).
+	button text: ('PushButton').
+	button color: ((Color r: 0.8 g: 0.8 b: 0.8)).
+	button checkable: (false).
+	button checked: (false).
+	button autoExclusive: (false).
+	button setProperty: #objectName toValue: 'button'.
+	panel addChild: button.
 	treeView := UiTreeView new.
-	treeView extent: (400@280).
-	treeView position: (42@5).
+	treeView extent: (395@228).
+	treeView position: (121@30).
 	treeView hResizing: (#rigid).
 	treeView vResizing: (#rigid).
 	treeView minWidth: (2).
@@ -52,7 +85,7 @@ initializePanel
 	treeView frameFractions: (0@0 corner: 1@1).
 	treeView frameOffsets: (0@0 corner: 0@0).
 	treeView balloonText: (nil).
-	treeView balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.749)).
+	treeView balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
 	treeView widgetResizable: (false).
 	treeView horizontalScrollBarPolicy: (#asNeeded).
 	treeView verticalScrollBarPolicy: (#asNeeded).
@@ -65,4 +98,4 @@ initializePanel
 	treeView selectionMode: (UiViewSingleSelection).
 	treeView setProperty: #objectName toValue: 'treeView'.
 	panel addChild: treeView.
-	panel setProperty: #uiClassName toValue: 'AttributeTreeViewUi'.
+	panel setProperty: #uiClassName toValue: 'AttributeTreeView'.

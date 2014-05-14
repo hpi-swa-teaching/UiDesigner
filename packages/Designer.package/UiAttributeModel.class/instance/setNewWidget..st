@@ -14,7 +14,9 @@ setNewWidget: widget
 		node addChild: (
 			UiPropertyItemNode new
 			at: #propertyName put: variableName;
-			at: #propertyValue put: 'placeholder value';
+			at: #propertyValue put: (widget perform: (variableName asSymbol));
 			yourself) ].
+		
+	self currentWidget: widget.
 			
 	self modelReset.

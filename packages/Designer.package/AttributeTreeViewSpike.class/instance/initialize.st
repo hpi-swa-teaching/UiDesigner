@@ -14,11 +14,12 @@ initialize
 					ifFalse: [node at: #propertyName]]);
 				
 			addColumn: ((UiItemViewColumnSpec newFrom: {#text -> #propertyValue})
-				editableSelector: #propertyName;
-				editorFinisher:  [:editor :node | node at: #propertyValue put: (editor theText).];
-				textConverter: [:node | Transcript show: node. (node includesKey: #propertyValue) ifTrue: [node at: #propertyValue]]).
+				editableSelector: true;
+				editorFinisher:  [:editor :node | node at: #propertyValue put: (editor theText). 
+								treeModel changeProperty: (node at: #propertyName) To: (editor theText)];
+				textConverter: [:node | (node includesKey: #propertyValue) ifTrue: [node at: #propertyValue]]).
 				
 	self ui treeView model: treeModel.
 	
 	" a widgets properties will  be listed by sending the following message to the model "
-	treeModel setNewWidget: (UiPushButton new)
+	treeModel setNewWidget: self ui button.
