@@ -1,11 +1,12 @@
 save/load
-save
+save: checkboxChecked
 	
-	| generator warnings warningsDialog |
+	| generator warnings warningsDialog|
 	
 	generator := UiCodeGenerator new
 		category: self ui packageNameEdit theText;
 		source: container.
+
 	
 	warnings := {
 		[(container hasProperty: #uiClassName) not] -> ('The user interface is unnamed and
@@ -23,11 +24,12 @@ and will be overwritten.').
 	
 	Cursor wait showWhile:[
 		generator generateUiClassFor: container.
+		checkboxChecked
+			ifTrue: [generator generateSurroundingClass. ].
+		
 		self expandWidgetCategories.	
 		self addRecentDesign: generator uiClassName asSymbol].
-
-	UserDialogBoxMorph
-		inform: 'UI class was created successfully to:', String cr, '[', generator category, '] ', generator uiClassName
-		title: 'Done.'
-		at: self center.	
+	
+	self openSavedDialog: generator dependingOn: checkboxChecked.
+	
 			

@@ -1,0 +1,14 @@
+{
+	"category" : "Designer-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"className" ],
+	"name" : "UiCodeGenerator2",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
