@@ -9,14 +9,15 @@ initialize
 	  from UiItemViewColumnSpec[accessing - selectors]"
 	self ui treeView removeAllColumns; model: nil; 
 			addColumn: ((UiItemViewColumnSpec newFrom: {#text -> #yourself})
-				textConverter: [:node | (node includesKey: #attributeOriginClass)
-					ifTrue: [('<b>' , (node at: #attributeOriginClass) , '</b>') asHtmlText]
+				textConverter: [:node | (node includesKey: #attributeOrigin)
+					ifTrue: [('<b>' , (node at: #attributeOrigin) , '</b>') asHtmlText]
 					ifFalse: [node at: #propertyName]]);
 				
 			addColumn: ((UiItemViewColumnSpec newFrom: {#text -> #propertyValue})
-				editableSelector: true;
-				editorFinisher:  [:editor :node | node at: #propertyValue put: (editor theText). 
-								treeModel changeProperty: (node at: #propertyName) To: (editor theText)];
+				editableSelector: #isEditable;
+				editorCreator: [ :spec :node | self createEditorForNode: node ];
+				editorFinisher: [:editor :node | node at: #propertyValue put: (editor theText). 
+								"treeModel changeProperty: (node at: #propertyName) To: (editor theText)"];
 				textConverter: [:node | (node includesKey: #propertyValue) ifTrue: [node at: #propertyValue]]).
 				
 	self ui treeView model: treeModel.

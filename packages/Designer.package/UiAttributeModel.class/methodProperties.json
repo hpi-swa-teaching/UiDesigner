@@ -2,11 +2,24 @@
 	"class" : {
 		 },
 	"instance" : {
+		"addCustomProperties:" : "FW 5/16/2014 23:12",
+		"addGeneralInformation:" : "FW 5/16/2014 23:14",
+		"addGeometryAttributes:" : "FW 5/16/2014 23:30",
+		"addOwnerSpecificLayout:" : "FW 5/16/2014 23:30",
 		"attributes" : "FW 5/12/2014 15:11",
 		"attributes:" : "FW 5/12/2014 14:40",
-		"changeProperty:To:" : "FW 5/14/2014 21:24",
+		"changeProperty:To:" : "FW 5/16/2014 20:49",
+		"createFloatNodeWithName:andValue:" : "FW 5/16/2014 23:29",
+		"createIntegerNodeWithName:andValue:" : "FW 5/16/2014 23:29",
+		"createListNodeWithName:withValues:AndCurrentValue:" : "FW 5/16/2014 23:41",
+		"createNodeWithName:andValue:andType:" : "FW 5/16/2014 22:25",
+		"createParentNodeFrom:" : "FW 5/16/2014 22:05",
+		"createPointNodeWithName:andValue:" : "FW 5/16/2014 23:33",
+		"createTextNodeWithName:andValue:" : "FW 5/16/2014 23:11",
 		"currentWidget" : "FW 5/13/2014 15:54",
 		"currentWidget:" : "FW 5/13/2014 15:54",
 		"groups" : "FW 5/12/2014 15:09",
 		"initialize" : "FW 5/14/2014 21:15",
-		"setNewWidget:" : "FW 5/14/2014 21:20" } }
+		"isGoodForModification:" : "FW 5/16/2014 20:32",
+		"nonModifiableVariableNames" : "FW 5/16/2014 20:33",
+		"setNewWidget:" : "FW 5/16/2014 23:14" } }

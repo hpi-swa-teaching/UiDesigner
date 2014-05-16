@@ -7,7 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"ui",
-		"treeModel" ],
+		"treeModel",
+		"editorTemplates" ],
 	"name" : "AttributeTreeViewSpike",
 	"pools" : [
 		 ],

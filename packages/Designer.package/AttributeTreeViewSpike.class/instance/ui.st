@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 ui
 	^ ui ifNil: [ui := AttributeTreeViewUi new]
