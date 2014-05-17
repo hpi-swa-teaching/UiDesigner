@@ -2,8 +2,6 @@ updating
 setNewWidget: widget
 	" pass me a widget INSTANCE to have all its attributes listed "
 	
-	Transcript show: widget.
-	
 	self attributes: (OrderedCollection new).
 	
 	self addGeneralInformation: widget.
