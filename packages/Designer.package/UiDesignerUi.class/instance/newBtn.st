@@ -1,5 +1,5 @@
 accessing
 newBtn
-	"nil"
+	"No description given."
 	
 	^ newBtn

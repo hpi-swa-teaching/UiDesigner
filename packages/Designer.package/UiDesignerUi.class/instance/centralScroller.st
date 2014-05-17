@@ -1,5 +1,5 @@
 accessing
 centralScroller
-	"nil"
+	"No description given."
 	
 	^ centralScroller

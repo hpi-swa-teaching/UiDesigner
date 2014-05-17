@@ -1,5 +1,5 @@
 accessing
 filterEdit
-	"nil"
+	"No description given."
 	
 	^ filterEdit

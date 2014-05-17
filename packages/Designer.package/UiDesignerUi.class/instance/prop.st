@@ -1,5 +1,5 @@
 accessing
 prop
-	"nil"
+	"No description given."
 	
 	^ prop

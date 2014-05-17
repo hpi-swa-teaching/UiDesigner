@@ -2,9 +2,10 @@ initialization
 initialize
 
 	super initialize.
+	
 	self ui setupUi: self.
 	self ui prop addPaneSplitters.	
-	
+	self initializeAttributeView.
 	self selectDefaultModel.
 	
 	self ui centralScroller
@@ -20,8 +21,6 @@ initialize
 			dragTransferType: #widgetClass).
 	
 	 self ui filterEdit deferEditSignalTime: 300.
-	
-	propertyTable := self ui propertyScroller widget.
 		
 	self connect: self ui filterEdit signal: #textEdited: toSelector: #nameFilter:.		
 		

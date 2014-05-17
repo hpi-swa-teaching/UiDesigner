@@ -1,5 +1,5 @@
 accessing
 widgetList
-	"nil"
+	"No description given."
 	
 	^ widgetList

@@ -1,5 +1,5 @@
 accessing
 packageNameEdit
-	"nil"
+	"No description given."
 	
 	^ packageNameEdit

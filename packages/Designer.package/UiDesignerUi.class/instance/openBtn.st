@@ -1,5 +1,5 @@
 accessing
 openBtn
-	"nil"
+	"No description given."
 	
 	^ openBtn

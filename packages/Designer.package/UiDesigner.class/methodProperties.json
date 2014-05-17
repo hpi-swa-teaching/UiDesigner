@@ -8,10 +8,18 @@
 		"versionString" : "mt 8/21/2012 11:09:29.519" },
 	"instance" : {
 		"addRecentDesign:" : "mt 10/30/2010 12:49:58.875",
+		"attributeEditorTemplates" : "FW 5/17/2014 18:52",
+		"attributeTreeModel" : "FW 5/17/2014 18:34",
+		"attributeTreeModel:" : "FW 5/17/2014 18:34",
+		"container" : "FW 5/17/2014 18:34",
+		"container:" : "FW 5/17/2014 18:34",
+		"convertEditedValueForNode:FromText:" : "FW 5/17/2014 18:52",
+		"createEditorForNode:" : "FW 5/17/2014 18:52",
 		"expandWidgetCategories" : "mt 2/3/2012 10:36:12.33",
 		"gridForm" : "mt 10/28/2010 16:16:14.109",
-		"initialize" : "tg 5/14/2014 15:02",
-		"initializeContainer" : "tg 5/14/2014 15:14",
+		"initialize" : "FW 5/17/2014 18:38",
+		"initializeAttributeView" : "FW 5/17/2014 18:53",
+		"initializeContainer" : "FW 5/17/2014 18:54",
 		"load" : "mt 10/30/2010 12:57:28.461",
 		"load:" : "mt 10/30/2010 14:26:12.647",
 		"loadTemplate:" : "mt 10/30/2010 14:27:27.121",
@@ -25,4 +33,5 @@
 		"save:" : "tg 5/16/2014 14:33",
 		"selectDefaultModel" : "mt 5/3/2012 09:36:31.636",
 		"selectFilterModel" : "mt 5/3/2012 09:36:34.942",
-		"ui" : "mt 10/30/2010 13:02:39.909" } }
+		"ui" : "mt 10/30/2010 13:02:39.909",
+		"ui:" : "FW 5/17/2014 18:34" } }

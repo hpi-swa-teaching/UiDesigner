@@ -6,8 +6,8 @@ initializeContainer
 		color: Color lightGray ;
 		dragEnabled: false.
 		
-	self connect: container signal: #selectionChanged: to: propertyTable selector: #updateProperties:.
+	self connect: container signal: #selectionChanged: to: self attributeTreeModel selector: #setNewWidget:.
 	
 	self ui centralScroller widget: container.
 	
-	propertyTable updateProperties: container.
+	self attributeTreeModel setNewWidget: container.
