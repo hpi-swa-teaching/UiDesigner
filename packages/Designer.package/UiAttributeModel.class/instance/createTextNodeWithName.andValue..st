@@ -4,5 +4,5 @@ createTextNodeWithName: name andValue: value
 		at: #propertyName put: name;
 		at: #propertyValue put: value;
 		at: #isEditable put: true;
-		at: #type put: #text;
+		at: #type put: String;
 		yourself.

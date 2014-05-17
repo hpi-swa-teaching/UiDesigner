@@ -12,7 +12,7 @@ addGeneralInformation: aMorph
 	
 	((aMorph isKindOf: UiContainer) and: [(aMorph owner isKindOf: UiContainer) not])
 		ifTrue: [" in case of the top level container "
-			generalInfoNode addChild: (self createTextNodeWithName: 'UI Name' andValue: 'Unkown')]
+			generalInfoNode addChild: (self createTextNodeWithName: 'uiClassName' andValue: (aMorph uiClassName))]
 		ifFalse: [
 			" in case of any other widget in the hierarchy below "
-			generalInfoNode addChild: (self createTextNodeWithName: 'Name' andValue: '')].
+			generalInfoNode addChild: (self createTextNodeWithName: 'objectName' andValue: (aMorph name))].

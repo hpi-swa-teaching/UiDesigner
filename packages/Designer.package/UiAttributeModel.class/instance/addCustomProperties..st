@@ -7,4 +7,4 @@ addCustomProperties: aMorph
 				ifNone: [ self createParentNodeFrom: category key first].
 		
 		category value do: [ :property |
-			parentNode addChild: (self createTextNodeWithName: (property key) andValue: (aMorph perform: (property key))) ]].
+			parentNode addChild: (self createNodeWithName: (property key) andValue: (aMorph perform: (property key)) andType: (property value))]].

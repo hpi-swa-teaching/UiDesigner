@@ -1,8 +1,8 @@
 data insertion
-createIntegerNodeWithName: name andValue: value
+createRectangleNodeWithName: name andValue: value
 	^ UiPropertyItemNode new
 		at: #propertyName put: name;
 		at: #propertyValue put: value;
 		at: #isEditable put: true;
-		at: #type put: Integer;
+		at: #type put: Rectangle;
 		yourself.

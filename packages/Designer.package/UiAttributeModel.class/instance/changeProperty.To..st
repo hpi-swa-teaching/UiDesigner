@@ -1,13 +1,7 @@
 updating
 changeProperty: newProperty To: value
-	| property oldValueClass |
+	| property |
 	
-	property := newProperty asSymbol.
-	oldValueClass := (self currentWidget perform: property) class.
-	oldValueClass := ('as' , oldValueClass) asSymbol.
+	property := (newProperty , ':') asSymbol.
 	
-	Transcript show: oldValueClass.
-	
-	value perform: oldValueClass.
-	
-	"self currentWidget perform: ((property , ':') asSymbol) withArguments: {value}."
+	self currentWidget perform: property withArguments: {value}

@@ -4,5 +4,5 @@ createPointNodeWithName: name andValue: value
 		at: #propertyName put: name;
 		at: #propertyValue put: value;
 		at: #isEditable put: true;
-		at: #type put: #point;
+		at: #type put: Point;
 		yourself.

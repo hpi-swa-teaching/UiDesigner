@@ -16,11 +16,13 @@ initialize
 			addColumn: ((UiItemViewColumnSpec newFrom: {#text -> #propertyValue})
 				editableSelector: #isEditable;
 				editorCreator: [ :spec :node | self createEditorForNode: node ];
-				editorFinisher: [:editor :node | node at: #propertyValue put: (editor theText). 
-								"treeModel changeProperty: (node at: #propertyName) To: (editor theText)"];
+				editorFinisher: [:editor :node | |result|
+								result := self convertEditedValueForNode: node FromText: (editor theText).
+								treeModel changeProperty: (node at: #propertyName) To: result ];
 				textConverter: [:node | (node includesKey: #propertyValue) ifTrue: [node at: #propertyValue]]).
 				
 	self ui treeView model: treeModel.
 	
-	" a widgets properties will  be listed by sending the following message to the model "
 	treeModel setNewWidget: self ui button.
+	
+	self expandAttributeCategories.

@@ -7,15 +7,8 @@ setNewWidget: widget
 	self addGeneralInformation: widget.
 	self addGeometryAttributes: widget.
 	self addOwnerSpecificLayout: widget.
-	"	
-	(aMorph owner isUiContainer and: [aMorph owner hasTableLayout]) ifTrue: [
-		self addBooleanProperty: #disableTableLayout morph: aMorph].
 	
-	(aMorph owner isUiContainer and: [aMorph owner hasProportionalLayout]) ifTrue: [
-		self addRectangleProperty: #frameFractions morph: aMorph.
-		self addRectangleProperty: #frameOffsets morph: aMorph].
-	
-	self addSeparator: 'Layout Policy'.
+	"self addSeparator: 'Layout Policy'.
 	
 	editor := editorFactory
 		editorForProperty: #hasTableLayout
@@ -30,9 +23,9 @@ setNewWidget: widget
 		initialValue: aMorph hasProportionalLayout.
 	self addPropertyLabel: 'ProportionalLayout' editor: editor.
 	self connect: editor signal: #toggled: toSelector: #changeProportionalLayout:enable: pattern: {#=. aMorph. 1}.
-	
-	aMorph hasTableLayout ifTrue: [self addTableLayoutProperties: aMorph].
-	aMorph hasProportionalLayout ifTrue: [self addProportionalLayoutProperties: aMorph]"
+	"
+	widget hasTableLayout ifTrue: [self addTableLayoutProperties: widget].
+	widget hasProportionalLayout ifTrue: [self addProportionalLayoutProperties: widget].
 	
 	self addCustomProperties: widget.
 	
