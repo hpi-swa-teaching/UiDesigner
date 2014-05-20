@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"ui" ],
-	"name" : "Contact",
+		"model",
+		"button" ],
+	"name" : "UiAttributeModelTests",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "TestCase",
 	"type" : "normal" }
