@@ -18,6 +18,6 @@ Metacello new
 
 "Run the tests"
 TravisCIHarness
-  value: #( 'BaselineOfProject03' )
+  value: #( 'Designer-Tests' )
   value: 'TravisCISuccess.txt' 
   value: 'TravisCIFailure.txt'.
