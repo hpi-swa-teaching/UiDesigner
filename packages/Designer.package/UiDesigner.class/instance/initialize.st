@@ -2,10 +2,9 @@ initialization
 initialize
 
 	super initialize.
-	
 	self ui setupUi: self.
 	self ui prop addPaneSplitters.	
-	self initializeAttributeView.
+	
 	self selectDefaultModel.
 	
 	self ui centralScroller
@@ -16,14 +15,16 @@ initialize
 	self ui widgetList viewport dragEnabled: true.
 	self ui widgetList
 		selectionMode: UiViewSingleSelection;
-		dragDropSpec: (UiItemViewDragDropSpec new
+		dragDropSpec: (UiCustomItemViewDragDropSpec new
 			dropEnabled: false;
 			dragTransferType: #widgetClass).
 	
 	 self ui filterEdit deferEditSignalTime: 300.
+	
+	propertyTable := self ui propertyScroller widget.
 		
 	self connect: self ui filterEdit signal: #textEdited: toSelector: #nameFilter:.		
 		
 	self connect: self ui newBtn signal: #clicked: toSelector: #reset.
-	self connect: self ui saveBtn signal: #clicked: toSelector: #openSaveDialog..
+	self connect: self ui saveBtn signal: #clicked: toSelector: #save.
 	self connect: self ui openBtn signal: #clicked: toSelector: #load.
