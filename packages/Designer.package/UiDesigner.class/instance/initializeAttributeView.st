@@ -9,9 +9,7 @@ initializeAttributeView
 			addColumn: ((UiItemViewColumnSpec newFrom: {#text -> #propertyValue})
 				editableSelector: #isEditable;
 				editorCreator: [ :spec :node | self createEditorForNode: node ];
-				editorFinisher: [:editor :node | |result|
-								result := self convertEditedValueForNode: node FromText: (editor theText).
-								self attributeTreeModel changeProperty: (node at: #propertyName) To: result ];
+				editorFinisher: [:editor :node | self saveRawValue: (editor theText) ForNode: node];
 				textConverter: [:node | (node includesKey: #propertyValue) ifTrue: [node at: #propertyValue]]).
 				
 	self ui attributeTreeView model: self attributeTreeModel.

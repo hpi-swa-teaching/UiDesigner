@@ -2,7 +2,7 @@ updating
 addGeneralInformation: aMorph
 	| generalInfoNode |
 	
-	generalInfoNode := self createParentNodeFrom: 'Owner specific layout'.
+	generalInfoNode := self createParentNodeFrom: 'General'.
 	
 	generalInfoNode addChild: (UiPropertyItemNode new
 								at: #propertyName put: 'Type';
