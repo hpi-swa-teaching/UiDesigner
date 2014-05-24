@@ -15,4 +15,4 @@ addGeneralInformation: aMorph
 			generalInfoNode addChild: (self createTextNodeWithName: 'uiClassName' andValue: (aMorph uiClassName))]
 		ifFalse: [
 			" in case of any other widget in the hierarchy below "
-			generalInfoNode addChild: (self createTextNodeWithName: 'objectName' andValue: (aMorph name))].
+			generalInfoNode addChild: (self createTextNodeWithName: 'objectName' andValue: (aMorph objectName))].
