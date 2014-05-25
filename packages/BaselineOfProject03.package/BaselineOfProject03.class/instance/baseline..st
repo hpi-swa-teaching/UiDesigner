@@ -7,10 +7,9 @@ baseline: spec
 			spec
 				package: 'Designer-Core';
 				package: 'Designer-Support';
-				package: 'Designer-Tests'.
+				package: 'Designer-Tests' with: [ spec requires: #('default')].
 				
 			spec
-				group: 'default' with: #('Designer-Core');
-				group: 'default' with: #('Designer-Support');
+				group: 'default' with: #('Designer-Core' 'Designer-Support');
 				group: 'Tests' with: #('Designer-Test');
 				group: 'TravisCI' with: #('Tests')]
