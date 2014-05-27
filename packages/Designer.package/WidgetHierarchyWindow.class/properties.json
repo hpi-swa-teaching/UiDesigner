@@ -1,0 +1,14 @@
+{
+	"category" : "Designer-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"ui" ],
+	"name" : "WidgetHierarchyWindow",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }
