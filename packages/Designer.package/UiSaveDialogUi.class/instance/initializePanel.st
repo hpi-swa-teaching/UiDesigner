@@ -25,7 +25,7 @@ initializePanel
 	panel frameFractions: (0@0 corner: 1@1).
 	panel frameOffsets: (0@0 corner: 0@0).
 	panel balloonText: (nil).
-	panel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.725)).
+	panel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	panel color: (Color lightGray).
 	panel borderWidth: (0).
 	panel borderStyle2: (#simple).
@@ -53,7 +53,7 @@ initializePanel
 	okButton frameFractions: (0@0 corner: 1@1).
 	okButton frameOffsets: (0@0 corner: 0@0).
 	okButton balloonText: (nil).
-	okButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
+	okButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
 	okButton enabled: (true).
 	okButton setProperty: #iconByDesigner toValue: 'nil'.
 	okButton icon: (nil).
@@ -86,7 +86,7 @@ initializePanel
 	cancelButton frameFractions: (0@0 corner: 1@1).
 	cancelButton frameOffsets: (0@0 corner: 0@0).
 	cancelButton balloonText: (nil).
-	cancelButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.749)).
+	cancelButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
 	cancelButton enabled: (true).
 	cancelButton setProperty: #iconByDesigner toValue: 'nil'.
 	cancelButton icon: (nil).
@@ -119,14 +119,14 @@ initializePanel
 	autoGenerationCheckbox frameFractions: (0@0 corner: 1@1).
 	autoGenerationCheckbox frameOffsets: (0@0 corner: 0@0).
 	autoGenerationCheckbox balloonText: (nil).
-	autoGenerationCheckbox balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	autoGenerationCheckbox balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
 	autoGenerationCheckbox enabled: (true).
 	autoGenerationCheckbox setProperty: #iconByDesigner toValue: 'nil'.
 	autoGenerationCheckbox icon: (nil).
 	autoGenerationCheckbox text: ('Auto-generate surrounding class').
 	autoGenerationCheckbox color: ((Color r: 0.85 g: 0.85 b: 0.85)).
 	autoGenerationCheckbox checkable: (true).
-	autoGenerationCheckbox checked: (true).
+	autoGenerationCheckbox checked: (false).
 	autoGenerationCheckbox autoExclusive: (false).
 	autoGenerationCheckbox setProperty: #objectName toValue: 'autoGenerationCheckbox'.
 	panel addChild: autoGenerationCheckbox.
@@ -151,7 +151,7 @@ initializePanel
 	classNameInput frameFractions: (0@0 corner: 1@1).
 	classNameInput frameOffsets: (0@0 corner: 0@0).
 	classNameInput balloonText: (nil).
-	classNameInput balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.749)).
+	classNameInput balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
 	classNameInput widgetResizable: (false).
 	classNameInput horizontalScrollBarPolicy: (#alwaysOff).
 	classNameInput verticalScrollBarPolicy: (#alwaysOff).
@@ -189,7 +189,7 @@ initializePanel
 	packageNameInput frameFractions: (0@0 corner: 1@1).
 	packageNameInput frameOffsets: (0@0 corner: 0@0).
 	packageNameInput balloonText: (nil).
-	packageNameInput balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.749)).
+	packageNameInput balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
 	packageNameInput widgetResizable: (false).
 	packageNameInput horizontalScrollBarPolicy: (#alwaysOff).
 	packageNameInput verticalScrollBarPolicy: (#alwaysOff).
@@ -228,7 +228,7 @@ initializePanel
 	classNameLabel frameFractions: (0@0 corner: 1@1).
 	classNameLabel frameOffsets: (0@0 corner: 0@0).
 	classNameLabel balloonText: (nil).
-	classNameLabel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
+	classNameLabel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
 	classNameLabel text: ('Class Name ').
 	classNameLabel setProperty: #formByDesigner toValue: 'nil'.
 	classNameLabel form: (nil).
@@ -256,7 +256,7 @@ initializePanel
 	packageNameLabel frameFractions: (0@0 corner: 1@1).
 	packageNameLabel frameOffsets: (0@0 corner: 0@0).
 	packageNameLabel balloonText: (nil).
-	packageNameLabel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	packageNameLabel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
 	packageNameLabel text: ('Package Name').
 	packageNameLabel setProperty: #formByDesigner toValue: 'nil'.
 	packageNameLabel form: (nil).
@@ -284,7 +284,7 @@ initializePanel
 	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.749)).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
 	unnamedMorph1 text: ('Where do you want to save the genereated UI?').
 	unnamedMorph1 setProperty: #formByDesigner toValue: 'nil'.
 	unnamedMorph1 form: (nil).
