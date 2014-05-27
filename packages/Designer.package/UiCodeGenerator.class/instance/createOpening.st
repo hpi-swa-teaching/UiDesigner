@@ -2,5 +2,5 @@ code generation
 createOpening
 	self surroundingClass compile: (
 	'open
-  	self openInSystemWindowNamed: ''', self surroundingClassName ,''''
+  	self openInWindowLabeled ''', self surroundingClassName ,''''
 	) classified: 'initialization'.
