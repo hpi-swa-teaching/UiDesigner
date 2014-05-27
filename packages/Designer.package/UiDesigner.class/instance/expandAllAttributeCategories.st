@@ -1,3 +1,3 @@
-initialization
+save/load
 expandAllAttributeCategories
-	self ui attributeTreeView expandTopLevelRows: (1 to: self attributeTreeModel childCount)
+	(self attributeTreeModel childCount > 0) ifTrue: [ self ui attributeTreeView expandTopLevelRows: (2 to: (self attributeTreeModel childCount - 1)) ]

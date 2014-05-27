@@ -7,7 +7,6 @@ initializeContainer
 		dragEnabled: false.
 		
 	self connect: container signal: #selectionChanged: to: self attributeTreeModel selector: #setNewWidget:.
-	self connect: self attributeTreeModel signal: #modelReset to: self selector: #expandAllAttributeCategories.
 	
 	self ui centralScroller widget: container.
 	
