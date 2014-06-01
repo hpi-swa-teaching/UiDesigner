@@ -1,4 +1,4 @@
-initialize-release
+initialize
 testDetectWarning
 	
 	dialog detectClassExistsWarning: 'Morph'.

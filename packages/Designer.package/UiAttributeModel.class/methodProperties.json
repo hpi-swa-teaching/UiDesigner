@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addCustomProperties:" : "FW 5/17/2014 14:31",
+		"addCustomProperties:" : "FW 6/1/2014 22:59",
 		"addGeneralInformation:" : "FW 5/24/2014 23:41",
 		"addGeometryAttributes:" : "FW 5/16/2014 23:30",
 		"addLayoutSettings:" : "FW 5/24/2014 21:52",
@@ -30,4 +30,4 @@
 		"initialize" : "FW 5/24/2014 13:11",
 		"isGoodForModification:" : "FW 5/16/2014 20:32",
 		"nonModifiableVariableNames" : "FW 5/21/2014 10:22",
-		"setNewWidget:" : "FW 5/24/2014 20:59" } }
+		"setNewWidget:" : "FW 6/1/2014 22:41" } }

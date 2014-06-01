@@ -1,4 +1,4 @@
-initialize-release
+initialize
 initialize
 	
 	dialog := UiSaveDialog new.
