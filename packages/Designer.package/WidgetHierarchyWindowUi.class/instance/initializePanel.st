@@ -60,7 +60,7 @@ initializePanel
 	treeView outerBorderWidth: (0).
 	treeView scrollBarThickness: (9).
 	treeView modelClass: (nil).
-	treeView horizontalHeaderVisible: (true).
+	treeView horizontalHeaderVisible: (false).
 	treeView verticalHeaderVisible: (false).
 	treeView selectionBehavior: (#selectRows).
 	treeView selectionMode: (UiViewSingleSelection).

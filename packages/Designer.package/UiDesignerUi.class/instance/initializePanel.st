@@ -354,7 +354,7 @@ package.').
 	attributeTreeView outerBorderWidth: (0).
 	attributeTreeView scrollBarThickness: (9).
 	attributeTreeView modelClass: (nil).
-	attributeTreeView horizontalHeaderVisible: (true).
+	attributeTreeView horizontalHeaderVisible: (false).
 	attributeTreeView verticalHeaderVisible: (false).
 	attributeTreeView selectionBehavior: (#selectRows).
 	attributeTreeView selectionMode: (UiViewSingleSelection).

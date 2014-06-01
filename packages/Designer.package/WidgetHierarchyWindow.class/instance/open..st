@@ -6,4 +6,4 @@ open: topLevelContainer
 	
 	self connect: topLevelContainer signal: #selectionChanged: to: (self hierarchyModel) selector: #updateHierarchy.
 	
-  	self openInWindowLabeled: 'WidgetHierarchyWindow'
+  	self openInWindowLabeled: 'Widget Hierarchy'
