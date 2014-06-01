@@ -1,4 +1,4 @@
 accessing
 open  
 	
-	self openInWindowLabeled: 'Ui Save Dialog'.
+	self openInWindowLabeled: 'Alles Save...'.

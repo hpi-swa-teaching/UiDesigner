@@ -5,3 +5,4 @@ initializeWith: aUiDesigner
 	uiDesigner := aUiDesigner.
 	self connect: self ui okButton signal: #clicked: to: self selector: #onOkButton.
 	self connect: self ui cancelButton signal: #clicked: to: self selector: #onCancelButton.
+	self connect: self ui classNameInput signal: #textEdited: to: self selector: #detectClassExistsWarning: .

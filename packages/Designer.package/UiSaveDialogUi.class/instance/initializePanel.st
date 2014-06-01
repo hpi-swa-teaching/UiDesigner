@@ -31,6 +31,67 @@ initializePanel
 	panel borderStyle2: (#simple).
 	panel borderColor: (Color black).
 	panel setProperty: #objectName toValue: 'panel'.
+	warningLabel := UiLabel new.
+	warningLabel changeTableLayout.
+	warningLabel extent: (9@14).
+	warningLabel position: (143@206).
+	warningLabel hResizing: (#shrinkWrap).
+	warningLabel vResizing: (#shrinkWrap).
+	warningLabel minWidth: (2).
+	warningLabel minHeight: (2).
+	warningLabel cellInset: (0).
+	warningLabel cellPositioning: (#center).
+	warningLabel cellSpacing: (#none).
+	warningLabel layoutInset: (0).
+	warningLabel listCentering: (#topLeft).
+	warningLabel listDirection: (#leftToRight).
+	warningLabel listSpacing: (#none).
+	warningLabel maxCellSize: (1073741823).
+	warningLabel minCellSize: (0).
+	warningLabel wrapCentering: (#topLeft).
+	warningLabel wrapDirection: (#none).
+	warningLabel frameFractions: (0@0 corner: 1@1).
+	warningLabel frameOffsets: (0@0 corner: 0@0).
+	warningLabel balloonText: (nil).
+	warningLabel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
+	warningLabel text: ('').
+	warningLabel setProperty: #formByDesigner toValue: 'nil'.
+	warningLabel form: (nil).
+	warningLabel setProperty: #objectName toValue: 'warningLabel'.
+	panel addChild: warningLabel.
+	autoGenerationCheckbox := UiCheckBox new.
+	autoGenerationCheckbox changeTableLayout.
+	autoGenerationCheckbox extent: (223@20).
+	autoGenerationCheckbox position: (53@168).
+	autoGenerationCheckbox hResizing: (#shrinkWrap).
+	autoGenerationCheckbox vResizing: (#shrinkWrap).
+	autoGenerationCheckbox minWidth: (2).
+	autoGenerationCheckbox minHeight: (2).
+	autoGenerationCheckbox cellInset: (4).
+	autoGenerationCheckbox cellPositioning: (#center).
+	autoGenerationCheckbox cellSpacing: (#none).
+	autoGenerationCheckbox layoutInset: (2@0 corner: 2@0).
+	autoGenerationCheckbox listCentering: (#topLeft).
+	autoGenerationCheckbox listDirection: (#leftToRight).
+	autoGenerationCheckbox listSpacing: (#none).
+	autoGenerationCheckbox maxCellSize: (1073741823).
+	autoGenerationCheckbox minCellSize: (0).
+	autoGenerationCheckbox wrapCentering: (#topLeft).
+	autoGenerationCheckbox wrapDirection: (#none).
+	autoGenerationCheckbox frameFractions: (0@0 corner: 1@1).
+	autoGenerationCheckbox frameOffsets: (0@0 corner: 0@0).
+	autoGenerationCheckbox balloonText: (nil).
+	autoGenerationCheckbox balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
+	autoGenerationCheckbox enabled: (true).
+	autoGenerationCheckbox setProperty: #iconByDesigner toValue: 'nil'.
+	autoGenerationCheckbox icon: (nil).
+	autoGenerationCheckbox text: ('Auto-generate surrounding class').
+	autoGenerationCheckbox color: ((Color r: 0.85 g: 0.85 b: 0.85)).
+	autoGenerationCheckbox checkable: (true).
+	autoGenerationCheckbox checked: (false).
+	autoGenerationCheckbox autoExclusive: (false).
+	autoGenerationCheckbox setProperty: #objectName toValue: 'autoGenerationCheckbox'.
+	panel addChild: autoGenerationCheckbox.
 	okButton := UiPushButton new.
 	okButton changeTableLayout.
 	okButton extent: (23@20).
@@ -53,7 +114,7 @@ initializePanel
 	okButton frameFractions: (0@0 corner: 1@1).
 	okButton frameOffsets: (0@0 corner: 0@0).
 	okButton balloonText: (nil).
-	okButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
+	okButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	okButton enabled: (true).
 	okButton setProperty: #iconByDesigner toValue: 'nil'.
 	okButton icon: (nil).
@@ -86,7 +147,7 @@ initializePanel
 	cancelButton frameFractions: (0@0 corner: 1@1).
 	cancelButton frameOffsets: (0@0 corner: 0@0).
 	cancelButton balloonText: (nil).
-	cancelButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	cancelButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
 	cancelButton enabled: (true).
 	cancelButton setProperty: #iconByDesigner toValue: 'nil'.
 	cancelButton icon: (nil).
@@ -97,39 +158,6 @@ initializePanel
 	cancelButton autoExclusive: (false).
 	cancelButton setProperty: #objectName toValue: 'cancelButton'.
 	panel addChild: cancelButton.
-	autoGenerationCheckbox := UiCheckBox new.
-	autoGenerationCheckbox changeTableLayout.
-	autoGenerationCheckbox extent: (223@20).
-	autoGenerationCheckbox position: (52@192).
-	autoGenerationCheckbox hResizing: (#shrinkWrap).
-	autoGenerationCheckbox vResizing: (#shrinkWrap).
-	autoGenerationCheckbox minWidth: (2).
-	autoGenerationCheckbox minHeight: (2).
-	autoGenerationCheckbox cellInset: (4).
-	autoGenerationCheckbox cellPositioning: (#center).
-	autoGenerationCheckbox cellSpacing: (#none).
-	autoGenerationCheckbox layoutInset: (2@0 corner: 2@0).
-	autoGenerationCheckbox listCentering: (#topLeft).
-	autoGenerationCheckbox listDirection: (#leftToRight).
-	autoGenerationCheckbox listSpacing: (#none).
-	autoGenerationCheckbox maxCellSize: (1073741823).
-	autoGenerationCheckbox minCellSize: (0).
-	autoGenerationCheckbox wrapCentering: (#topLeft).
-	autoGenerationCheckbox wrapDirection: (#none).
-	autoGenerationCheckbox frameFractions: (0@0 corner: 1@1).
-	autoGenerationCheckbox frameOffsets: (0@0 corner: 0@0).
-	autoGenerationCheckbox balloonText: (nil).
-	autoGenerationCheckbox balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
-	autoGenerationCheckbox enabled: (true).
-	autoGenerationCheckbox setProperty: #iconByDesigner toValue: 'nil'.
-	autoGenerationCheckbox icon: (nil).
-	autoGenerationCheckbox text: ('Auto-generate surrounding class').
-	autoGenerationCheckbox color: ((Color r: 0.85 g: 0.85 b: 0.85)).
-	autoGenerationCheckbox checkable: (true).
-	autoGenerationCheckbox checked: (false).
-	autoGenerationCheckbox autoExclusive: (false).
-	autoGenerationCheckbox setProperty: #objectName toValue: 'autoGenerationCheckbox'.
-	panel addChild: autoGenerationCheckbox.
 	classNameInput := UiLineEdit new.
 	classNameInput extent: (160@20).
 	classNameInput position: (175@132).
@@ -151,7 +179,7 @@ initializePanel
 	classNameInput frameFractions: (0@0 corner: 1@1).
 	classNameInput frameOffsets: (0@0 corner: 0@0).
 	classNameInput balloonText: (nil).
-	classNameInput balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	classNameInput balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
 	classNameInput widgetResizable: (false).
 	classNameInput horizontalScrollBarPolicy: (#alwaysOff).
 	classNameInput verticalScrollBarPolicy: (#alwaysOff).
@@ -189,7 +217,7 @@ initializePanel
 	packageNameInput frameFractions: (0@0 corner: 1@1).
 	packageNameInput frameOffsets: (0@0 corner: 0@0).
 	packageNameInput balloonText: (nil).
-	packageNameInput balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	packageNameInput balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
 	packageNameInput widgetResizable: (false).
 	packageNameInput horizontalScrollBarPolicy: (#alwaysOff).
 	packageNameInput verticalScrollBarPolicy: (#alwaysOff).
@@ -228,7 +256,7 @@ initializePanel
 	classNameLabel frameFractions: (0@0 corner: 1@1).
 	classNameLabel frameOffsets: (0@0 corner: 0@0).
 	classNameLabel balloonText: (nil).
-	classNameLabel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
+	classNameLabel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.725)).
 	classNameLabel text: ('Class Name ').
 	classNameLabel setProperty: #formByDesigner toValue: 'nil'.
 	classNameLabel form: (nil).
@@ -256,7 +284,7 @@ initializePanel
 	packageNameLabel frameFractions: (0@0 corner: 1@1).
 	packageNameLabel frameOffsets: (0@0 corner: 0@0).
 	packageNameLabel balloonText: (nil).
-	packageNameLabel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
+	packageNameLabel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
 	packageNameLabel text: ('Package Name').
 	packageNameLabel setProperty: #formByDesigner toValue: 'nil'.
 	packageNameLabel form: (nil).
@@ -284,7 +312,7 @@ initializePanel
 	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
 	unnamedMorph1 text: ('Where do you want to save the genereated UI?').
 	unnamedMorph1 setProperty: #formByDesigner toValue: 'nil'.
 	unnamedMorph1 form: (nil).

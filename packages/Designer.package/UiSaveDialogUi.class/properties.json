@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"warningLabel",
+		"autoGenerationCheckbox",
 		"okButton",
 		"cancelButton",
-		"autoGenerationCheckbox",
 		"classNameInput",
 		"packageNameInput",
 		"classNameLabel",

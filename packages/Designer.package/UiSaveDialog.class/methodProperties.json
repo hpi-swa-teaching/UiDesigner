@@ -3,11 +3,12 @@
 		 },
 	"instance" : {
 		"connectViewWith:and:" : "tg 5/26/2014 11:55",
-		"initializeWith:" : "tg 5/14/2014 14:59",
-		"loadTextFrom:and:" : "tg 5/14/2014 14:36",
+		"detectClassExistsWarning:" : "FW 6/1/2014 21:46",
+		"initializeWith:" : "FW 6/1/2014 21:47",
+		"loadTextFrom:and:" : "FW 6/1/2014 21:46",
 		"onCancelButton" : "tg 5/16/2014 14:20",
 		"onOkButton" : "tg 5/16/2014 14:25",
-		"open" : "tg 5/13/2014 12:28",
+		"open" : "FW 6/1/2014 21:26",
 		"setValues:" : "tg 5/14/2014 14:32",
 		"ui" : "tg 5/13/2014 12:10",
 		"ui:" : "tg 5/13/2014 11:54" } }
