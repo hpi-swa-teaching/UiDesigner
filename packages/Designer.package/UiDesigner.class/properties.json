@@ -9,7 +9,8 @@
 		"ui",
 		"container",
 		"attributeTreeModel",
-		"attributeEditorTemplates" ],
+		"attributeEditorTemplates",
+		"hierarchyWindow" ],
 	"name" : "UiDesigner",
 	"pools" : [
 		 ],

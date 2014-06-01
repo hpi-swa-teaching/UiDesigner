@@ -2,6 +2,7 @@
 	"class" : {
 		"newWithContainer:" : "FW 5/27/2014 20:39" },
 	"instance" : {
+		"addSubmorph:ToHierarchy:" : "FW 6/1/2014 20:25",
 		"currentWidget" : "FW 5/27/2014 20:38",
 		"currentWidget:" : "FW 5/27/2014 20:38",
 		"groups" : "FW 5/27/2014 20:38",
@@ -9,4 +10,4 @@
 		"hierarchy:" : "FW 5/27/2014 20:38",
 		"topLevelContainer" : "FW 5/27/2014 20:38",
 		"topLevelContainer:" : "FW 5/27/2014 20:38",
-		"updateHierarchy" : "FW 5/27/2014 21:03" } }
+		"updateHierarchy" : "FW 6/1/2014 20:16" } }

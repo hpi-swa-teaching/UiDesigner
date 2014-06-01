@@ -1,6 +1,5 @@
 initialization
 initializeContainer
-
 	container
 		editMode: true;
 		color: Color lightGray ;

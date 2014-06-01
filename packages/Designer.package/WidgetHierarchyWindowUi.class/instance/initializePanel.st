@@ -5,6 +5,7 @@ initializePanel
 	|  |
 	
 	panel := UiContainer new.
+	panel changeTableLayout.
 	panel extent: (200@300).
 	panel position: (0@0).
 	panel hResizing: (#rigid).
@@ -25,15 +26,15 @@ initializePanel
 	panel frameFractions: (0@0 corner: 1@1).
 	panel frameOffsets: (0@0 corner: 0@0).
 	panel balloonText: (nil).
-	panel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
+	panel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	panel color: (Color lightGray).
 	panel borderWidth: (0).
 	panel borderStyle2: (#simple).
 	panel borderColor: (Color black).
 	panel setProperty: #objectName toValue: 'panel'.
 	treeView := UiTreeView new.
-	treeView extent: (200@300).
-	treeView position: (0@0).
+	treeView extent: (192@292).
+	treeView position: (4@4).
 	treeView hResizing: (#spaceFill).
 	treeView vResizing: (#spaceFill).
 	treeView minWidth: (2).
@@ -52,7 +53,7 @@ initializePanel
 	treeView frameFractions: (0@0 corner: 1@1).
 	treeView frameOffsets: (0@0 corner: 0@0).
 	treeView balloonText: (nil).
-	treeView balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.749)).
+	treeView balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
 	treeView widgetResizable: (false).
 	treeView horizontalScrollBarPolicy: (#asNeeded).
 	treeView verticalScrollBarPolicy: (#asNeeded).
