@@ -12,7 +12,8 @@ attributeEditorTemplates
 			at: Object put: [UiLineEdit new hResizing: #spaceFill;
 				converter: [:raw | [Compiler evaluate: raw asString] on: Error do: [nil]]];
 			at: Form put: [UiPushButton new hResizing: #spaceFill; text: 'Choose...'];
-			at: Boolean put: [ UiLineEdit new hResizing: #spaceFill; converter: [:raw | (({ 'true' . 'false' } indexOf: (raw asString)) > 0) ifTrue: [raw] ifFalse: [false]] ];
+			"at: Boolean put: [ UiLineEdit new hResizing: #spaceFill; converter: [:raw | (({ 'true' . 'false' } indexOf: (raw asString)) > 0) ifTrue: [raw] ifFalse: [false]] ];"
+			at: Boolean put: [UiCheckBox new hResizing: #spaceFill ]; 
 			at: Point put: [UiLineEdit new hResizing: #spaceFill;
 				converter: [:raw | | result |
 					result := [Compiler evaluate: raw asString] on: Error do: [nil].
