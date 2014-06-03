@@ -5,23 +5,23 @@ initialize
 	
 	treeModel := UiAttributeModel new.
 	
-	" necessary information for building the editors can be retrieved
-	  from UiItemViewColumnSpec[accessing - selectors]"
 	self ui treeView removeAllColumns; model: nil; 
-			addColumn: ((UiItemViewColumnSpec newFrom: {#text -> #yourself})
+			addColumn: ((UiItemViewColumnSpec new)
+				textSelector: #yourself;
 				textConverter: [:node | (node includesKey: #attributeOrigin)
 					ifTrue: [('<b>' , (node at: #attributeOrigin) , '</b>') asHtmlText]
 					ifFalse: [node at: #propertyName]]);
 				
-			addColumn: ((UiItemViewColumnSpec newFrom: {#text -> #propertyValue})
+			addColumn: ((UiItemViewColumnSpec new)
+				textSelector: #propertyValue;
 				editableSelector: #isEditable;
-				editorCreator: [ :spec :node | self createEditorForNode: node ];
-				editorFinisher: [:editor :node | |result|
-								result := self convertEditedValueForNode: node FromText: (editor theText).
-								treeModel changeProperty: (node at: #propertyName) To: result ];
-				textConverter: [:node | (node includesKey: #propertyValue) ifTrue: [node at: #propertyValue]]).
-				
+				textConverter: [:node | (node includesKey: #propertyValue) ifTrue: [node at: #propertyValue]];
+				morphSelector: #editorMorph;
+				checkableSelector: #isCheckable;
+				checkedSelector: #isChecked).
+	
 	self ui treeView model: treeModel.
+	self ui treeView viewport eventHandler mouseDownPriority: 0.
 	
 	treeModel setNewWidget: self ui button.
 	

@@ -6,6 +6,7 @@ initialize
 	view := UiListView new.
 	
 	view  listSpec: (UiItemViewColumnSpec  newFrom: {
+		#editableSelector -> #isEditable.
 		#text -> #name.
 		#icon -> #image.
 		#morph -> #editor.
@@ -24,6 +25,7 @@ initialize
 	child at: #checked.
 	child at: #name put: #foobar.
 	"child at: #image put: #UiSilkIcons diskIcon."
+	child at: #isEditable put: true.
 	
 	editor := UiComboBox new.
 	
