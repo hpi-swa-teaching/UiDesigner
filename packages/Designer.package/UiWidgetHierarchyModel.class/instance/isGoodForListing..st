@@ -1,7 +1,8 @@
 accessing
 isGoodForListing: aMorph
-	| index |
+	| isOnBlacklist isUiWidget |
 	
-	index := self blacklistedMorphs indexOf: (aMorph class).
+	isOnBlacklist := self blacklistedMorphs indexOf: (aMorph class).
+	isUiWidget := (aMorph class asString) indexOfSubStringWithEmpty: 'Ui' caseSensitive: false.
 	
-	(index = 0) ifTrue: [ ^true ] ifFalse: [ ^false ].
+	 ^ ( (isOnBlacklist = 0) and: (isUiWidget ~= 0) ) 

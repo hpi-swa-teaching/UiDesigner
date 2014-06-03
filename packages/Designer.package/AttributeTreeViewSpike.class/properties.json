@@ -8,8 +8,7 @@
 	"instvars" : [
 		"ui",
 		"treeModel",
-		"editorTemplates",
-		"attributeEditorTemplates" ],
+		"editorTemplates" ],
 	"name" : "AttributeTreeViewSpike",
 	"pools" : [
 		 ],
