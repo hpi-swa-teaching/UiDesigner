@@ -2,15 +2,17 @@
 	"class" : {
 		"newWithContainer:" : "FW 5/27/2014 20:39" },
 	"instance" : {
-		"addSubmorph:ToHierarchy:" : "FW 6/1/2014 21:05",
+		"addSubmorph:ToHierarchy:" : "SD 6/3/2014 12:00",
 		"blacklistedMorphs" : "FW 6/1/2014 21:01",
 		"blacklistedMorphs:" : "FW 6/1/2014 21:01",
+		"createNodeFrom:" : "SD 6/3/2014 11:59",
 		"currentWidget" : "FW 5/27/2014 20:38",
 		"currentWidget:" : "FW 5/27/2014 20:38",
+		"extractNameFromWidget:" : "SD 6/3/2014 12:04",
 		"groups" : "FW 5/27/2014 20:38",
 		"hierarchy" : "FW 5/27/2014 20:38",
 		"hierarchy:" : "FW 5/27/2014 20:38",
 		"isGoodForListing:" : "FW 6/1/2014 21:06",
 		"topLevelContainer" : "FW 5/27/2014 20:38",
 		"topLevelContainer:" : "FW 5/27/2014 20:38",
-		"updateHierarchy" : "FW 6/1/2014 21:05" } }
+		"updateHierarchy" : "SD 6/3/2014 12:00" } }

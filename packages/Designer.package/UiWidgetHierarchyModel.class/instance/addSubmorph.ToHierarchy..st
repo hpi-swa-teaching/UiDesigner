@@ -4,10 +4,7 @@ addSubmorph: aMorph ToHierarchy: parentNode
 	
 	(self isGoodForListing: aMorph) 
 		ifFalse: [ morphNode := parentNode. ]
-		ifTrue: [ morphNode := UiPropertyItemNode new
-						addDefaultGroup;
-						at: #className put: (aMorph class);
-						yourself.						
+		ifTrue: [ morphNode := self createNodeFrom: aMorph.						
 				parentNode addChild: morphNode. ].
 						
 	aMorph submorphs do: [ :submorph |

@@ -1,9 +1,7 @@
 item model - signals
 updateHierarchy
-	self hierarchy add: (UiPropertyItemNode new
-						addDefaultGroup;
-						at: #className put: (self topLevelContainer class);
-						yourself).
+	self hierarchy: nil.
+	self hierarchy add: (self createNodeFrom: (self topLevelContainer)).
 						
 	self topLevelContainer submorphs do: [ :submorph |
 		self addSubmorph: submorph ToHierarchy: (self hierarchy at: 1).
