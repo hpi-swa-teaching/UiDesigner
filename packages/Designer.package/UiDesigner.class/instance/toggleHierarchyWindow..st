@@ -1,4 +1,4 @@
 attribute editing
 toggleHierarchyWindow: aBoolean	
-	aBoolean ifTrue: [ self hierarchyWindow: WidgetHierarchyWindow new. self hierarchyWindow open: (self container). ]
+	aBoolean ifTrue: [ self openHierarchyWindow.]
 			  ifFalse: [ self hierarchyWindow owner delete. self hierarchyWindow: nil. ].
