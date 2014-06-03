@@ -29,6 +29,7 @@
 		"loadTemplate:" : "mt 10/30/2010 14:27:27.121",
 		"nameFilter:" : "mt 5/3/2012 09:36:26.305",
 		"open" : "mt 6/30/2010 09:13:50.348",
+		"openHierarchyWindow" : "SD 6/3/2014 12:17",
 		"openMenu" : "mt 5/3/2012 09:46:13.646",
 		"openSaveDialog" : "tg 5/14/2014 15:04",
 		"openSavedDialog:dependingOn:" : "tg 5/16/2014 14:36",
@@ -39,6 +40,6 @@
 		"saveRawValue:ForNode:" : "FW 5/24/2014 21:52",
 		"selectDefaultModel" : "tg 6/2/2014 15:42",
 		"selectFilterModel" : "mt 5/3/2012 09:36:34.942",
-		"toggleHierarchyWindow:" : "FW 6/1/2014 20:56",
+		"toggleHierarchyWindow:" : "SD 6/3/2014 12:10",
 		"ui" : "FW 6/1/2014 20:46",
 		"ui:" : "FW 5/17/2014 18:34" } }
