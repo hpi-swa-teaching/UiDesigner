@@ -7,7 +7,6 @@ createTextNodeWithName: name andValue: value
 	
 	^ UiPropertyItemNode new
 		at: #propertyName put: name;
-		at: #isEditable put: true;
 		at: #type put: String;
 		at: #editorMorph put: lineedit;
 		yourself.

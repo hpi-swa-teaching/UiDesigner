@@ -3,11 +3,16 @@ createCodeNodeWithName: name andValue: currentValue
 	| lineedit |
 	
 	lineedit := UiLineEdit new
-				hResizing: #spaceFill.
+				hResizing: #spaceFill;
+				theText: currentValue;
+				converter: [:raw | | convertedValue |
+					convertedValue :=  [Compiler evaluate: raw asString] on: Error do: [nil].
+					
+					convertedValue 
+						ifNil: [ currentValue ] 
+						ifNotNil: [ self changeProperty: name To: convertedValue ] ].
 	
 	^ UiPropertyItemNode new
 		at: #propertyName put: name;
-		at: #isEditable put: true;
-		at: #type put: Object;
 		at: #editorMorph put: lineedit;
 		yourself.

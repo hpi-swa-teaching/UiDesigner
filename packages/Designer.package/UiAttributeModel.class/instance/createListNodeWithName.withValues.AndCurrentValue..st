@@ -3,15 +3,15 @@ createListNodeWithName: name withValues: values AndCurrentValue: currentValue
 	| combobox |
 	
 	combobox := UiComboBox new 
-					hResizing: #spaceFill; 
-					vResizing: #spaceFill;
-					converter: [:item | item asString asSymbol].
+					hResizing: #spaceFill.
 	
 	values do: [:value | combobox addText: value asString].
 	
+	" if this is set before value adding, it would not work..."
+	combobox converter: [:item | self changeProperty: name To: currentValue asString. item asString asSymbol].
+	
 	^ UiPropertyItemNode new
 		at: #propertyName put: name;
-		at: #isEditable put: false;
 		at: #type put: Collection;
 		at: #editorMorph put: combobox;
 		yourself.

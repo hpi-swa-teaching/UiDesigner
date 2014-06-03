@@ -14,8 +14,7 @@ initialize
 				
 			addColumn: ((UiItemViewColumnSpec new)
 				textSelector: #propertyValue;
-				editableSelector: #isEditable;
-				textConverter: [:node | (node includesKey: #propertyValue) ifTrue: [node at: #propertyValue]];
+				editorAcceptSignal: #returnPressed;
 				morphSelector: #editorMorph;
 				checkableSelector: #isCheckable;
 				checkedSelector: #isChecked).
