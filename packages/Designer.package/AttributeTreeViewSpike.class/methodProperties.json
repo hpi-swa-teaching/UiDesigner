@@ -2,13 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"convertEditedValueForNode:FromText:" : "FW 5/17/2014 18:24",
-		"createEditorForNode:" : "FW 5/17/2014 16:31",
+		"attributeEditorTemplates" : "FW 6/2/2014 21:53",
+		"convertEditedValueForNode:FromText:" : "FW 6/2/2014 21:46",
+		"createEditorForNode:" : "FW 6/3/2014 11:51",
 		"editorTemplates" : "FW 5/17/2014 16:05",
 		"editorTemplates:" : "FW 5/16/2014 23:21",
 		"expandAttributeCategories" : "FW 5/17/2014 16:38",
-		"initialize" : "FW 5/17/2014 18:25",
+		"initialize" : "FW 6/3/2014 11:50",
 		"open" : "FW 5/12/2014 11:45",
+		"saveRawValue:ForNode:" : "FW 6/2/2014 21:48",
 		"treeModel" : "FW 5/16/2014 23:21",
 		"treeModel:" : "FW 5/16/2014 23:21",
 		"ui" : "FW 5/12/2014 11:44",
