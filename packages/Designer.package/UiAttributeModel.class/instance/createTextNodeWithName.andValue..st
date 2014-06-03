@@ -3,7 +3,9 @@ createTextNodeWithName: name andValue: value
 	| lineedit |
 	
 	lineedit := UiLineEdit new
-				hResizing: #spaceFill.
+				theText: value;
+				hResizing: #spaceFill;
+				converter: [:raw | self changeProperty: name To: raw asString ].
 	
 	^ UiPropertyItemNode new
 		at: #propertyName put: name;

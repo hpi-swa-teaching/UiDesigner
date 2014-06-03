@@ -8,11 +8,12 @@ initializeAttributeView
 					ifFalse: [node at: #propertyName]]);
 				
 			addColumn: ((UiItemViewColumnSpec new)
-							
 				textSelector: #propertyValue;
-				editableSelector: #isEditable;
-				editorCreator: [ :spec :node | self createEditorForNode: node ];
-				editorFinisher: [:editor :node | self saveRawValue: (editor theText) ForNode: node];
-				textConverter: [:node | (node includesKey: #propertyValue) ifTrue: [node at: #propertyValue]]).
-				
+				editorAcceptSignal: #returnPressed;
+				morphSelector: #editorMorph;
+				checkableSelector: #isCheckable;
+				checkedSelector: #isChecked).
+	
+
+	self ui attributeTreeView viewport eventHandler mouseDownPriority: 0.
 	self ui attributeTreeView model: self attributeTreeModel.

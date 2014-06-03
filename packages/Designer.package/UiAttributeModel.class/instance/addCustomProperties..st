@@ -5,7 +5,8 @@ addCustomProperties: aMorph
 		Boolean -> [:cl :n :v :vs | self createBooleanNodeWithName: n andValue: v ].
 		Object -> [:cl :n :v :vs | self createCodeNodeWithName: n andValue: v ].
 		Array -> [:cl :n :v :vs | self createListNodeWithName: n withValues: vs AndCurrentValue: v ].
-		String -> [ :cl :n :v :vs | self createTextNodeWithName: n andValue: v ].
+		String -> [ :cl :n :v :vs | self createTextNodeWithName: n andValue: v ]".
+		Array -> [:cl :n :v :vs | self createListNodeWithName: n withValues: vs AndCurrentValue: v ]"
 	}.
 	
 	aMorph class widgetProperties do: [ :category | | parentNode |

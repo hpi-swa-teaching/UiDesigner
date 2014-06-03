@@ -4,9 +4,8 @@ createNodeWithName: propertyName andValue: propertyValue andType: type
 	| lineedit |
 	
 	lineedit := UiLineEdit new
+				theText: propertyValue;
 				hResizing: #spaceFill.
-				
-	lineedit theText: propertyValue.
 	
 	^ UiPropertyItemNode new
 		at: #propertyName put: propertyName;

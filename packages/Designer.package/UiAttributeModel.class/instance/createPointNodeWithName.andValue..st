@@ -3,6 +3,7 @@ createPointNodeWithName: name andValue: value
 	| lineedit |
 	
 	lineedit := UiLineEdit new
+				theText: value;
 				hResizing: #spaceFill;
 				converter: [:raw | | result |
 					result := [Compiler evaluate: raw asString] on: Error do: [nil].
