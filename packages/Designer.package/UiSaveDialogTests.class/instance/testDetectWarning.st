@@ -1,4 +1,4 @@
-initialize
+tests
 testDetectWarning
 	
 	dialog detectClassExistsWarning: 'Morph'.

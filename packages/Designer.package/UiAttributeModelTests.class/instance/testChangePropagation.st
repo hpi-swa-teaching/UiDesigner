@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testChangePropagation
 	model changeProperty: #width To: 1337.
 	

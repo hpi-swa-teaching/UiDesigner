@@ -1,3 +1,3 @@
-as yet unclassified
+tests
 testAttribute
 	self assert: (model currentWidget) equals: button.

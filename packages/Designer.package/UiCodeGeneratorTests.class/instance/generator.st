@@ -1,3 +1,3 @@
 accessing
 generator 
-	^ generator ifNil: [generator := CodeGenerator new].
+	^ generator ifNil: [generator := UiCodeGenerator new].
