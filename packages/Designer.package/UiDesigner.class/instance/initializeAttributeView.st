@@ -17,4 +17,3 @@ initializeAttributeView
 
 	self ui attributeTreeView viewport eventHandler mouseDownPriority: 0.
 	self ui attributeTreeView model: self attributeTreeModel.
-	self ui attributeTreeView setHeightForRow: 1 to: 100.
