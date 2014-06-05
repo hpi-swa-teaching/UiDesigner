@@ -4,10 +4,7 @@ baseline: spec
 	spec
 		for: #common
 		do: [
-			spec
-				package: 'Designer-Core';
-				package: 'Designer-Support';
-				package: 'Designer-Tests' with: [ spec requires: #('default')].
+			spec package: 'Designer'.
 				
 			spec
 				group: 'default' with: #('Designer-Core' 'Designer-Support');

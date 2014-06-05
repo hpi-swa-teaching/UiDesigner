@@ -2,7 +2,7 @@ updating
 addOwnerSpecificLayout: aMorph
 	| topNode |
 	
-	topNode := self createParentNodeFrom: 'Owner-specific Layout'.
+	topNode := self createParentNodeFrom: 'Owner-specific layout'.
 	
 	topNode addChild: (self createListNodeWithName: 'hResizing' withValues: #(rigid spaceFill shrinkWrap) AndCurrentValue: (aMorph hResizing)).
 	topNode addChild: (self createListNodeWithName: 'vResizing' withValues: #(rigid spaceFill shrinkWrap) AndCurrentValue: (aMorph vResizing)).
