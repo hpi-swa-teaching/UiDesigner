@@ -3,11 +3,7 @@
 		 },
 	"instance" : {
 		"connectViewWith:and:" : "tg 5/26/2014 11:55",
-<<<<<<< HEAD
 		"detectClassExistsWarning:" : "tg 6/5/2014 10:21",
-=======
-		"detectClassExistsWarning:" : "FW 6/4/2014 20:13",
->>>>>>> 9f503b4ad60b8072ca826f5bf3720453e11e289d
 		"initializeWith:" : "FW 6/1/2014 21:47",
 		"loadTextFrom:and:" : "FW 6/1/2014 21:46",
 		"onCancelButton" : "tg 5/16/2014 14:20",
