@@ -6,9 +6,10 @@ createPointNodeWithName: name andValue: value
 				theText: value;
 				hResizing: #spaceFill;
 				converter: [:raw | | result |
+					Debugger halt.
 					result := [Compiler evaluate: raw asString] on: Error do: [nil].
 					(result isKindOf: Point)
-						ifTrue: [ self changeProperty: name To: value ]
+						ifTrue: [ self changeProperty: name To: result ]
 						ifFalse: [ value ]].
 	
 	^ UiPropertyItemNode new
