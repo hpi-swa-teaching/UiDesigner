@@ -3,6 +3,7 @@ initializeAttributeView
 	self ui attributeTreeView removeAllColumns; model: nil; 
 			addColumn: ((UiItemViewColumnSpec new)
 				textSelector: #yourself;
+				itemOrientation: #horizontalMaxHeight;
 				textConverter: [:node | (node includesKey: #attributeOrigin)
 					ifTrue: [('<b>' , (node at: #attributeOrigin) , '</b>') asHtmlText]
 					ifFalse: [node at: #propertyName]]);

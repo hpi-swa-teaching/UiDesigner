@@ -7,8 +7,10 @@ createListNodeWithName: name withValues: values AndCurrentValue: currentValue
 	
 	values do: [:value | combobox addText: value asString].
 	
+	combobox currentIndex: (values indexOf: currentValue).
+	
 	" if this is set before value adding, it would not work..."
-	combobox converter: [:item | self changeProperty: name To: currentValue asString. item asString asSymbol].
+	combobox converter: [:item | self changeProperty: name To: item asString asSymbol. item asString].
 	
 	^ UiPropertyItemNode new
 		at: #propertyName put: name;
