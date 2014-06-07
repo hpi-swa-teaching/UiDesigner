@@ -13,9 +13,8 @@ createBooleanNodeWithName: name andValue: value
 		at: #editorMorph put: checkbox;
 		yourself.
 	
-	pattern := #(1 =name).
-		
-	self connect: checkbox signal: #clicked: to: self selector: #checkBoxChangedTo:OnNode: pattern: pattern.
+	pattern := {#= . name asSymbol . 1} asArray.
+	self connect: checkbox signal: #clicked: to: self selector: #changeProperty:To: pattern: pattern.
 	
 	^ node	
 	
