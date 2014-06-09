@@ -2,6 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "SD 6/9/2014 13:17",
-		"testClassIsCreated" : "SD 6/9/2014 13:26",
-		"testClassWithDefaultValues" : "SD 6/9/2014 13:13" } }
+		"initialize" : "SD 6/9/2014 22:00",
+		"tearDown" : "SD 6/9/2014 22:26",
+		"testClassIsCreated" : "SD 6/9/2014 22:14",
+		"testClassWithDefaultValues" : "SD 6/9/2014 22:14",
+		"testMethodGeneration" : "SD 6/9/2014 22:24",
+		"testMethodGenerationError" : "SD 6/9/2014 22:00" } }

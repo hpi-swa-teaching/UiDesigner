@@ -5,4 +5,5 @@ initialize
 	testInstanceVariable := 'testInstVar'.
 	testPackage := 'testPackage'.
 	testCategory := 'testCategory'.
+	testMethodName := 'testMehod'.
 	generator := CodeGenerator new.

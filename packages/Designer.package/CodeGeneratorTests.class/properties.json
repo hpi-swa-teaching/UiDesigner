@@ -11,7 +11,8 @@
 		"testSuperClass",
 		"testInstanceVariable",
 		"testPackage",
-		"testCategory" ],
+		"testCategory",
+		"testMethodName" ],
 	"name" : "CodeGeneratorTests",
 	"pools" : [
 		 ],

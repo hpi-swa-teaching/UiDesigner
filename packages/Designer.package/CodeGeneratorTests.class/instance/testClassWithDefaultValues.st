@@ -9,6 +9,4 @@ testClassWithDefaultValues
 	self assert: (tmpClass isNil not).
 	self assert: (tmpClass instVarNames isEmpty).
 	
-	Smalltalk removeClassNamed: ((Smalltalk at: testClassName asSymbol) name).
-	
 	
