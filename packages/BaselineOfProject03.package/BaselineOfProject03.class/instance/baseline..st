@@ -6,7 +6,7 @@ baseline: spec
         do: [ 
             spec
                 package: 'Designer-Core';
-                package: 'Designer-Tests' with: [ spec requires: #('default') ].
+                package: 'Designer-Tests' with: [ spec requires: #('Designer-Core') ].
             spec
                 group: 'default' with: #('Designer-Core');
                 group: 'Tests' with: #('Designer-Tests');
