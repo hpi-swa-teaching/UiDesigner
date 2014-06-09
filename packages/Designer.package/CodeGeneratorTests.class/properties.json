@@ -8,11 +8,11 @@
 	"instvars" : [
 		"generator",
 		"testClassName",
-		"superClass",
 		"testSuperClass",
 		"testInstanceVariable",
-		"testPackage" ],
-	"name" : "UiCodeGeneratorTests",
+		"testPackage",
+		"testCategory" ],
+	"name" : "CodeGeneratorTests",
 	"pools" : [
 		 ],
 	"super" : "TestCase",
