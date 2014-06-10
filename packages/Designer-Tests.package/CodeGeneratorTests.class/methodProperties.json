@@ -4,7 +4,8 @@
 	"instance" : {
 		"initialize" : "SD 6/9/2014 22:00",
 		"tearDown" : "SD 6/9/2014 22:26",
+		"testAccessorGeneration" : "SD 6/10/2014 11:21",
 		"testClassIsCreated" : "SD 6/9/2014 22:14",
 		"testClassWithDefaultValues" : "SD 6/9/2014 22:14",
-		"testMethodGeneration" : "SD 6/9/2014 22:24",
+		"testMethodGeneration" : "SD 6/10/2014 11:55",
 		"testMethodGenerationError" : "SD 6/9/2014 22:00" } }

@@ -5,6 +5,6 @@ testMethodGeneration
 	generator category: testCategory.
 	generator generateClass.
 	
-	generator generateMethod: 'someTestMethod' with: '"some code..."'.
+	generator generateMethod: testMethodName with: '"some code..."'.
 	
 	self assert: (generator generatedClass canUnderstand: (testMethodName asSymbol)). 
