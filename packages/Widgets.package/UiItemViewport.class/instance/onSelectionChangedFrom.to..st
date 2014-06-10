@@ -1,6 +1,8 @@
 selection
 onSelectionChangedFrom: oldCells to: newCells
 
+	(self hasProperty: #isClearing) ifTrue: [^ self].
+
 	oldCells do: [:c | self invalidRect: (self boundsFor: c)].
 	newCells do: [:c | self invalidRect: (self boundsFor: c)].
 

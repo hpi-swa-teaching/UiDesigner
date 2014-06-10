@@ -1,0 +1,1 @@
+(name 'Widgets-mt.474'message 'Container morphs can now dynamically disable halos. This is good if layout objects should be oblivious.'id '616b1105-0351-9443-8f3e-bf7833053ff2'date '29 April 2014'time '2:53:22.694 pm'author 'mt'ancestors ((id 'b72f3fcf-4ee1-8b4d-b919-e9224902a665'))stepChildren ())

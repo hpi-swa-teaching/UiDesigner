@@ -30,4 +30,6 @@
 		"selectionChanged:" : "mt 6/30/2010 09:29:37.854",
 		"showContextMenuForMorph:atHand:" : "mt 6/28/2010 11:13:33.993",
 		"startDrag:" : "mt 10/24/2010 11:08:08.144",
-		"wantsDroppedMorph:event:" : "mt 6/28/2010 16:46:21.331" } }
+		"wantsDroppedMorph:event:" : "mt 6/28/2010 16:46:21.331",
+		"wantsHaloFromClick" : "mt 4/28/2014 14:12:36.713",
+		"wantsHaloFromClick:" : "mt 4/28/2014 14:12:34.712" } }

@@ -1,6 +1,7 @@
 accessing - converting
 editorCreator
 	"A block that creates an editor given the node that needs to be edited."
+	
 	^ editorCreator ifNil: [editorCreator := [:spec :node |
 			UiLineEdit new
 				hideCursor: false;

@@ -1,5 +1,5 @@
 building
 itemOrientation: aSymbol
-	"#vertical, #horizontal"
+	"#vertical, #horizontal, #horizontalMaxHeight"
 
 	 itemOrientation := aSymbol.

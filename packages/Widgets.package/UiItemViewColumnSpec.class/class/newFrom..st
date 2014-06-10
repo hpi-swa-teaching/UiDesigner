@@ -5,7 +5,7 @@ newFrom: selectorMap
 	selectorMap isArray
 		"{#text -> #name. #icon -> #stateForm}"
 		ifTrue: [^ self newFrom: (Dictionary newFrom: selectorMap)].
-	
+		
 	^ self new
 		"item data"
 		textSelector: (selectorMap at: #text ifAbsent: []);

@@ -15,7 +15,6 @@ data: aSymbolOrIntegerOrBoolean for: aNode
 		ifFalse: [aSymbolOrIntegerOrBoolean].
 	
 	"Lookup property as accessor or key in dictionary."
-	"Debugger halt."
 	^ property ifNotNil: [:p | (p ~~ #yourself and: [aNode isDictionary])
 		ifTrue: [aNode at: p ifAbsent: []]
 		ifFalse: [aNode perform: p]]

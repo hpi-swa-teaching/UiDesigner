@@ -9,10 +9,11 @@ itemFor: aNode
 	itemColor := self colorFor: aNode.
 	
 	"Configurable data conversion step."
-	self iconConverter ifNotNil: [:c | icon := c value: aNode].
-	self textConverter ifNotNil: [:c | text := c value: aNode].
-	self balloonTextConverter ifNotNil: [:c | balloonText := c value: aNode].
-	self colorConverter ifNotNil: [:c | itemColor := c value: aNode].
+	self iconConverter ifNotNil: [:c | icon := c value: icon].
+	self textConverter ifNotNil: [:c | text := c value: text].
+	self balloonTextConverter ifNotNil: [:c | balloonText := c value: balloonText].
+	self colorConverter ifNotNil: [:c | itemColor := c value: itemColor].
+	self morphConverter ifNotNil: [:c | morph := c value: morph].
 	
 	item := Morph new color: (itemColor ifNil: [Color transparent]).
 	
