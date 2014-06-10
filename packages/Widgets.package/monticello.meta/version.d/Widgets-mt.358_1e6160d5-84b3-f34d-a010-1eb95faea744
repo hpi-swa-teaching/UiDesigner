@@ -1,0 +1,1 @@
+(name 'Widgets-mt.358'message 'ITEM VIEWS- code refactoring- sorting is faster- BUGFIX: inserting items works now correctly with groups- BUGFIX: row visibility- BUGFIX: sorting has better group support'id '1e6160d5-84b3-f34d-a010-1eb95faea744'date '13 December 2012'time '4:34:50.769 pm'author 'mt'ancestors ((id '867d6fd7-c79d-2148-885a-f58f26ef1cfd'))stepChildren ())

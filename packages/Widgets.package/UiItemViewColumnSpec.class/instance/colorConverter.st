@@ -1,0 +1,4 @@
+accessing - converting
+colorConverter
+
+	^ colorConverter

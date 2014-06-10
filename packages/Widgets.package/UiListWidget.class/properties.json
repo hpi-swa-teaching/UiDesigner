@@ -1,0 +1,14 @@
+{
+	"category" : "Widgets-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 10/19/2010 19:32:52.216",
+	"instvars" : [
+		 ],
+	"name" : "UiListWidget",
+	"pools" : [
+		 ],
+	"super" : "UiListView",
+	"type" : "normal" }

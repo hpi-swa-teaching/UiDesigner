@@ -1,0 +1,14 @@
+{
+	"category" : "Widgets-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 7/14/2010 11:14:35.743",
+	"instvars" : [
+		 ],
+	"name" : "UiWidgetPage",
+	"pools" : [
+		 ],
+	"super" : "UiContainer",
+	"type" : "normal" }

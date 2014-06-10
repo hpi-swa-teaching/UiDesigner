@@ -1,0 +1,4 @@
+signals
+pressed
+
+	self emit.

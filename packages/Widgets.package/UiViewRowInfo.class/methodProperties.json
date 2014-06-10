@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"firstModelIndex" : "mt 10/9/2010 18:21:06.63",
+		"groupIndex" : "mt 12/13/2012 11:57:52.399",
+		"height" : "mt 10/10/2010 12:51:44.846",
+		"height:" : "mt 10/9/2010 18:20:41.803",
+		"indent" : "mt 4/27/2012 11:36:31.027",
+		"initialize" : "mt 7/8/2013 16:39:50.066",
+		"isCollapsed" : "mt 10/10/2010 10:27:44.554",
+		"isExpanded" : "mt 10/10/2010 10:27:36.67",
+		"isRowFor:" : "mt 4/23/2012 11:51:34.437",
+		"isSeparator" : "mt 4/26/2012 13:18:16.203",
+		"optimalSize" : "mt 7/6/2012 11:02:05.012",
+		"parentModelIndex" : "mt 6/26/2012 10:37:29.918",
+		"printString" : "mt 9/24/2013 07:43:30.5",
+		"updateItemSize" : "mt 7/6/2012 11:14:59.892" } }

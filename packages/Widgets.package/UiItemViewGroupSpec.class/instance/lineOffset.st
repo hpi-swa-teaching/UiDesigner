@@ -1,0 +1,4 @@
+accessing
+lineOffset
+
+	^ 2

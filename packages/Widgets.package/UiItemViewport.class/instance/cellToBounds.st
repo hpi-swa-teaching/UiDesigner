@@ -1,0 +1,4 @@
+geometry - cached
+cellToBounds
+
+	^ cellToBounds

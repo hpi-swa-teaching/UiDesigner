@@ -1,0 +1,4 @@
+testing
+isIndeterminate
+
+	^ maximum isNil

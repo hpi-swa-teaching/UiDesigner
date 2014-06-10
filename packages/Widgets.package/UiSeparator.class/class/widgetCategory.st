@@ -1,0 +1,4 @@
+*widgets-designer
+widgetCategory
+
+	^'Separators'

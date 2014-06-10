@@ -1,0 +1,27 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"cancelled" : "mt 8/8/2012 10:56:53.059",
+		"current" : "mt 8/8/2012 11:08:52.98",
+		"decrementIteratorPosition" : "mt 8/8/2012 10:56:50.666",
+		"finished" : "mt 8/8/2012 10:56:53.178",
+		"fork:at:" : "mt 8/8/2012 10:56:50.751",
+		"found:" : "mt 8/8/2012 10:56:53.263",
+		"hasFinished" : "mt 8/8/2012 10:56:55.198",
+		"hasNext" : "mt 8/8/2012 10:56:55.329",
+		"hasPrevious" : "mt 8/8/2012 11:05:15.654",
+		"incrementIteratorPosition" : "mt 8/8/2012 10:56:50.836",
+		"insertNextRows" : "mt 7/9/2013 11:27:57.313",
+		"isRunning" : "mt 8/8/2012 10:56:55.501",
+		"next" : "mt 8/8/2012 11:41:13.566",
+		"nextSatisfying:" : "mt 8/8/2012 10:56:47.985",
+		"nextSatisfying:forkAt:" : "mt 8/8/2012 11:12:55.301",
+		"previous" : "mt 8/8/2012 11:10:52.077",
+		"previousSatisfying:" : "mt 8/8/2012 10:56:48.284",
+		"previousSatisfying:forkAt:" : "mt 8/8/2012 11:13:20.11",
+		"reset" : "mt 7/9/2013 11:28:13.158",
+		"root" : "mt 8/8/2012 10:56:08.628",
+		"root:" : "mt 8/8/2012 10:56:10.689",
+		"sortBlock" : "mt 8/8/2012 10:56:13.772",
+		"sortBlock:" : "mt 8/8/2012 10:56:15.841" } }

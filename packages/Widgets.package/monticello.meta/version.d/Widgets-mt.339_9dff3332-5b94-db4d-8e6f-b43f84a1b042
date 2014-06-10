@@ -1,0 +1,1 @@
+(name 'Widgets-mt.339'message 'BUGFIX: #mouseDown: on UiTextEdit does not produce error if #readOnly anymore'id '9dff3332-5b94-db4d-8e6f-b43f84a1b042'date '4 September 2012'time '1:05:08.58 pm'author 'mt'ancestors ((id '599601aa-40a2-2540-be29-1fd01d6c74e7'))stepChildren ())

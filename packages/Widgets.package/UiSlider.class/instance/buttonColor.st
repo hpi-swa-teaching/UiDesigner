@@ -1,0 +1,4 @@
+accessing
+buttonColor
+
+	^ sliderButton color

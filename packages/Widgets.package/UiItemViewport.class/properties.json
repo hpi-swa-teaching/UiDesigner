@@ -1,0 +1,33 @@
+{
+	"category" : "Widgets-Views-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 11/2/2010 12:48:55.736",
+	"instvars" : [
+		"rows",
+		"columns",
+		"hoveredCell",
+		"hoveredDropMode",
+		"selectionColor",
+		"selection",
+		"selectionMode",
+		"selectionBehavior",
+		"verticalHeader",
+		"horizontalHeader",
+		"rowOrder",
+		"columnOrder",
+		"isLayoutBeingModified",
+		"groupSpec",
+		"cellToBounds",
+		"drawCache",
+		"drawCacheActive",
+		"dragDropSpec",
+		"editTriggers",
+		"selectBlock" ],
+	"name" : "UiItemViewport",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

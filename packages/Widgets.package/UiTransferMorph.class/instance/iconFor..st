@@ -1,0 +1,4 @@
+private
+iconFor: anObject
+
+	^ nil

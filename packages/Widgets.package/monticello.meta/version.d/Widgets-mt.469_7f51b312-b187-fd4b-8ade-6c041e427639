@@ -1,0 +1,1 @@
+(name 'Widgets-mt.469'message 'text model returns #bindings as list of associations now (was: Dictionary) -> allows for duplicate entries in case of shadowing'id '7f51b312-b187-fd4b-8ade-6c041e427639'date '10 February 2014'time '4:20:58.552 pm'author 'mt'ancestors ((id '7f0fc8c6-c7ec-3c4a-bd45-3f9c3fbf85bd'))stepChildren ())

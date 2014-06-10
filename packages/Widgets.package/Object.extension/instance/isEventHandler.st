@@ -1,0 +1,4 @@
+*widgets-events
+isEventHandler
+
+	^ false

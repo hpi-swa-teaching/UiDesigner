@@ -1,0 +1,4 @@
+accessing
+widgetClassName
+
+	^ 'Widget Page'

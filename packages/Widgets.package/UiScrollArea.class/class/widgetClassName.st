@@ -1,0 +1,4 @@
+accessing
+widgetClassName
+
+	^ 'Scroll Area'

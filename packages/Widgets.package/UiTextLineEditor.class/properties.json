@@ -1,0 +1,14 @@
+{
+	"category" : "Widgets-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "UiTextLineEditor",
+	"pools" : [
+		 ],
+	"super" : "UiTextEditor",
+	"type" : "normal" }

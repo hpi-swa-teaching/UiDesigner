@@ -1,0 +1,14 @@
+{
+	"category" : "Widgets-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 6/27/2010 09:43:15.463",
+	"instvars" : [
+		"panel" ],
+	"name" : "UserInterface",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

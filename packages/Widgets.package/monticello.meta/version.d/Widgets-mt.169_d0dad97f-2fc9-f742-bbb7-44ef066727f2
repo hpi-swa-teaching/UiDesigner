@@ -1,0 +1,1 @@
+(name 'Widgets-mt.169'message '- more drag/drop support added to event handler and transform morph- dragging an object will change the offset of a transform morph now'id 'd0dad97f-2fc9-f742-bbb7-44ef066727f2'date '25 April 2011'time '12:00:25.131 pm'author 'mt'ancestors ((id 'bb4f80ec-0721-3c40-afbb-f8147df87675'))stepChildren ())

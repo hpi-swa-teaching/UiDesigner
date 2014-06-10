@@ -1,0 +1,14 @@
+{
+	"category" : "Widgets-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 12/1/2011 11:24:09.953",
+	"instvars" : [
+		"outerBorderWidth" ],
+	"name" : "UiPushButton",
+	"pools" : [
+		 ],
+	"super" : "UiButton",
+	"type" : "normal" }

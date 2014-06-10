@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"isWidgetClass" : "mt 10/19/2010 13:31:43.968",
+		"widgetClassIcon" : "mt 8/21/2012 10:14:50.365",
+		"widgetClassName" : "mt 10/19/2010 13:32:09.963" },
+	"instance" : {
+		"initialize" : "mt 6/28/2012 16:53:09.266",
+		"showGrid" : "mt 8/8/2012 10:36:20.461",
+		"showGrid:" : "mt 8/8/2012 10:36:26.335",
+		"viewportClass" : "mt 10/14/2010 13:57:19.079" } }

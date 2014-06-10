@@ -1,0 +1,4 @@
+drawing
+drawOn: aCanvas
+
+	"Invisible."

@@ -1,0 +1,14 @@
+{
+	"category" : "Widgets-Painter",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"morph" ],
+	"name" : "UiPainter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

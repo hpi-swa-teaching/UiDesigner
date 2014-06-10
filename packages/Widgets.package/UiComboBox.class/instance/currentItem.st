@@ -1,0 +1,4 @@
+accessing
+currentItem
+
+	^ listWidget currentItem

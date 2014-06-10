@@ -1,0 +1,1 @@
+(name 'Widgets-mt.414'message 'STACKED WIDGET- added support for insertion of pages- Morphic Designer does an #insertPage:behind: when clicking the ''plus''-Button (was: #addPage at the end)'id 'ecbb5cca-ff13-1949-81db-f251a64375ee'date '15 July 2013'time '8:41:47.36 am'author 'mt'ancestors ((id 'c15569ff-488e-3440-9fb8-3f9bf912c55d'))stepChildren ())

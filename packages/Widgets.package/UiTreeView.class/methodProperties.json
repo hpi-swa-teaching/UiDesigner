@@ -1,0 +1,28 @@
+{
+	"class" : {
+		"isWidgetClass" : "mt 10/19/2010 13:31:46.249",
+		"widgetClassIcon" : "mt 8/21/2012 10:15:15.068",
+		"widgetClassName" : "mt 10/19/2010 13:32:03.461" },
+	"instance" : {
+		"collapseIndex:" : "mt 7/10/2012 12:12:33.224",
+		"collapseNode:" : "mt 2/3/2012 14:54:20.427",
+		"disconnectDefaultSignals" : "mt 8/16/2013 11:36:54.722",
+		"expandAllIndices:" : "mt 7/16/2013 09:40:28.774",
+		"expandAllIndicesSilently:" : "mt 7/15/2013 17:46:53.119",
+		"expandAllIndicesSilentlyBreadthFirst:" : "mt 7/17/2013 17:19:14.144",
+		"expandAllNodes" : "mt 7/18/2013 15:43:04.912",
+		"expandAllTopLevelNodes" : "mt 8/2/2013 07:36:33.155",
+		"expandIndex:" : "mt 7/10/2012 13:26:42.002",
+		"expandIndexSilently:" : "mt 7/10/2012 11:52:14.78",
+		"expandIndexSilently:checkParents:" : "mt 7/15/2013 17:42:40.601",
+		"expandIndices:" : "mt 8/3/2012 11:19:27.05",
+		"expandNode:" : "mt 2/3/2012 14:54:33.87",
+		"expandTopLevelRows:" : "mt 5/2/2012 13:22:02.858",
+		"initialize" : "mt 7/20/2012 17:29:35.511",
+		"onKeyStroked:on:" : "mt 1/10/2014 10:50:30.983",
+		"rootIsDecorated" : "mt 7/5/2012 17:28:57.25",
+		"rootIsDecorated:" : "mt 7/5/2012 17:28:50.976",
+		"toggleIndex:" : "mt 6/26/2012 14:08:51.055",
+		"toggleNode:" : "mt 2/3/2012 14:53:36.991",
+		"toggleTopLevelRow:" : "mt 4/23/2012 10:25:43.369",
+		"viewportClass" : "mt 10/14/2010 13:21:16.162" } }

@@ -1,0 +1,4 @@
+accessing
+backgroundDashLength
+
+	^backgroundDashLength

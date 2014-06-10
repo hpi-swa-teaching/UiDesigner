@@ -1,0 +1,1 @@
+(name 'Widgets-mt.368'message '- #selectionColor is not dependent on keyboard focus anymore (-> Morphic Designer bug fixed) but #selectionColorAdjusted is'id '794a966a-5051-6f41-8796-935c56795cb4'date '6 February 2013'time '2:53:17.143 pm'author 'mt'ancestors ((id 'c6dc6790-89e4-bb4d-9c7c-6959e2bd133d'))stepChildren ())

@@ -1,0 +1,4 @@
+accessing
+horizontalHeader
+
+	^ horizontalHeader

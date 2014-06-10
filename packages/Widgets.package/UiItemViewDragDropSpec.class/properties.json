@@ -1,0 +1,22 @@
+{
+	"category" : "Widgets-Views",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"dragEnabled",
+		"dropEnabled",
+		"source",
+		"dragTransferType",
+		"textSelector",
+		"iconSelector",
+		"dropMode",
+		"acceptBlock",
+		"helpText" ],
+	"name" : "UiItemViewDragDropSpec",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

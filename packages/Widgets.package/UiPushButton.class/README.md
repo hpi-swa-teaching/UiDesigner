@@ -1,0 +1,1 @@
+This button triggers regular user interactions. Usually, it is used for confirmation or cancellation in dialog boxes.

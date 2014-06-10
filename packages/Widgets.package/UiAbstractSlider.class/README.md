@@ -1,0 +1,1 @@
+This is a Squeak port of QAbstractSlider from the Nokia/Qt framework.

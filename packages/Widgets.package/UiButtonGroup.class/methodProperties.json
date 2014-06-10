@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"widgetClassIcon" : "mt 8/21/2012 10:12:57.61",
+		"widgetClassName" : "mt 7/1/2010 08:07:04.687" },
+	"instance" : {
+		"addMorphBack:" : "mt 9/13/2013 10:43:04.817",
+		"button:" : "mt 7/1/2010 08:16:04.263",
+		"buttonClicked:id:" : "mt 7/1/2010 08:11:14.563",
+		"buttonPressed:id:" : "mt 7/1/2010 08:11:30.004",
+		"buttonReleased:id:" : "mt 7/1/2010 08:11:48.494",
+		"buttonToggled:id:" : "mt 9/13/2013 10:44:28.581",
+		"checkedButton" : "mt 7/1/2010 08:10:28.017",
+		"checkedId" : "mt 7/1/2010 08:10:20.631",
+		"clickButton:" : "mt 7/1/2010 08:16:32.662",
+		"currentIndexChanged:" : "mt 9/13/2013 13:16:23.893",
+		"id:" : "mt 9/13/2013 13:07:11.298",
+		"pressButton:" : "mt 7/1/2010 08:16:44.088",
+		"releaseButton:" : "mt 7/1/2010 08:16:54.688",
+		"toggleButton:" : "mt 9/13/2013 13:16:57.057",
+		"wantsDroppedMorph:event:" : "mt 7/2/2013 12:59:24.762" } }

@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"isWidgetClass" : "mt 1/10/2012 11:57:08.351" },
+	"instance" : {
+		"handleMouseMove:" : "mt 1/10/2012 13:47:46.124",
+		"initialize" : "mt 9/18/2013 20:39:42.058",
+		"initializeEventHandler" : "mt 3/23/2012 10:49:47.535",
+		"isMouseInResizeRect:" : "mt 1/10/2012 13:58:11.49",
+		"orientation" : "mt 1/10/2012 11:57:35.734",
+		"orientation:" : "mt 1/10/2012 12:11:34.673",
+		"resetMouseCursor:" : "mt 1/10/2012 14:10:06.792",
+		"resize:" : "mt 3/23/2012 10:48:35.216",
+		"resizeByEvent:" : "mt 3/23/2012 10:46:39.905",
+		"resizeToShrinkWrapByEvent:" : "mt 3/23/2012 10:46:47.668",
+		"resizeable" : "mt 1/10/2012 17:13:51.191",
+		"resizeable:" : "mt 1/10/2012 17:15:59.677",
+		"resized:" : "mt 1/10/2012 14:20:55.469",
+		"resizedToShrinkWrap" : "mt 1/10/2012 17:17:36.411",
+		"updateLayout" : "mt 3/23/2012 10:07:20.019",
+		"updateMouseCursor:" : "mt 1/10/2012 14:08:50.921",
+		"updateMouseDownPosition:" : "mt 1/10/2012 13:58:39.014" } }

@@ -1,0 +1,1 @@
+(name 'Widgets-mt.340'message 'ITEM VIEWS- setting the helpText to nil does not create a dragDropSpec anymore and hence does not enable dragging anymore by accident- minor refactorings'id '611c4806-960d-ef40-b142-2bbab9e9c52a'date '5 September 2012'time '11:51:56.314 am'author 'mt'ancestors ((id '9dff3332-5b94-db4d-8e6f-b43f84a1b042'))stepChildren ())

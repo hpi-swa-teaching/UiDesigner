@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"aboutToBeGrabbedBy:" : "mt 11/8/2013 10:24:45.018",
+		"defaultColor" : "mt 11/8/2013 09:41:13.738",
+		"iconFor:" : "mt 11/8/2013 11:13:49.403",
+		"initDraggedMorph" : "mt 11/8/2013 15:49:55.02",
+		"initDraggedMorphFor:" : "mt 11/8/2013 11:16:18.369",
+		"initialize" : "mt 11/8/2013 10:15:54.946",
+		"labelFor:" : "mt 11/8/2013 11:13:43.005",
+		"labelMorphFor:" : "mt 11/8/2013 10:37:19.103",
+		"shouldEvaluate" : "mt 11/8/2013 10:28:28.253",
+		"updateCopyIcon" : "mt 11/8/2013 10:38:35.773" } }

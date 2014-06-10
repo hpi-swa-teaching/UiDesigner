@@ -1,0 +1,1 @@
+A model index is a wrapping help data structure for the item viewport. It should not be used outside this viewport.

@@ -1,0 +1,14 @@
+{
+	"category" : "Widgets-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Icons" ],
+	"commentStamp" : "mt 8/21/2012 09:43:59.59",
+	"instvars" : [
+		 ],
+	"name" : "UiButtonIcons",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

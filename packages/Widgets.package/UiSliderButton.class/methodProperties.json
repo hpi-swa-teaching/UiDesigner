@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"isWidgetClass" : "mt 2/27/2011 16:17:13.969" },
+	"instance" : {
+		"initialize" : "mt 1/2/2012 17:29:40.021",
+		"orientation" : "mt 2/27/2011 15:41:01.067",
+		"orientation:" : "mt 2/27/2011 15:41:02.552",
+		"update" : "mt 2/27/2011 15:41:34.974",
+		"updateSubmorphs" : "mt 5/18/2011 14:15:25.46" } }

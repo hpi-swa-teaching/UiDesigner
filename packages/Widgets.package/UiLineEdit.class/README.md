@@ -1,0 +1,1 @@
+This is an input field that has one line only.

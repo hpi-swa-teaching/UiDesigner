@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"isWidgetClass" : "mt 2/27/2011 16:16:58.913" },
+	"instance" : {
+		"arrow:" : "mt 8/21/2012 14:53:29.889",
+		"direction" : "mt 3/28/2011 13:37:22.086",
+		"direction:" : "mt 5/18/2011 14:09:07.559",
+		"fadeIn" : "mt 4/5/2011 16:00:16.928",
+		"fadeOut" : "mt 4/5/2011 16:00:33.533",
+		"fadeOutInstantly" : "mt 5/18/2011 13:54:08.466",
+		"initialize" : "mt 1/2/2012 17:30:20.525",
+		"orientation" : "mt 1/2/2012 17:26:40.231",
+		"passFocusToOwner" : "mt 2/26/2011 21:07:13.055",
+		"updateSubmorphs" : "mt 5/18/2011 14:01:07.175" } }

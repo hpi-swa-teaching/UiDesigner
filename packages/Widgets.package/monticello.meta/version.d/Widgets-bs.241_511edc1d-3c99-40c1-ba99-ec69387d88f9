@@ -1,0 +1,1 @@
+(name 'Widgets-bs.241'message 'using asStringOrText instead of asString to keep original formattings when a text object is provided as input'id '511edc1d-3c99-40c1-ba99-ec69387d88f9'date '26 July 2011'time '2:15:17.077 pm'author 'bs'ancestors ((id '8a2dde43-72c8-6a47-97ba-cd55a2a97e23'))stepChildren ())

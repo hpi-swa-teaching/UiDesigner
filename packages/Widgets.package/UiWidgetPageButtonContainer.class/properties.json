@@ -1,0 +1,14 @@
+{
+	"category" : "Widgets-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 7/14/2010 11:15:56.239",
+	"instvars" : [
+		 ],
+	"name" : "UiWidgetPageButtonContainer",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

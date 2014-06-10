@@ -1,0 +1,4 @@
+signals
+sliderPressed
+
+	self emit.

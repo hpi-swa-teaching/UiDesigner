@@ -1,0 +1,16 @@
+{
+	"category" : "Widgets-Events",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 3/28/2011 10:20:21.148",
+	"instvars" : [
+		"properties",
+		"signalConnections",
+		"shortcuts" ],
+	"name" : "UiEventHandler",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

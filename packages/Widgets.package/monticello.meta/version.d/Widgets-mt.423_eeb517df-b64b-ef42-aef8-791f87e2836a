@@ -1,0 +1,1 @@
+(name 'Widgets-mt.423'message '- allow for loading Pharo platform in Squeak image for developing purposes (after loading Squeak platform the first time)- BUG: bindings do not support shadowed variables'id 'eeb517df-b64b-ef42-aef8-791f87e2836a'date '26 July 2013'time '3:29:57.825 pm'author 'mt'ancestors ((id 'b63a1c91-7aa9-0744-82a3-defc32d7bf4a'))stepChildren ())

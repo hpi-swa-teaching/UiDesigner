@@ -1,0 +1,1 @@
+(name 'Widgets-mt.117'message '- new text and line edit widgets used- minor changes for designer compatibility- event simulation somehow broken and therefore some tests fail (will be fixed soon)'id 'd4e0c10d-eac0-0441-b139-f7202f9d3ea7'date '23 March 2011'time '11:48:44.616 am'author 'mt'ancestors ((id '364d1413-d417-8b42-a4b7-ebea4620a220'))stepChildren ())

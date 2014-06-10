@@ -1,0 +1,1 @@
+Performance-optimized version of the default column specification.

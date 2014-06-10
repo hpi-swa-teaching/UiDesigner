@@ -1,0 +1,1 @@
+(name 'Widgets-mt.285'message '- refactoring, code clean-up- item views support #changed: signal now- menu creation in item views forwarded to view (from viewport)'id '349f20f5-3263-d94f-ba3e-45a1f3552d94'date '16 February 2012'time '5:12:47.144 pm'author 'mt'ancestors ((id '635bdb07-427a-b043-8d45-14a79541e64d'))stepChildren ())

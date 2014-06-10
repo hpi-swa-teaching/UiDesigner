@@ -1,0 +1,4 @@
+properties
+widgetPropertiesToIgnore
+
+	^ super widgetPropertiesToIgnore, #(modelClass horizontalHeaderVisible verticalHeaderVisible selectionBehavior)

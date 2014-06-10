@@ -1,0 +1,1 @@
+(name 'Widgets-mt.437'message '- FIX: trigger property change only if node had this property- FIX: allow copy with CMD+C in readOnly text fields'id 'e73a8566-afc0-0a42-b48a-b93a94ee3801'date '29 August 2013'time '3:23:30.107 pm'author 'mt'ancestors ((id 'b3fe24cb-c5dc-5248-9862-388f07426314'))stepChildren ())

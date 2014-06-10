@@ -1,0 +1,15 @@
+{
+	"category" : "Widgets-Views",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 6/23/2011 17:18:46.568",
+	"instvars" : [
+		"traversalMode",
+		"rootIndex" ],
+	"name" : "UiItemModelFinder",
+	"pools" : [
+		 ],
+	"super" : "UiIterator",
+	"type" : "normal" }

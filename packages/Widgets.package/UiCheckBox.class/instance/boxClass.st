@@ -1,0 +1,4 @@
+initialization
+boxClass
+
+	^ UiCheckButtonBox

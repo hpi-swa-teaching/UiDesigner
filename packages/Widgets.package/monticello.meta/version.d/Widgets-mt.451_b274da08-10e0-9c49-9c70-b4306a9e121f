@@ -1,0 +1,1 @@
+(name 'Widgets-mt.451'message '- FIX: printString a column in a view works again- FIX: do not update layout if resizeMode is not changed in views'id 'b274da08-10e0-9c49-9c70-b4306a9e121f'date '24 September 2013'time '8:05:18.528 am'author 'mt'ancestors ((id 'fcca1e27-ca05-a94c-b140-1770bb9c285c'))stepChildren ())

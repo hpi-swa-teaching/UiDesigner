@@ -1,0 +1,14 @@
+{
+	"category" : "Widgets-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 11/27/2010 14:01:27.968",
+	"instvars" : [
+		"ui" ],
+	"name" : "UiWindow",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

@@ -1,0 +1,24 @@
+{
+	"category" : "Widgets-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"autoAccept",
+		"autoConvert",
+		"readOnly",
+		"editView",
+		"acceptOnCR",
+		"revertOnEscape",
+		"acceptOnFocusLost",
+		"converter",
+		"styler",
+		"selection",
+		"cursor" ],
+	"name" : "UiTextMorph",
+	"pools" : [
+		 ],
+	"super" : "TextMorph",
+	"type" : "normal" }

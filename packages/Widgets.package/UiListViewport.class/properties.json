@@ -1,0 +1,17 @@
+{
+	"category" : "Widgets-Views-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 11/2/2010 12:46:22.16",
+	"instvars" : [
+		"orientation",
+		"maxItemExtent",
+		"vRowCount",
+		"vColumnCount" ],
+	"name" : "UiListViewport",
+	"pools" : [
+		 ],
+	"super" : "UiItemViewport",
+	"type" : "normal" }

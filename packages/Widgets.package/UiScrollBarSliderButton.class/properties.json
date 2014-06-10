@@ -1,0 +1,14 @@
+{
+	"category" : "Widgets-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 2/26/2011 17:45:21.609",
+	"instvars" : [
+		 ],
+	"name" : "UiScrollBarSliderButton",
+	"pools" : [
+		 ],
+	"super" : "UiSliderButton",
+	"type" : "normal" }

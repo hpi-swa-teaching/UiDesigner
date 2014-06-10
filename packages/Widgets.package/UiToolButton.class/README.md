@@ -1,0 +1,1 @@
+Supports #autoRaise and aligns icon and text according to different #buttonStyle.

@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"bottomMostVisibleCellIndex:" : "mt 6/26/2012 16:46:47.224",
+		"decorationClicked:" : "mt 10/14/2010 13:13:30.709",
+		"drawOn:" : "mt 8/25/2013 19:48:49.916",
+		"drawOverlayOn:" : "mt 8/25/2013 19:49:02.869",
+		"drawTreeStructureOn:" : "mt 11/18/2013 08:49:36.476",
+		"indent" : "mt 8/27/2012 15:44:38.307",
+		"initialize" : "mt 10/18/2010 19:09:04.846",
+		"initializeEventHandler" : "mt 1/18/2012 11:30:35.395",
+		"mouseClickDecoration:" : "mt 3/18/2011 11:25:54.178",
+		"rootIsDecorated" : "mt 6/26/2012 17:21:42.471",
+		"rootIsDecorated:" : "mt 7/3/2013 10:09:28",
+		"rowBoundsAt:" : "mt 8/30/2012 10:16:33.394",
+		"topMostVisibleCellIndex:" : "mt 6/26/2012 16:47:03.261",
+		"visibleRowsIndices:" : "mt 6/26/2012 16:49:43.663" } }

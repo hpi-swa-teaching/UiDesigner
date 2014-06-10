@@ -1,0 +1,1 @@
+(name 'Widgets-mt.394'message '- FIX: root decoration change for empty view (no columns)- FIX: accidentally dropping things in button groups outside edit mode (Morphic Designer)'id 'c55f9428-5351-ad48-9e49-7ffdd51c0247'date '3 July 2013'time '6:19:24.54 pm'author 'mt'ancestors ((id 'd852574e-4ce2-6e4b-a83c-d9f4a50ef315'))stepChildren ())

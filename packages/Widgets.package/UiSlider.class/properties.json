@@ -1,0 +1,17 @@
+{
+	"category" : "Widgets-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 2/27/2011 16:32:16.852",
+	"instvars" : [
+		"pagingMorph",
+		"sliderButton",
+		"mouseDownSliderPosition",
+		"mouseDownEventPosition" ],
+	"name" : "UiSlider",
+	"pools" : [
+		 ],
+	"super" : "UiAbstractSlider",
+	"type" : "normal" }

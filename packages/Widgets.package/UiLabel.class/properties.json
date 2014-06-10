@@ -1,0 +1,15 @@
+{
+	"category" : "Widgets-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"form",
+		"text" ],
+	"name" : "UiLabel",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

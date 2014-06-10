@@ -1,0 +1,14 @@
+{
+	"category" : "Widgets-Views-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "UiViewExtendedSelection",
+	"pools" : [
+		 ],
+	"super" : "UiViewMultiSelection",
+	"type" : "normal" }

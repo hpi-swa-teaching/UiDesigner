@@ -1,0 +1,15 @@
+{
+	"category" : "Widgets-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"doItReceiver",
+		"doItContext" ],
+	"name" : "UiTextModel",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

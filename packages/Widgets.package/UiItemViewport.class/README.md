@@ -1,0 +1,5 @@
+An item viewport represents the whole area where a model's items are layouted. Usually, items (just morphs) are created by using an item delegate that reads a model index and therefore model data. A viewport handles item selection.
+
+There is a difference between a model index and a cell index. Cell indices are numbered in visual order (e.g., according to the current sorting) and may change as the sorting order changes, whereas model indices always address some data in the model and are not changed by the viewport (or view) only by the model itself. Additionally, cell indices to not have a hierarchy, i.e. a parent cell index, and are always two-dimensional.
+
+All item morphs get additional properties, e.g., #modelIndex, #hasChildren, #isExpanded, to track different state or information changed or needed by event handling or drawing routines in the viewport.

@@ -1,0 +1,14 @@
+{
+	"category" : "Widgets-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "UiCheckButtonBox",
+	"pools" : [
+		 ],
+	"super" : "UiToolButton",
+	"type" : "normal" }

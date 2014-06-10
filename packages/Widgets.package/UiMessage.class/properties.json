@@ -1,0 +1,16 @@
+{
+	"category" : "Widgets-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 3/28/2011 12:25:57.85",
+	"instvars" : [
+		"killTime",
+		"textColor",
+		"closeButton" ],
+	"name" : "UiMessage",
+	"pools" : [
+		 ],
+	"super" : "TextMorph",
+	"type" : "normal" }

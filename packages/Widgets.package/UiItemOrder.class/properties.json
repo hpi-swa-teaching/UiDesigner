@@ -1,0 +1,15 @@
+{
+	"category" : "Widgets-Views-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 10/16/2010 14:45:30.134",
+	"instvars" : [
+		"map",
+		"sortBlock" ],
+	"name" : "UiItemOrder",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

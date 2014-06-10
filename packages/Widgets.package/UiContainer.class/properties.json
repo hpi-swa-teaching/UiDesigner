@@ -1,0 +1,15 @@
+{
+	"category" : "Widgets-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 7/13/2010 09:34:37.877",
+	"instvars" : [
+		"editMode",
+		"focusRectangle" ],
+	"name" : "UiContainer",
+	"pools" : [
+		 ],
+	"super" : "BorderedMorph",
+	"type" : "normal" }

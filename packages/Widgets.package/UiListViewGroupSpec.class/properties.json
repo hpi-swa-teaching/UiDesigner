@@ -1,0 +1,14 @@
+{
+	"category" : "Widgets-Views",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "UiListViewGroupSpec",
+	"pools" : [
+		 ],
+	"super" : "UiItemViewGroupSpec",
+	"type" : "normal" }

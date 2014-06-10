@@ -1,0 +1,1 @@
+(name 'Widgets-mt.282'message 'item model finder- collection api "detect" more like the original (no default ifNone -> nil)- bugfix in breadth-first-search (collection api)'id '136dafd3-5cc6-5b43-a9f2-48c05b81a68e'date '9 February 2012'time '9:48:50.698 pm'author 'mt'ancestors ((id '78867819-7a3f-e74f-8aef-b74a18712cdc'))stepChildren ())

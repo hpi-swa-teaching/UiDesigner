@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"handlerForMouseDown:" : "mt 7/16/2010 12:53:09.338",
+		"handlerForYellowButtonDown:" : "mt 7/16/2010 12:53:21.162",
+		"initialize" : "mt 7/16/2010 12:57:41.845",
+		"mouseDownPriority" : "mt 7/14/2010 11:20:22.466" } }

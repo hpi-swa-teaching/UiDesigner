@@ -1,0 +1,14 @@
+{
+	"category" : "Widgets-Views",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 8/16/2012 09:26:04.678",
+	"instvars" : [
+		"labelColor" ],
+	"name" : "UiItemViewSimpleColumnSpec",
+	"pools" : [
+		 ],
+	"super" : "UiItemViewColumnSpec",
+	"type" : "normal" }

@@ -1,0 +1,20 @@
+{
+	"category" : "Widgets-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 4/8/2011 10:27:09.13",
+	"instvars" : [
+		"model",
+		"originalText",
+		"scrollingMode",
+		"scrollingLimit",
+		"colors",
+		"displayMode",
+		"anchoredSelection" ],
+	"name" : "UiTextEdit",
+	"pools" : [
+		 ],
+	"super" : "UiScrollArea",
+	"type" : "normal" }

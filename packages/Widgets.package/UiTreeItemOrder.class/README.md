@@ -1,0 +1,1 @@
+An item order that considers the model index hierarchy (i.e., parent indices) while sorting.

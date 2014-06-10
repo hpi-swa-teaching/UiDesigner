@@ -1,0 +1,18 @@
+{
+	"category" : "Widgets-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 2/27/2011 16:31:15.05",
+	"instvars" : [
+		"decreaseValueButton1",
+		"decreaseValueButton2",
+		"increaseValueButton",
+		"outerBorderWidth",
+		"buttonMode" ],
+	"name" : "UiScrollBar",
+	"pools" : [
+		 ],
+	"super" : "UiSlider",
+	"type" : "normal" }

@@ -1,0 +1,1 @@
+I am a, normally invisible, container or owner morph for various UI elements. If I am in #editMode, I support drag&drop operations.

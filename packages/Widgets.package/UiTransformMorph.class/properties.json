@@ -1,0 +1,20 @@
+{
+	"category" : "Widgets-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 4/25/2011 08:34:54.693",
+	"instvars" : [
+		"drawCache",
+		"usesDrawCache",
+		"drawCacheActivationFlag",
+		"drawCacheFlag",
+		"drawCacheUpdateFlag",
+		"drawCacheActive",
+		"moveFlag" ],
+	"name" : "UiTransformMorph",
+	"pools" : [
+		 ],
+	"super" : "TransformMorph",
+	"type" : "normal" }

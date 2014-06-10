@@ -1,0 +1,4 @@
+geometry
+optimalSize
+
+	self subclassResponsibility.	

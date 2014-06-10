@@ -1,0 +1,1 @@
+Special push button to be used in scrollbar.

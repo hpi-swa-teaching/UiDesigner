@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"widgetClassIcon" : "mt 8/21/2012 10:15:52.306",
+		"widgetClassName" : "mt 10/26/2010 19:43:44.923",
+		"widgetProperties" : "mt 10/26/2010 20:07:37.101",
+		"widgetPropertiesToIgnore" : "mt 10/27/2010 09:42:04.578" },
+	"instance" : {
+		"drawOn:" : "mt 10/28/2010 10:58:19.197",
+		"initialize" : "mt 4/13/2011 12:48:43.871",
+		"orientation" : "mt 10/26/2010 19:57:59.594",
+		"orientation:" : "mt 10/26/2010 19:57:51.389",
+		"outerBounds" : "mt 10/26/2010 20:04:04.927",
+		"updateLayout" : "mt 4/13/2011 12:48:05.116",
+		"wantsDroppedMorph:event:" : "mt 10/26/2010 19:37:26.982" } }

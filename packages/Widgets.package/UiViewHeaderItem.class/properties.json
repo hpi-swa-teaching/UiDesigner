@@ -1,0 +1,16 @@
+{
+	"category" : "Widgets-Views-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"orientation",
+		"mouseDownPosition",
+		"resizeable" ],
+	"name" : "UiViewHeaderItem",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

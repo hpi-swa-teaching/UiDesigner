@@ -1,0 +1,1 @@
+(name 'Widgets-mt.454'message 'FIX: scrolling bug where offset was not 0@0 although the widget could have been visible on screen completely'id '9a15e706-38c3-904c-adc0-a4f549ab4a9f'date '6 November 2013'time '5:41:03.583 pm'author 'mt'ancestors ((id '2e73162f-bb1b-e940-adf2-55d34ba6a1e2'))stepChildren ())

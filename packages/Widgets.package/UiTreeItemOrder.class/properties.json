@@ -1,0 +1,14 @@
+{
+	"category" : "Widgets-Views-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 11/2/2010 13:09:33.58",
+	"instvars" : [
+		 ],
+	"name" : "UiTreeItemOrder",
+	"pools" : [
+		 ],
+	"super" : "UiItemOrder",
+	"type" : "normal" }

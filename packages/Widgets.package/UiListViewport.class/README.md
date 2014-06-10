@@ -1,0 +1,1 @@
+A specialized item viewport that has different layout strategies for its items as they are only a list. See the #orientation: commment for more information about possible layouting.

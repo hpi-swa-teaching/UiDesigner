@@ -1,0 +1,4 @@
+drawing
+drawNullTextOn: aCanvas
+
+	"Invisible."

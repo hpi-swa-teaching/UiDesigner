@@ -1,0 +1,1 @@
+(name 'Widgets-mt.464'message 'FIX: resize mode for columns in list views cannot be set -> use #listOrientation instead'id '2d48ca8d-f368-7249-9961-b2352f7fff58'date '7 January 2014'time '1:27:42.261 pm'author 'mt'ancestors ((id '5df2452a-454b-094c-8cc5-9ff257f7dedf'))stepChildren ())

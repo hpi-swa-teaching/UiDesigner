@@ -1,0 +1,1 @@
+This support structure allows for being independent from Icons package.

@@ -1,0 +1,14 @@
+{
+	"category" : "Widgets-Views-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 4/6/2011 10:14:52.597",
+	"instvars" : [
+		"viewport" ],
+	"name" : "UiViewSelection",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

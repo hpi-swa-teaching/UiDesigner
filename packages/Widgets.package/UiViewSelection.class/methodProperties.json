@@ -1,0 +1,25 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"add:" : "mt 8/8/2012 15:51:25.672",
+		"add:event:" : "mt 8/8/2012 15:51:34.375",
+		"cells" : "mt 10/11/2010 09:13:15.101",
+		"cells:" : "mt 2/2/2012 10:30:49.742",
+		"clear" : "mt 6/26/2012 14:27:00.825",
+		"currentBounds" : "mt 8/13/2012 10:12:58.473",
+		"currentCell" : "mt 10/16/2010 08:15:39.961",
+		"currentCell:" : "mt 10/16/2010 14:23:46.96",
+		"currentCellBounds" : "mt 8/13/2012 10:12:37.826",
+		"currentCellChangedFrom:to:" : "mt 7/13/2011 14:25:23.278",
+		"currentIndex" : "mt 4/6/2011 10:17:57.587",
+		"currentIndex:" : "mt 6/23/2011 13:27:41.965",
+		"isEmpty" : "mt 3/7/2013 09:55:19.565",
+		"remove:" : "mt 8/9/2012 10:03:45.564",
+		"remove:event:" : "mt 8/9/2012 10:03:36.028",
+		"selectedIndices" : "mt 8/2/2012 14:32:37.786",
+		"selectedIndices:" : "mt 2/2/2012 10:33:15.876",
+		"selectionBounds" : "mt 7/5/2013 11:16:42.306",
+		"selectionChangedFrom:to:" : "mt 7/13/2011 14:25:51.282",
+		"viewport" : "mt 4/6/2011 10:14:27.303",
+		"viewport:" : "mt 4/6/2011 10:14:38.203" } }

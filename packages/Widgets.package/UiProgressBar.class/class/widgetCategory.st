@@ -1,0 +1,4 @@
+accessing
+widgetCategory
+
+	^ 'Display Widgets'

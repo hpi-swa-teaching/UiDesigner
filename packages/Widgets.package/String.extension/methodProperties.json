@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"asHtmlText" : "mt 2/21/2013 14:35:29.699",
+		"escapeHtmlText" : "mt 5/2/2011 16:04:38.121",
+		"withFirstCharacterUppercase" : "mt 2/21/2013 11:50:16.724",
+		"withOnlyFirstCharacterUppercase" : "mt 2/21/2013 11:00:09.828",
+		"withoutLineEndings" : "mt 2/21/2013 14:35:14.248",
+		"withoutLineEndingsTruncatedTo:" : "mt 2/21/2013 14:35:05.164" } }

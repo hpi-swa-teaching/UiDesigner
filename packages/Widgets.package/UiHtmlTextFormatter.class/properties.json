@@ -1,0 +1,16 @@
+{
+	"category" : "Widgets-Text",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 7/18/2012 15:38",
+	"instvars" : [
+		"offset",
+		"runStack",
+		"runArray" ],
+	"name" : "UiHtmlTextFormatter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

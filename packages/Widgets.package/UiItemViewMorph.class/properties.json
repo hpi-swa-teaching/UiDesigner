@@ -1,0 +1,19 @@
+{
+	"category" : "Widgets-Views-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 6/29/2012 16:24:47.693",
+	"instvars" : [
+		"form",
+		"formPosition",
+		"label",
+		"labelColor",
+		"labelPosition",
+		"font" ],
+	"name" : "UiItemViewMorph",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

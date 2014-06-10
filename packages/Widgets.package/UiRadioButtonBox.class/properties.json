@@ -1,0 +1,14 @@
+{
+	"category" : "Widgets-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "UiRadioButtonBox",
+	"pools" : [
+		 ],
+	"super" : "UiButton",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"category" : "Widgets-Views-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"cells",
+		"currentCell",
+		"cellToUnselect" ],
+	"name" : "UiViewMultiSelection",
+	"pools" : [
+		 ],
+	"super" : "UiViewSelection",
+	"type" : "normal" }

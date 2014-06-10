@@ -1,0 +1,4 @@
+signals
+contextChanged
+
+	self emit.

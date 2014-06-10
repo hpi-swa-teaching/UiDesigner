@@ -1,0 +1,4 @@
+initialization
+clear
+
+	items removeAll.

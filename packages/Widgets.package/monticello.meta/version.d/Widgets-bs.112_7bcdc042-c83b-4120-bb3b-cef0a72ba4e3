@@ -1,0 +1,1 @@
+(name 'Widgets-bs.112'message 'added the signals turnedOff and turnedOn to UiCheckBox which releaves clients from dispatching, compared to connecting to a toggled signal'id '7bcdc042-c83b-4120-bb3b-cef0a72ba4e3'date '21 March 2011'time '11:47:50.487 am'author 'bs'ancestors ((id '8a723b7c-8f0a-4c43-84d0-60d31f91c270'))stepChildren ())

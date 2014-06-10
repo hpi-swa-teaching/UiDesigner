@@ -1,0 +1,14 @@
+{
+	"category" : "Widgets-Views",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 10/19/2010 10:51:34.42",
+	"instvars" : [
+		 ],
+	"name" : "UiTreeView",
+	"pools" : [
+		 ],
+	"super" : "UiAbstractItemView",
+	"type" : "normal" }

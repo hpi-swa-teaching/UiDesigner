@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"isWidgetClass" : "mt 3/5/2011 12:00:58.832",
+		"widgetClassIcon" : "mt 8/21/2012 10:15:35.606",
+		"widgetClassName" : "mt 3/5/2011 12:01:47.229",
+		"widgetPropertiesToIgnore" : "mt 3/5/2011 12:02:08.606" },
+	"instance" : {
+		"boxClass" : "mt 3/5/2011 11:58:48.539",
+		"fullDrawOn:" : "mt 3/5/2011 11:59:23.645",
+		"initialize" : "mt 3/5/2011 12:00:06.306" } }

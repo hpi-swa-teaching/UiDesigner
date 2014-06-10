@@ -1,0 +1,4 @@
+layouting
+beginChangeLayout
+
+	isLayoutBeingModified := true.

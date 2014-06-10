@@ -1,0 +1,1 @@
+This is a textmorph that shows a short message for a short time and then disappears.

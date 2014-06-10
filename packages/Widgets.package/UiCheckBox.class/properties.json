@@ -1,0 +1,14 @@
+{
+	"category" : "Widgets-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "UiCheckBox",
+	"pools" : [
+		 ],
+	"super" : "UiCompositeButton",
+	"type" : "normal" }

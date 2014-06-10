@@ -1,0 +1,4 @@
+signals
+resizedToShrinkWrap
+
+	self emit.

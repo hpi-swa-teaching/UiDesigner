@@ -1,0 +1,4 @@
+accessing
+currentIndex
+
+	^ listWidget currentRow

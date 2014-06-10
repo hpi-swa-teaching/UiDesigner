@@ -1,0 +1,14 @@
+{
+	"category" : "Widgets-Views-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 10/9/2010 11:38:35.657",
+	"instvars" : [
+		"height" ],
+	"name" : "UiViewRowInfo",
+	"pools" : [
+		 ],
+	"super" : "UiViewInfo",
+	"type" : "normal" }

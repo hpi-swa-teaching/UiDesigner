@@ -1,0 +1,4 @@
+*widgets-designer
+widgetClassName
+
+	^'Separator'

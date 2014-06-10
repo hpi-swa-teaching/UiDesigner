@@ -1,0 +1,14 @@
+{
+	"category" : "Widgets-Views-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 10/11/2010 14:09:45.699",
+	"instvars" : [
+		 ],
+	"name" : "UiViewNullSelection",
+	"pools" : [
+		 ],
+	"super" : "UiViewSelection",
+	"type" : "normal" }

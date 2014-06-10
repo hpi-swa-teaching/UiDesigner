@@ -1,0 +1,19 @@
+{
+	"category" : "Widgets-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"pages",
+		"currentIndex",
+		"buttonContainer",
+		"animated",
+		"animationDuration",
+		"animationDirection" ],
+	"name" : "UiStackedWidget",
+	"pools" : [
+		 ],
+	"super" : "UiContainer",
+	"type" : "normal" }

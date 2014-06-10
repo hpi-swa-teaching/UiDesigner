@@ -1,0 +1,1 @@
+A model index that stores dummy data to, e.g., compute the default item extent.

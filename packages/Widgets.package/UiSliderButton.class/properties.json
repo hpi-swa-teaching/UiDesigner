@@ -1,0 +1,14 @@
+{
+	"category" : "Widgets-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 2/27/2011 15:45:52.758",
+	"instvars" : [
+		"orientation" ],
+	"name" : "UiSliderButton",
+	"pools" : [
+		 ],
+	"super" : "UiPushButton",
+	"type" : "normal" }

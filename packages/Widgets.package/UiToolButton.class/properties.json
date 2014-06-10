@@ -1,0 +1,16 @@
+{
+	"category" : "Widgets-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 3/5/2011 11:22:33.102",
+	"instvars" : [
+		"raised",
+		"autoRaise",
+		"buttonStyle" ],
+	"name" : "UiToolButton",
+	"pools" : [
+		 ],
+	"super" : "UiButton",
+	"type" : "normal" }

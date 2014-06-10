@@ -1,0 +1,4 @@
+*widgets
+isUiContainer
+
+	^ false

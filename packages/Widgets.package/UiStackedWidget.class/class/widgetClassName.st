@@ -1,0 +1,4 @@
+accessing
+widgetClassName
+
+	^ 'Stacked Widget'

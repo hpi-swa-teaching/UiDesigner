@@ -1,0 +1,1 @@
+I have a vertical header by default and are used for table-like models.

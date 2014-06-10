@@ -1,0 +1,1 @@
+(name 'Widgets-mt.217'message '- tree view connects to public signal #doubleClicked: instead of private to allow external disconnect if double-click needs to be re-used'id '75b8ccba-e4f1-a841-99b0-ff1f917e8f28'date '10 June 2011'time '1:12:16.404 pm'author 'mt'ancestors ((id 'bfa2f5de-cac9-c347-b317-e77a3fb89f3d'))stepChildren ())

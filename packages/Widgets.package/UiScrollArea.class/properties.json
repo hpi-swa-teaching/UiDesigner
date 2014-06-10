@@ -1,0 +1,23 @@
+{
+	"category" : "Widgets-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 3/7/2011 14:29:02.055",
+	"instvars" : [
+		"horizontalScrollBar",
+		"horizontalScrollBarPolicy",
+		"verticalScrollBar",
+		"verticalScrollBarPolicy",
+		"cornerWidget",
+		"transformMorph",
+		"outerBorderWidth",
+		"widgetResizable",
+		"areaResizable",
+		"scrollBarThickness" ],
+	"name" : "UiScrollArea",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

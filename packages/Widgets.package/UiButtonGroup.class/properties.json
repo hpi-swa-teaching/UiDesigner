@@ -1,0 +1,14 @@
+{
+	"category" : "Widgets-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 7/13/2010 09:32:47.81",
+	"instvars" : [
+		 ],
+	"name" : "UiButtonGroup",
+	"pools" : [
+		 ],
+	"super" : "UiContainer",
+	"type" : "normal" }

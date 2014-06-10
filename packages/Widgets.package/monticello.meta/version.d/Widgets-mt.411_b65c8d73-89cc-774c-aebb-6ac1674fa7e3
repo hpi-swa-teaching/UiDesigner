@@ -1,0 +1,1 @@
+(name 'Widgets-mt.411'message 'FIX: empty list views with orientatin #default do not burn CPU anymore (endless layout-and-redraw loop)'id 'b65c8d73-89cc-774c-aebb-6ac1674fa7e3'date '13 July 2013'time '12:54:48.684 pm'author 'mt'ancestors ((id '6f796e99-f5af-764a-ae98-c23b1d32a766'))stepChildren ())

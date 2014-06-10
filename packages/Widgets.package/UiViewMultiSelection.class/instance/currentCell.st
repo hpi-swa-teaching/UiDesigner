@@ -1,0 +1,4 @@
+accessing
+currentCell
+
+	^ currentCell

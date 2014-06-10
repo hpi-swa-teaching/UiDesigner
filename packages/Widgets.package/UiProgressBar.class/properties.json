@@ -1,0 +1,20 @@
+{
+	"category" : "Widgets-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"text",
+		"minimum",
+		"maximum",
+		"currentValue",
+		"textColor",
+		"backgroundColor",
+		"backgroundTextColor" ],
+	"name" : "UiProgressBar",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

@@ -1,0 +1,20 @@
+{
+	"category" : "Widgets-Views",
+	"classinstvars" : [
+		"signalConnections" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 1/17/2012 13:40:22.701",
+	"instvars" : [
+		"model",
+		"columnSpecs",
+		"verticalHeader",
+		"horizontalHeader",
+		"vHeaderScroller",
+		"hHeaderScroller",
+		"animated" ],
+	"name" : "UiAbstractItemView",
+	"pools" : [
+		 ],
+	"super" : "UiScrollArea",
+	"type" : "normal" }

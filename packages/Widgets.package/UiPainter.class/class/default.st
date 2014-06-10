@@ -1,0 +1,4 @@
+default painter
+default
+
+	^ UiGlossyPainter

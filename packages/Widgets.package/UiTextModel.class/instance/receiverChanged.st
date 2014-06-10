@@ -1,0 +1,4 @@
+signals
+receiverChanged
+
+	self emit.

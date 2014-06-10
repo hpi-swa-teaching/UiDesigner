@@ -1,0 +1,15 @@
+{
+	"category" : "Widgets-Views-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 11/2/2010 12:47:08.195",
+	"instvars" : [
+		"indent",
+		"rootIsDecorated" ],
+	"name" : "UiTreeViewport",
+	"pools" : [
+		 ],
+	"super" : "UiItemViewport",
+	"type" : "normal" }

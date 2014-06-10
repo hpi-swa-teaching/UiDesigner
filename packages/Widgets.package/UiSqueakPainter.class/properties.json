@@ -1,0 +1,14 @@
+{
+	"category" : "Widgets-Painter",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 8/20/2012 18:16:33.659",
+	"instvars" : [
+		 ],
+	"name" : "UiSqueakPainter",
+	"pools" : [
+		 ],
+	"super" : "UiPainter",
+	"type" : "normal" }

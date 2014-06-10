@@ -1,0 +1,15 @@
+{
+	"category" : "Widgets-Views-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 10/9/2010 11:38:45.048",
+	"instvars" : [
+		"vAlignment",
+		"hAlignment" ],
+	"name" : "UiViewColumnInfo",
+	"pools" : [
+		 ],
+	"super" : "UiViewInfo",
+	"type" : "normal" }

@@ -1,0 +1,1 @@
+(name 'Widgets-mt.444'message 'FIX: simple column spec in item views uses empty string if #headerText is nil now (was: ''nil asString'')'id '5a5feea1-45c3-a140-a730-28665e4a3751'date '17 September 2013'time '11:06:29.368 am'author 'mt'ancestors ((id '0a76a7ee-5146-8c4f-aa7e-75067a1a9e47'))stepChildren ())

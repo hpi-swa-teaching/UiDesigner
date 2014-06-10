@@ -1,0 +1,21 @@
+{
+	"category" : "Widgets-Views",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TUiItemModel classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 1/25/2013 13:33:01.248",
+	"instvars" : [
+		"groups",
+		"properties",
+		"children",
+		"deferAdd",
+		"deferThreshold",
+		"deferredAdditions" ],
+	"name" : "UiPropertyItemNode",
+	"pools" : [
+		 ],
+	"super" : "Dictionary",
+	"traitcomposition" : "TUiItemModel",
+	"type" : "normal" }

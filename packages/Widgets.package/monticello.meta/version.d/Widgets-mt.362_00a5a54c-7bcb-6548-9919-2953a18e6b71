@@ -1,0 +1,1 @@
+(name 'Widgets-mt.362'message 'LIST WIDGET- no custom model class -> just uses UiPropertyItemNodeHINT: remove calls to #modelClass: for list widgets in your saved UI design files'id '00a5a54c-7bcb-6548-9919-2953a18e6b71'date '27 January 2013'time '7:48:04.311 pm'author 'mt'ancestors ((id 'cde9a8a7-7582-5441-9c2e-72b2c392ac15'))stepChildren ())

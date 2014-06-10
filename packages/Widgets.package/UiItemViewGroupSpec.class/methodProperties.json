@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"doLayoutFor:" : "mt 11/16/2012 15:47:59.671",
+		"hideIfEmpty" : "mt 12/12/2012 11:39:49.235",
+		"hideIfEmpty:" : "mt 12/12/2012 11:40:05.424",
+		"hideIfFirst" : "mt 6/28/2012 17:16:58.572",
+		"hideIfFirst:" : "mt 6/28/2012 17:16:23.937",
+		"itemFor:groupIndex:isTopLevel:" : "mt 9/18/2013 15:09:18.63",
+		"lineColor" : "mt 11/16/2012 15:48:36.123",
+		"lineOffset" : "mt 11/16/2012 15:46:40.281" } }

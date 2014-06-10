@@ -1,0 +1,23 @@
+{
+	"category" : "Widgets-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 2/11/2011 15:21:00.539",
+	"instvars" : [
+		"currentValue",
+		"minimum",
+		"maximum",
+		"orientation",
+		"pageStep",
+		"singleStep",
+		"sliderDown",
+		"sliderPosition",
+		"tracking",
+		"truncate" ],
+	"name" : "UiAbstractSlider",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

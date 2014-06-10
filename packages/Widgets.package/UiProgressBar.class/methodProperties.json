@@ -1,0 +1,27 @@
+{
+	"class" : {
+		"isWidgetClass" : "mt 8/1/2013 19:01:19.487",
+		"widgetCategory" : "mt 8/1/2013 18:57:03.923",
+		"widgetClassIcon" : "mt 2/12/2014 16:46:17.905",
+		"widgetClassName" : "mt 8/1/2013 18:57:55.65",
+		"widgetProperties" : "mt 8/2/2013 13:28:19.633" },
+	"instance" : {
+		"backgroundColor" : "mt 8/2/2013 13:22:42.213",
+		"backgroundColor:" : "mt 8/2/2013 13:24:11.644",
+		"backgroundTextColor" : "mt 8/2/2013 13:23:17.472",
+		"backgroundTextColor:" : "mt 8/2/2013 13:23:44.121",
+		"currentValue" : "mt 8/1/2013 18:55:33.05",
+		"currentValue:" : "mt 8/14/2013 13:06:19.415",
+		"drawOn:" : "mt 8/1/2013 19:36:48.131",
+		"fraction" : "mt 8/14/2013 12:53:06.541",
+		"initialize" : "mt 8/2/2013 13:22:34.712",
+		"isIndeterminate" : "mt 8/14/2013 12:55:31.908",
+		"maximum" : "mt 8/1/2013 18:53:27.793",
+		"maximum:" : "mt 8/1/2013 18:53:20.388",
+		"minimum" : "mt 8/1/2013 18:52:48.171",
+		"minimum:" : "mt 8/1/2013 18:52:41.356",
+		"outerBounds" : "mt 8/1/2013 19:58:33.366",
+		"text" : "mt 8/1/2013 18:51:55.071",
+		"text:" : "mt 8/1/2013 19:47:01.32",
+		"textColor" : "mt 8/2/2013 13:23:09.391",
+		"textColor:" : "mt 8/2/2013 13:23:58.798" } }

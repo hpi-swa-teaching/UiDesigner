@@ -1,0 +1,1 @@
+(name 'Widgets-mt.193'message '- text edit field can be highlighted in general (use #displayMode: for that, and #updateFocusColor: if necessary)'id '49eb3fe2-4979-da43-a156-382d6f6eaa34'date '10 May 2011'time '6:35:44.165 pm'author 'mt'ancestors ((id '5d3aa130-c314-554f-9305-cacd8332e2be'))stepChildren ())

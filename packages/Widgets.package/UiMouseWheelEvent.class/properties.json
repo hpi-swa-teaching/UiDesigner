@@ -1,0 +1,14 @@
+{
+	"category" : "Widgets-Events",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 3/11/2011 16:34:25.021",
+	"instvars" : [
+		"direction" ],
+	"name" : "UiMouseWheelEvent",
+	"pools" : [
+		 ],
+	"super" : "MouseEvent",
+	"type" : "normal" }

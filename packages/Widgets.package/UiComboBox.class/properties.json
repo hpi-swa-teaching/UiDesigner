@@ -1,0 +1,19 @@
+{
+	"category" : "Widgets-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 1/6/2012 09:53:49.843",
+	"instvars" : [
+		"button",
+		"readOnlyButton",
+		"arrowButton",
+		"lineEdit",
+		"listWidget",
+		"converter" ],
+	"name" : "UiComboBox",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

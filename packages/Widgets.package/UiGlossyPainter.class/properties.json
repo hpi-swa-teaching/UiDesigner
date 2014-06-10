@@ -1,0 +1,17 @@
+{
+	"category" : "Widgets-Painter",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"orientation",
+		"fraction",
+		"highlight",
+		"bounds" ],
+	"name" : "UiGlossyPainter",
+	"pools" : [
+		 ],
+	"super" : "UiPainter",
+	"type" : "normal" }

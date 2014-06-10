@@ -1,0 +1,18 @@
+{
+	"category" : "Widgets-Views-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 11/2/2010 12:54:36.518",
+	"instvars" : [
+		"size",
+		"items",
+		"resizeMode",
+		"headerItem",
+		"visible" ],
+	"name" : "UiViewInfo",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

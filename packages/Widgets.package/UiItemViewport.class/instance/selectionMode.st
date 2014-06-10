@@ -1,0 +1,4 @@
+selection
+selectionMode
+
+	^ selectionMode

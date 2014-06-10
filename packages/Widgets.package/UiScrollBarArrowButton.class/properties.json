@@ -1,0 +1,15 @@
+{
+	"category" : "Widgets-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Arrows" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"fadeAnimation",
+		"direction" ],
+	"name" : "UiScrollBarArrowButton",
+	"pools" : [
+		 ],
+	"super" : "UiPushButton",
+	"type" : "normal" }

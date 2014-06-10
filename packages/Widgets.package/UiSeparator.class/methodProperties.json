@@ -1,0 +1,25 @@
+{
+	"class" : {
+		"isWidgetClass" : "sp 11/29/2013 14:17:55.216",
+		"widgetCategory" : "sp 11/22/2013 18:30:43.995",
+		"widgetClassIcon" : "mt 2/12/2014 16:46:03.865",
+		"widgetClassName" : "sp 11/29/2013 14:25:33.578",
+		"widgetProperties" : "sp 11/29/2013 15:09:11.4",
+		"widgetPropertiesToIgnore" : "sp 11/29/2013 15:08:04.402" },
+	"instance" : {
+		"backgroundColor" : "sp 11/29/2013 14:30:34.738",
+		"backgroundColor:" : "sp 11/29/2013 14:30:26.36",
+		"backgroundDashLength" : "sp 11/29/2013 14:11:23.452",
+		"backgroundDashLength:" : "sp 11/29/2013 14:13:10.836",
+		"breadth" : "sp 11/29/2013 15:09:53.358",
+		"breadth:" : "sp 11/29/2013 15:13:42.753",
+		"dashColor" : "sp 11/29/2013 14:31:04.605",
+		"dashColor:" : "sp 11/29/2013 14:31:41.521",
+		"dashLength" : "sp 11/29/2013 14:10:56.943",
+		"dashLength:" : "sp 11/29/2013 14:12:27.734",
+		"drawOn:" : "sp 11/29/2013 15:11:31.822",
+		"initialize" : "sp 11/29/2013 15:13:57.088",
+		"orientation" : "sp 11/29/2013 13:58:43.246",
+		"orientation:" : "sp 11/29/2013 14:04:39.664",
+		"startingOffset" : "sp 11/29/2013 14:11:36.468",
+		"startingOffset:" : "sp 11/29/2013 14:13:37.102" } }

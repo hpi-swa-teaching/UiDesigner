@@ -1,0 +1,4 @@
+accessing
+readOnly
+
+	^ lineEdit readOnly

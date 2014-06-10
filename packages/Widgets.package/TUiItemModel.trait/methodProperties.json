@@ -1,0 +1,23 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"childAt:inGroup:" : "mt 4/22/2012 15:48:17.262",
+		"childChanged:" : "mt 5/2/2012 10:37:00.346",
+		"childChanged:inGroup:" : "mt 4/22/2012 16:05:08.614",
+		"childCount" : "mt 4/26/2012 13:37:40.081",
+		"childCountInGroup:" : "mt 4/22/2012 15:50:03.599",
+		"childInserted:" : "mt 5/2/2012 10:37:10.347",
+		"childInserted:inGroup:" : "mt 4/22/2012 16:05:19.22",
+		"childRemoved:" : "mt 5/2/2012 10:37:32.383",
+		"childRemoved:inGroup:" : "mt 5/2/2012 10:37:38.338",
+		"childrenChangedFrom:to:inGroup:" : "mt 4/22/2012 16:04:57.207",
+		"childrenInsertedFrom:to:inGroup:" : "mt 4/22/2012 16:04:50.038",
+		"childrenRemovedFrom:to:inGroup:" : "mt 4/22/2012 16:04:38.76",
+		"groups" : "mt 4/22/2012 15:46:27.653",
+		"hasChildren" : "mt 7/31/2013 18:42:58.835",
+		"modelReset" : "mt 4/27/2012 11:01:43.402",
+		"properties" : "mt 2/12/2012 15:27:56.656",
+		"propertiesChanged" : "mt 2/3/2012 14:20:14.294",
+		"propertiesChanged:" : "mt 4/26/2012 13:42:30.714",
+		"propertyChanged:" : "mt 2/3/2012 14:21:00.332" } }

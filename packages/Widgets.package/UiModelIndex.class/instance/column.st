@@ -1,0 +1,4 @@
+accessing
+column
+
+	^ self x

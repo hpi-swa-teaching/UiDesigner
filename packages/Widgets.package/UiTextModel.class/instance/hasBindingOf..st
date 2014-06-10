@@ -1,0 +1,3 @@
+styling
+hasBindingOf: aString
+	^ false

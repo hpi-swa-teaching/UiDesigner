@@ -1,0 +1,1 @@
+A specialized item viewport that handles hierarchical items in the first column.

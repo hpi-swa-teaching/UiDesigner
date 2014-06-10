@@ -1,0 +1,16 @@
+{
+	"category" : "Widgets-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 1/10/2012 11:23:35.803",
+	"instvars" : [
+		"helpText",
+		"hideCursor",
+		"deferEditSignalTime" ],
+	"name" : "UiLineEdit",
+	"pools" : [
+		 ],
+	"super" : "UiTextEdit",
+	"type" : "normal" }

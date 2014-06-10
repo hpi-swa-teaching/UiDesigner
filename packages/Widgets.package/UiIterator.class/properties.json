@@ -1,0 +1,19 @@
+{
+	"category" : "Widgets-Views",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 8/8/2012 11:34:05.156",
+	"instvars" : [
+		"root",
+		"iteratorState",
+		"iteratorPosition",
+		"iteratorShadow",
+		"process",
+		"sortBlock" ],
+	"name" : "UiIterator",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

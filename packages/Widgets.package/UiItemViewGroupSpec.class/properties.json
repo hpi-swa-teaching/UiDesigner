@@ -1,0 +1,15 @@
+{
+	"category" : "Widgets-Views",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"hideIfFirst",
+		"hideIfEmpty" ],
+	"name" : "UiItemViewGroupSpec",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

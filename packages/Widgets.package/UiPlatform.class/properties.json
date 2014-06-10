@@ -1,0 +1,14 @@
+{
+	"category" : "Widgets-Platforms",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Current" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "UiPlatform",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

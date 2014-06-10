@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addItem:" : "mt 1/30/2014 13:17:30.295",
+		"bindings" : "mt 2/7/2014 14:57:11.921",
+		"contextChanged" : "mt 1/31/2013 14:31:29.128",
+		"doItContext" : "mt 11/1/2012 17:01:26.82",
+		"doItContext:" : "mt 1/31/2013 14:51:06.858",
+		"doItReceiver" : "mt 11/1/2012 17:01:35.033",
+		"doItReceiver:" : "mt 1/31/2013 14:51:05.337",
+		"hasBindingOf:" : "mt 2/12/2014 14:15:22.521",
+		"hasBindingThatBeginsWith:" : "mt 2/12/2014 14:15:54.722",
+		"receiverChanged" : "mt 1/31/2013 14:31:37.958",
+		"selectedClass" : "mt 11/1/2012 17:06:08.181" } }

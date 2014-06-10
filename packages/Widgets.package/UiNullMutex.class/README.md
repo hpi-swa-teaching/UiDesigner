@@ -1,0 +1,1 @@
+This is a null mutex that understands #critical: but does not secure anything.

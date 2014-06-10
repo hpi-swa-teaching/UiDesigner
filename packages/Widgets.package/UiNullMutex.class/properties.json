@@ -1,0 +1,14 @@
+{
+	"category" : "Widgets-Events",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 3/28/2011 10:14:51.28",
+	"instvars" : [
+		 ],
+	"name" : "UiNullMutex",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
