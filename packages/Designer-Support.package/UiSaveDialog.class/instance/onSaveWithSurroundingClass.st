@@ -1,6 +1,6 @@
 accessing
-onOkButton
+onSaveWithSurroundingClass
 		
 	uiDesigner ui packageNameEdit theText: self ui packageNameInput theText.
-	uiDesigner save: false.
+	uiDesigner save: true.
 	self owner delete.

@@ -7,13 +7,13 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"warningLabel",
-		"autoGenerationCheckbox",
+		"saveWithSurroundingClass",
 		"okButton",
 		"cancelButton",
-		"classNameInput",
-		"packageNameInput",
 		"classNameLabel",
-		"packageNameLabel" ],
+		"classNameInput",
+		"packageNameLabel",
+		"packageNameInput" ],
 	"name" : "UiSaveDialogUi",
 	"pools" : [
 		 ],

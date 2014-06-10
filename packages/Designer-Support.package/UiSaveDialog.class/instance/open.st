@@ -1,4 +1,4 @@
 accessing
 open  
 	
-	self openInWindowLabeled: 'Alles Save...'.
+	self openInWindowLabeled: 'Save'.

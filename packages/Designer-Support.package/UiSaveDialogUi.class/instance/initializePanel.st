@@ -5,8 +5,8 @@ initializePanel
 	| unnamedMorph1 |
 	
 	panel := UiContainer new.
-	panel extent: (500@300).
-	panel position: (0@0).
+	panel extent: (454@186).
+	panel position: (233@174).
 	panel hResizing: (#rigid).
 	panel vResizing: (#rigid).
 	panel minWidth: (2).
@@ -24,7 +24,7 @@ initializePanel
 	panel wrapDirection: (#none).
 	panel frameFractions: (0@0 corner: 1@1).
 	panel frameOffsets: (0@0 corner: 0@0).
-	panel balloonText: (nil).
+	panel balloonText: ('nil').
 	panel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	panel color: (Color lightGray).
 	panel borderWidth: (0).
@@ -34,7 +34,7 @@ initializePanel
 	warningLabel := UiLabel new.
 	warningLabel changeTableLayout.
 	warningLabel extent: (9@14).
-	warningLabel position: (143@206).
+	warningLabel position: (410@315).
 	warningLabel hResizing: (#shrinkWrap).
 	warningLabel vResizing: (#shrinkWrap).
 	warningLabel minWidth: (2).
@@ -52,50 +52,50 @@ initializePanel
 	warningLabel wrapDirection: (#none).
 	warningLabel frameFractions: (0@0 corner: 1@1).
 	warningLabel frameOffsets: (0@0 corner: 0@0).
-	warningLabel balloonText: (nil).
-	warningLabel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
+	warningLabel balloonText: ('nil').
+	warningLabel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	warningLabel text: ('').
 	warningLabel setProperty: #formByDesigner toValue: 'nil'.
 	warningLabel form: (nil).
 	warningLabel setProperty: #objectName toValue: 'warningLabel'.
 	panel addChild: warningLabel.
-	autoGenerationCheckbox := UiCheckBox new.
-	autoGenerationCheckbox changeTableLayout.
-	autoGenerationCheckbox extent: (223@20).
-	autoGenerationCheckbox position: (53@168).
-	autoGenerationCheckbox hResizing: (#shrinkWrap).
-	autoGenerationCheckbox vResizing: (#shrinkWrap).
-	autoGenerationCheckbox minWidth: (2).
-	autoGenerationCheckbox minHeight: (2).
-	autoGenerationCheckbox cellInset: (4).
-	autoGenerationCheckbox cellPositioning: (#center).
-	autoGenerationCheckbox cellSpacing: (#none).
-	autoGenerationCheckbox layoutInset: (2@0 corner: 2@0).
-	autoGenerationCheckbox listCentering: (#topLeft).
-	autoGenerationCheckbox listDirection: (#leftToRight).
-	autoGenerationCheckbox listSpacing: (#none).
-	autoGenerationCheckbox maxCellSize: (1073741823).
-	autoGenerationCheckbox minCellSize: (0).
-	autoGenerationCheckbox wrapCentering: (#topLeft).
-	autoGenerationCheckbox wrapDirection: (#none).
-	autoGenerationCheckbox frameFractions: (0@0 corner: 1@1).
-	autoGenerationCheckbox frameOffsets: (0@0 corner: 0@0).
-	autoGenerationCheckbox balloonText: (nil).
-	autoGenerationCheckbox balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
-	autoGenerationCheckbox enabled: (true).
-	autoGenerationCheckbox setProperty: #iconByDesigner toValue: 'nil'.
-	autoGenerationCheckbox icon: (nil).
-	autoGenerationCheckbox text: ('Auto-generate surrounding class').
-	autoGenerationCheckbox color: ((Color r: 0.85 g: 0.85 b: 0.85)).
-	autoGenerationCheckbox checkable: (true).
-	autoGenerationCheckbox checked: (false).
-	autoGenerationCheckbox autoExclusive: (false).
-	autoGenerationCheckbox setProperty: #objectName toValue: 'autoGenerationCheckbox'.
-	panel addChild: autoGenerationCheckbox.
+	saveWithSurroundingClass := UiPushButton new.
+	saveWithSurroundingClass changeTableLayout.
+	saveWithSurroundingClass extent: (176@20).
+	saveWithSurroundingClass position: (410@315).
+	saveWithSurroundingClass hResizing: (#shrinkWrap).
+	saveWithSurroundingClass vResizing: (#shrinkWrap).
+	saveWithSurroundingClass minWidth: (2).
+	saveWithSurroundingClass minHeight: (2).
+	saveWithSurroundingClass cellInset: (4).
+	saveWithSurroundingClass cellPositioning: (#center).
+	saveWithSurroundingClass cellSpacing: (#none).
+	saveWithSurroundingClass layoutInset: (2@0 corner: 2@0).
+	saveWithSurroundingClass listCentering: (#topLeft).
+	saveWithSurroundingClass listDirection: (#leftToRight).
+	saveWithSurroundingClass listSpacing: (#none).
+	saveWithSurroundingClass maxCellSize: (1073741823).
+	saveWithSurroundingClass minCellSize: (0).
+	saveWithSurroundingClass wrapCentering: (#topLeft).
+	saveWithSurroundingClass wrapDirection: (#none).
+	saveWithSurroundingClass frameFractions: (0@0 corner: 1@1).
+	saveWithSurroundingClass frameOffsets: (0@0 corner: 0@0).
+	saveWithSurroundingClass balloonText: (nil).
+	saveWithSurroundingClass balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
+	saveWithSurroundingClass enabled: (true).
+	saveWithSurroundingClass setProperty: #iconByDesigner toValue: 'nil'.
+	saveWithSurroundingClass icon: (nil).
+	saveWithSurroundingClass text: ('Save with surrounding class').
+	saveWithSurroundingClass color: ((Color r: 0.8 g: 0.8 b: 0.8)).
+	saveWithSurroundingClass checkable: (false).
+	saveWithSurroundingClass checked: (false).
+	saveWithSurroundingClass autoExclusive: (false).
+	saveWithSurroundingClass setProperty: #objectName toValue: 'saveWithSurroundingClass'.
+	panel addChild: saveWithSurroundingClass.
 	okButton := UiPushButton new.
 	okButton changeTableLayout.
-	okButton extent: (23@20).
-	okButton position: (329@234).
+	okButton extent: (36@20).
+	okButton position: (352@315).
 	okButton hResizing: (#shrinkWrap).
 	okButton vResizing: (#shrinkWrap).
 	okButton minWidth: (2).
@@ -113,12 +113,12 @@ initializePanel
 	okButton wrapDirection: (#none).
 	okButton frameFractions: (0@0 corner: 1@1).
 	okButton frameOffsets: (0@0 corner: 0@0).
-	okButton balloonText: (nil).
+	okButton balloonText: ('nil').
 	okButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	okButton enabled: (true).
 	okButton setProperty: #iconByDesigner toValue: 'nil'.
 	okButton icon: (nil).
-	okButton text: ('Ok').
+	okButton text: ('Save').
 	okButton color: ((Color r: 0.8 g: 0.8 b: 0.8)).
 	okButton checkable: (false).
 	okButton checked: (false).
@@ -128,7 +128,7 @@ initializePanel
 	cancelButton := UiPushButton new.
 	cancelButton changeTableLayout.
 	cancelButton extent: (47@20).
-	cancelButton position: (105@236).
+	cancelButton position: (284@316).
 	cancelButton hResizing: (#shrinkWrap).
 	cancelButton vResizing: (#shrinkWrap).
 	cancelButton minWidth: (2).
@@ -147,7 +147,7 @@ initializePanel
 	cancelButton frameFractions: (0@0 corner: 1@1).
 	cancelButton frameOffsets: (0@0 corner: 0@0).
 	cancelButton balloonText: (nil).
-	cancelButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
+	cancelButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	cancelButton enabled: (true).
 	cancelButton setProperty: #iconByDesigner toValue: 'nil'.
 	cancelButton icon: (nil).
@@ -158,86 +158,10 @@ initializePanel
 	cancelButton autoExclusive: (false).
 	cancelButton setProperty: #objectName toValue: 'cancelButton'.
 	panel addChild: cancelButton.
-	classNameInput := UiLineEdit new.
-	classNameInput extent: (160@20).
-	classNameInput position: (175@132).
-	classNameInput hResizing: (#spaceFill).
-	classNameInput vResizing: (#rigid).
-	classNameInput minWidth: (2).
-	classNameInput minHeight: (2).
-	classNameInput cellInset: (0).
-	classNameInput cellPositioning: (#center).
-	classNameInput cellSpacing: (#none).
-	classNameInput layoutInset: (0).
-	classNameInput listCentering: (#topLeft).
-	classNameInput listDirection: (#topToBottom).
-	classNameInput listSpacing: (#none).
-	classNameInput maxCellSize: (1073741823).
-	classNameInput minCellSize: (0).
-	classNameInput wrapCentering: (#topLeft).
-	classNameInput wrapDirection: (#none).
-	classNameInput frameFractions: (0@0 corner: 1@1).
-	classNameInput frameOffsets: (0@0 corner: 0@0).
-	classNameInput balloonText: (nil).
-	classNameInput balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
-	classNameInput widgetResizable: (false).
-	classNameInput horizontalScrollBarPolicy: (#alwaysOff).
-	classNameInput verticalScrollBarPolicy: (#alwaysOff).
-	classNameInput outerBorderWidth: (1).
-	classNameInput scrollBarThickness: (9).
-	classNameInput theText: ('').
-	classNameInput readOnly: (false).
-	classNameInput autoConvert: (false).
-	classNameInput autoAccept: (false).
-	classNameInput acceptOnFocusLost: (true).
-	classNameInput scrollingMode: (#none).
-	classNameInput scrollingLimit: (10).
-	classNameInput helpText: ('').
-	classNameInput hideCursor: (true).
-	classNameInput setProperty: #objectName toValue: 'classNameInput'.
-	panel addChild: classNameInput.
-	packageNameInput := UiLineEdit new.
-	packageNameInput extent: (160@20).
-	packageNameInput position: (176@71).
-	packageNameInput hResizing: (#spaceFill).
-	packageNameInput vResizing: (#rigid).
-	packageNameInput minWidth: (2).
-	packageNameInput minHeight: (2).
-	packageNameInput cellInset: (0).
-	packageNameInput cellPositioning: (#center).
-	packageNameInput cellSpacing: (#none).
-	packageNameInput layoutInset: (0).
-	packageNameInput listCentering: (#topLeft).
-	packageNameInput listDirection: (#topToBottom).
-	packageNameInput listSpacing: (#none).
-	packageNameInput maxCellSize: (1073741823).
-	packageNameInput minCellSize: (0).
-	packageNameInput wrapCentering: (#topLeft).
-	packageNameInput wrapDirection: (#none).
-	packageNameInput frameFractions: (0@0 corner: 1@1).
-	packageNameInput frameOffsets: (0@0 corner: 0@0).
-	packageNameInput balloonText: (nil).
-	packageNameInput balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
-	packageNameInput widgetResizable: (false).
-	packageNameInput horizontalScrollBarPolicy: (#alwaysOff).
-	packageNameInput verticalScrollBarPolicy: (#alwaysOff).
-	packageNameInput outerBorderWidth: (1).
-	packageNameInput scrollBarThickness: (9).
-	packageNameInput theText: ('').
-	packageNameInput readOnly: (false).
-	packageNameInput autoConvert: (false).
-	packageNameInput autoAccept: (false).
-	packageNameInput acceptOnFocusLost: (true).
-	packageNameInput scrollingMode: (#none).
-	packageNameInput scrollingLimit: (10).
-	packageNameInput helpText: ('').
-	packageNameInput hideCursor: (true).
-	packageNameInput setProperty: #objectName toValue: 'packageNameInput'.
-	panel addChild: packageNameInput.
 	classNameLabel := UiLabel new.
 	classNameLabel changeTableLayout.
 	classNameLabel extent: (75@18).
-	classNameLabel position: (53@134).
+	classNameLabel position: (284@271).
 	classNameLabel hResizing: (#shrinkWrap).
 	classNameLabel vResizing: (#shrinkWrap).
 	classNameLabel minWidth: (2).
@@ -256,16 +180,54 @@ initializePanel
 	classNameLabel frameFractions: (0@0 corner: 1@1).
 	classNameLabel frameOffsets: (0@0 corner: 0@0).
 	classNameLabel balloonText: (nil).
-	classNameLabel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.725)).
+	classNameLabel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	classNameLabel text: ('Class Name ').
 	classNameLabel setProperty: #formByDesigner toValue: 'nil'.
 	classNameLabel form: (nil).
 	classNameLabel setProperty: #objectName toValue: 'classNameLabel'.
 	panel addChild: classNameLabel.
+	classNameInput := UiLineEdit new.
+	classNameInput extent: (160@20).
+	classNameInput position: (416@265).
+	classNameInput hResizing: (#spaceFill).
+	classNameInput vResizing: (#rigid).
+	classNameInput minWidth: (2).
+	classNameInput minHeight: (2).
+	classNameInput cellInset: (0).
+	classNameInput cellPositioning: (#center).
+	classNameInput cellSpacing: (#none).
+	classNameInput layoutInset: (0).
+	classNameInput listCentering: (#topLeft).
+	classNameInput listDirection: (#topToBottom).
+	classNameInput listSpacing: (#none).
+	classNameInput maxCellSize: (1073741823).
+	classNameInput minCellSize: (0).
+	classNameInput wrapCentering: (#topLeft).
+	classNameInput wrapDirection: (#none).
+	classNameInput frameFractions: (0@0 corner: 1@1).
+	classNameInput frameOffsets: (0@0 corner: 0@0).
+	classNameInput balloonText: (nil).
+	classNameInput balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
+	classNameInput widgetResizable: (false).
+	classNameInput horizontalScrollBarPolicy: (#alwaysOff).
+	classNameInput verticalScrollBarPolicy: (#alwaysOff).
+	classNameInput outerBorderWidth: (1).
+	classNameInput scrollBarThickness: (9).
+	classNameInput theText: ('').
+	classNameInput readOnly: (false).
+	classNameInput autoConvert: (false).
+	classNameInput autoAccept: (false).
+	classNameInput acceptOnFocusLost: (true).
+	classNameInput scrollingMode: (#none).
+	classNameInput scrollingLimit: (10).
+	classNameInput helpText: ('').
+	classNameInput hideCursor: (true).
+	classNameInput setProperty: #objectName toValue: 'classNameInput'.
+	panel addChild: classNameInput.
 	packageNameLabel := UiLabel new.
 	packageNameLabel changeTableLayout.
 	packageNameLabel extent: (89@18).
-	packageNameLabel position: (47@74).
+	packageNameLabel position: (284@224).
 	packageNameLabel hResizing: (#shrinkWrap).
 	packageNameLabel vResizing: (#shrinkWrap).
 	packageNameLabel minWidth: (2).
@@ -284,16 +246,54 @@ initializePanel
 	packageNameLabel frameFractions: (0@0 corner: 1@1).
 	packageNameLabel frameOffsets: (0@0 corner: 0@0).
 	packageNameLabel balloonText: (nil).
-	packageNameLabel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
+	packageNameLabel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	packageNameLabel text: ('Package Name').
 	packageNameLabel setProperty: #formByDesigner toValue: 'nil'.
 	packageNameLabel form: (nil).
 	packageNameLabel setProperty: #objectName toValue: 'packageNameLabel'.
 	panel addChild: packageNameLabel.
+	packageNameInput := UiLineEdit new.
+	packageNameInput extent: (160@20).
+	packageNameInput position: (416@224).
+	packageNameInput hResizing: (#spaceFill).
+	packageNameInput vResizing: (#rigid).
+	packageNameInput minWidth: (2).
+	packageNameInput minHeight: (2).
+	packageNameInput cellInset: (0).
+	packageNameInput cellPositioning: (#center).
+	packageNameInput cellSpacing: (#none).
+	packageNameInput layoutInset: (0).
+	packageNameInput listCentering: (#topLeft).
+	packageNameInput listDirection: (#topToBottom).
+	packageNameInput listSpacing: (#none).
+	packageNameInput maxCellSize: (1073741823).
+	packageNameInput minCellSize: (0).
+	packageNameInput wrapCentering: (#topLeft).
+	packageNameInput wrapDirection: (#none).
+	packageNameInput frameFractions: (0@0 corner: 1@1).
+	packageNameInput frameOffsets: (0@0 corner: 0@0).
+	packageNameInput balloonText: (nil).
+	packageNameInput balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
+	packageNameInput widgetResizable: (false).
+	packageNameInput horizontalScrollBarPolicy: (#alwaysOff).
+	packageNameInput verticalScrollBarPolicy: (#alwaysOff).
+	packageNameInput outerBorderWidth: (1).
+	packageNameInput scrollBarThickness: (9).
+	packageNameInput theText: ('').
+	packageNameInput readOnly: (false).
+	packageNameInput autoConvert: (false).
+	packageNameInput autoAccept: (false).
+	packageNameInput acceptOnFocusLost: (true).
+	packageNameInput scrollingMode: (#none).
+	packageNameInput scrollingLimit: (10).
+	packageNameInput helpText: ('').
+	packageNameInput hideCursor: (true).
+	packageNameInput setProperty: #objectName toValue: 'packageNameInput'.
+	panel addChild: packageNameInput.
 	unnamedMorph1 := UiLabel new.
 	unnamedMorph1 changeTableLayout.
 	unnamedMorph1 extent: (291@18).
-	unnamedMorph1 position: (106@16).
+	unnamedMorph1 position: (317@187).
 	unnamedMorph1 hResizing: (#shrinkWrap).
 	unnamedMorph1 vResizing: (#shrinkWrap).
 	unnamedMorph1 minWidth: (2).
@@ -312,7 +312,7 @@ initializePanel
 	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	unnamedMorph1 text: ('Where do you want to save the genereated UI?').
 	unnamedMorph1 setProperty: #formByDesigner toValue: 'nil'.
 	unnamedMorph1 form: (nil).

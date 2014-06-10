@@ -2,12 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"autoGenerationCheckbox" : "FW 6/1/2014 21:24",
-		"cancelButton" : "FW 6/1/2014 21:24",
-		"classNameInput" : "FW 6/1/2014 21:24",
-		"classNameLabel" : "FW 6/1/2014 21:24",
-		"initializePanel" : "FW 6/1/2014 21:24",
-		"okButton" : "FW 6/1/2014 21:24",
-		"packageNameInput" : "FW 6/1/2014 21:24",
-		"packageNameLabel" : "FW 6/1/2014 21:24",
-		"warningLabel" : "FW 6/1/2014 21:24" } }
+		"cancelButton" : "tg 6/10/2014 11:58",
+		"classNameInput" : "tg 6/10/2014 11:58",
+		"classNameLabel" : "tg 6/10/2014 11:58",
+		"initializePanel" : "tg 6/10/2014 11:58",
+		"okButton" : "tg 6/10/2014 11:58",
+		"packageNameInput" : "tg 6/10/2014 11:58",
+		"packageNameLabel" : "tg 6/10/2014 11:58",
+		"saveWithSurroundingClass" : "tg 6/10/2014 11:58",
+		"warningLabel" : "tg 6/10/2014 11:58" } }
