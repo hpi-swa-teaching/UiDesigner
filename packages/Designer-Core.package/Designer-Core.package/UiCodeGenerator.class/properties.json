@@ -1,0 +1,17 @@
+{
+	"category" : "Designer-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 6/27/2010 09:57:56.499",
+	"instvars" : [
+		"source",
+		"category",
+		"defaultNameCount",
+		"instVars" ],
+	"name" : "UiCodeGenerator",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

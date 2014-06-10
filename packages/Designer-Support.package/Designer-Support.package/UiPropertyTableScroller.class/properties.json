@@ -1,0 +1,14 @@
+{
+	"category" : "Designer-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "UiPropertyTableScroller",
+	"pools" : [
+		 ],
+	"super" : "UiScrollArea",
+	"type" : "normal" }
