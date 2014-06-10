@@ -1,12 +1,13 @@
-as yet unclassified
-baseline: spec 
-	<baseline>
-	spec
-		for: #common
-		do: [
-			spec package: 'Designer'.
-				
-			spec
-				group: 'default' with: #('Designer-Core' 'Designer-Support');
-				group: 'Tests' with: #('Designer-Test');
-				group: 'TravisCI' with: #('Tests')]
+baseline
+baseline: spec
+    <baseline>
+    spec
+        for: #'common'
+        do: [ 
+            spec
+                package: 'Designer-Core';
+                package: 'Designer-Tests' with: [ spec requires: #('Designer-Core') ].
+            spec
+                group: 'default' with: #('Designer-Core');
+                group: 'Tests' with: #('Designer-Tests');
+                group: 'TravisCI' with: #('Tests') ]
