@@ -1,5 +1,0 @@
-accessing
-titleLbl
-	"nil"
-	
-	^ titleLbl
