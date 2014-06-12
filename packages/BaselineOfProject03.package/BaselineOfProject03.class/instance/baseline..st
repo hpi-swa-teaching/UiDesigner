@@ -7,8 +7,7 @@ baseline: spec
             spec
                 project: 'Widgets' with: [ spec
      						className: 'ConfigurationOfWidgets';
-						versionString: #stable;
-						loads: #('default');		
+						loads: #('full');		
        						repository: 'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/MetacelloRepository';
 						yourself ];
                 package: 'Designer-Core' with: [ spec requires: #('Widgets' 'Designer-Support') ];
