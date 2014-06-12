@@ -1,5 +1,0 @@
-accessing
-recentLbl
-	"nil"
-	
-	^ recentLbl
