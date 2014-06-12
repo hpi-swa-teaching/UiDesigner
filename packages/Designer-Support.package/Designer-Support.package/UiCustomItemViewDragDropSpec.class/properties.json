@@ -1,0 +1,14 @@
+{
+	"category" : "Designer-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "UiCustomItemViewDragDropSpec",
+	"pools" : [
+		 ],
+	"super" : "UiItemViewDragDropSpec",
+	"type" : "normal" }
