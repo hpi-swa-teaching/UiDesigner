@@ -16,6 +16,6 @@ baseline: spec
                 package: 'Designer-Templates' with: [ spec requires: #('Widgets') ];
                 package: 'Designer-Tests' with: [ spec requires: #('Designer-Core' 'Widgets') ].
             spec
-                group: 'default' with: #('Designer-Core' 'Designer-);
+                group: 'default' with: #('Designer-Core' 'Designer-Support' 'Designer-Templates');
                 group: 'Tests' with: #('Designer-Tests');
                 group: 'TravisCI' with: #('Tests') ]
