@@ -5,7 +5,11 @@
 		"initialize" : "FW 5/20/2014 21:42",
 		"testAttribute" : "FW 5/21/2014 10:19",
 		"testAttributesThatShouldNotBeListed" : "FW 5/21/2014 10:22",
+		"testBooleanAttributePropagation" : "FW 6/13/2014 20:49",
 		"testCategoryExistence" : "FW 6/4/2014 23:06",
 		"testChangePropagation" : "FW 5/20/2014 21:43",
+		"testIntegerAttributePropagation" : "FW 6/13/2014 20:35",
 		"testLayoutSettingsPresence" : "FW 6/4/2014 23:12",
-		"testListAttributePropagation" : "FW 6/10/2014 11:47" } }
+		"testListAttributePropagation" : "FW 6/10/2014 11:47",
+		"testPointAttributePropagation" : "FW 6/13/2014 20:48",
+		"testRectangleAttributePropagation" : "FW 6/13/2014 20:57" } }
