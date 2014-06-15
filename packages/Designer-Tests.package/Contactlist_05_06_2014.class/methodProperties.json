@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"clearContacs" : "tg 6/5/2014 10:59",
+		"initialize" : "tg 6/5/2014 10:37",
+		"open" : "tg 6/5/2014 10:14",
+		"saveContact" : "tg 6/5/2014 10:36",
+		"setTable" : "tg 6/5/2014 10:47",
+		"ui" : "tg 6/5/2014 10:14" } }
