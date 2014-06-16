@@ -1,6 +1,6 @@
 initialize
 initialize 
-	widget := WidgetHierarchyWindow new.
+	widget := UiWidgetHierarchyWindow new.
 	widget initializeTreeView.
 	child1 := UiPushButton new.
 	child2 := UiLabel new.
