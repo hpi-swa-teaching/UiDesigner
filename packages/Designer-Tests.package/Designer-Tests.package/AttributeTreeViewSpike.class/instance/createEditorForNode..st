@@ -1,0 +1,9 @@
+as yet unclassified
+createEditorForNode: node
+	| editor |
+	
+	editor := ((node at: #type) = Collection) ifTrue: [ (self attributeEditorTemplates at: Collection) value: node ]
+									  		 ifFalse: [ (self attributeEditorTemplates at: (node type)) value ].
+	editor theText: (node at: #propertyValue).
+	
+	^ editor

@@ -1,0 +1,21 @@
+{
+	"category" : "Designer-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"emailDialog",
+		"listWidget",
+		"removeButton",
+		"saveButton",
+		"numberDialog",
+		"cityDialog",
+		"lastNameDialog",
+		"firstNameDialog" ],
+	"name" : "UIContactDemoUi",
+	"pools" : [
+		 ],
+	"super" : "UserInterface",
+	"type" : "normal" }
