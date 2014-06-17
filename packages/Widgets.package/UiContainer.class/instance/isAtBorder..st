@@ -1,7 +1,7 @@
 as yet unclassified
 isAtBorder: evt
 	| threshold |
-	threshold:= 5.
+	threshold:= 10.
 	(self top + threshold >= evt position y or: 
 	 	self bottom - threshold <= evt position y or:  
 		self left + threshold >= evt position x or: 
