@@ -14,7 +14,7 @@
 		"firstNameInput",
 		"view",
 		"saveButton" ],
-	"name" : "Contactlist_05_06_2014Ui",
+	"name" : "ContactlistUi",
 	"pools" : [
 		 ],
 	"super" : "UserInterface",

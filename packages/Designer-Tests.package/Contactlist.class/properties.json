@@ -8,7 +8,7 @@
 	"instvars" : [
 		"ui",
 		"model" ],
-	"name" : "Contactlist_05_06_2014",
+	"name" : "Contactlist",
 	"pools" : [
 		 ],
 	"super" : "Morph",
