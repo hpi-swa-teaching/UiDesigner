@@ -7,7 +7,8 @@
 	"commentStamp" : "mt 7/13/2010 09:34:37.877",
 	"instvars" : [
 		"editMode",
-		"focusRectangle" ],
+		"focusRectangle",
+		"highlighted" ],
 	"name" : "UiContainer",
 	"pools" : [
 		 ],
