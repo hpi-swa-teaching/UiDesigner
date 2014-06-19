@@ -7,13 +7,7 @@ createUiPanelCodeWith: aGenerator
 	
 	stream nextPutAll: '"This code is auto-generated. DO NOT modify it because another generation step will overwrite all changes."
 	
-	| '.
-	
-	self unnamedInstVars
-		do: [:uinstvar | stream nextPutAll: (uinstvar at: #name)]
-		separatedBy: [stream nextPutAll: ' '].
-	stream nextPutAll: ' |
-	'.	
+	'.
 	
 	source setProperty: #objectNameTemp toValue: source objectName.
 	self injectUiCodeFor: source into: stream with: aGenerator.
