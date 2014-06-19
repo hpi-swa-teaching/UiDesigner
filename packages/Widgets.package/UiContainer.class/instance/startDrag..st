@@ -14,3 +14,6 @@ startDrag: evt
 	
 	evt redButtonPressed
 		ifTrue: [evt hand grabMorph: morphToDrag].
+		
+	(evt hand submorphs notEmpty and: self editMode) ifTrue: 
+		[self highlight]
