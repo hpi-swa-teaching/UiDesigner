@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"test01New" : "mt 3/5/2011 08:06:51.889",
+		"test02Checkable" : "mt 3/5/2011 08:08:59.399",
+		"test03Toggle" : "mt 3/5/2011 08:09:54.45",
+		"test04AutoExclusive" : "mt 3/5/2011 08:17:19.892",
+		"testK01ReturnPress" : "mt 3/5/2011 08:26:25.564",
+		"testM01Press" : "mt 3/5/2011 08:26:33.684",
+		"testM02Release" : "mt 3/5/2011 08:26:38.457",
+		"testM03Click" : "mt 3/5/2011 08:26:44.481",
+		"testM04InteractDisabled" : "mt 3/5/2011 08:26:50.571",
+		"testM05InteractEnabled" : "mt 3/5/2011 08:26:56.618",
+		"testM06Toggled" : "mt 3/23/2011 13:35:31.955" } }

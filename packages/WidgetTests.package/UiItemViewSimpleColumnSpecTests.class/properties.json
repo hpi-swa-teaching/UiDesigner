@@ -1,0 +1,14 @@
+{
+	"category" : "WidgetTests-Views",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "UiItemViewSimpleColumnSpecTests",
+	"pools" : [
+		 ],
+	"super" : "UiItemViewColumnSpecTests",
+	"type" : "normal" }

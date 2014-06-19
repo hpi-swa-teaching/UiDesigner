@@ -1,0 +1,14 @@
+{
+	"category" : "WidgetTests-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "UiSliderTests",
+	"pools" : [
+		 ],
+	"super" : "UiTestCase",
+	"type" : "normal" }

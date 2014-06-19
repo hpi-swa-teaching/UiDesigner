@@ -1,0 +1,14 @@
+{
+	"category" : "WidgetTests-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "UiProgressBarTests",
+	"pools" : [
+		 ],
+	"super" : "UiTestCase",
+	"type" : "normal" }

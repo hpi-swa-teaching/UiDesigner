@@ -1,0 +1,17 @@
+{
+	"category" : "WidgetTests-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 3/5/2011 08:24:25.856",
+	"instvars" : [
+		"sut",
+		"spy",
+		"hand",
+		"time" ],
+	"name" : "UiTestCase",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

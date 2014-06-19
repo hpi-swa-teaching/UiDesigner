@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"test01New" : "mt 3/23/2011 09:25:29.734",
+		"test02SetText" : "mt 3/22/2011 18:26:29.549",
+		"test03SetTextAsValue" : "mt 3/22/2011 18:28:08.611",
+		"test04SetTextWithConversion" : "mt 5/3/2011 13:00:56.886",
+		"test05OriginalText" : "mt 7/9/2013 09:47",
+		"test06SetTextWithReadOnly" : "mt 3/22/2011 18:40:53.63",
+		"test07LayoutingInContainer" : "mt 6/24/2011 09:41:21.989",
+		"testK01EditText" : "mt 3/23/2011 09:11:59.407",
+		"testK02EditTextWithAutoAccept" : "mt 3/23/2011 09:19:23.648",
+		"testK03EditTextWithFocusLost" : "mt 3/23/2011 10:38:42.384",
+		"testK04ChangeText" : "mt 3/23/2011 09:29:28.796",
+		"testK05ReadOnly" : "mt 3/23/2011 09:32:43.397",
+		"testK06AutoConvertValue" : "mt 5/3/2011 13:01:26.464",
+		"testK07AutoConvertText" : "mt 3/23/2011 09:42:22.152",
+		"testK08SelectionOnFocusChange" : "mt 4/4/2011 14:33:48.819",
+		"testM01GrabKeyboardWithClick" : "mt 3/22/2011 18:43:54.834" } }

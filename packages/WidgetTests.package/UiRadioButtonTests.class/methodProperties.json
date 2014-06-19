@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"test01New" : "mt 3/5/2011 12:06:35.252",
+		"test02Checkable" : "mt 3/5/2011 12:06:44.322",
+		"test03Toggle" : "mt 3/5/2011 12:06:54.738",
+		"test04AutoExclusive" : "mt 3/5/2011 12:09:38.611",
+		"testM03Click" : "mt 3/5/2011 12:07:12.076",
+		"testM06Toggled" : "mt 3/5/2011 12:10:18.527" } }

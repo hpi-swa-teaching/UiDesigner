@@ -1,0 +1,14 @@
+{
+	"category" : "WidgetTests-Views",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "UiItemModelFinderTests",
+	"pools" : [
+		 ],
+	"super" : "UiTestCase",
+	"type" : "normal" }

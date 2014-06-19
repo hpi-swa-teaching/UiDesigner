@@ -1,0 +1,14 @@
+{
+	"category" : "WidgetTests-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 3/5/2011 12:11:41.409",
+	"instvars" : [
+		 ],
+	"name" : "UiRadioButtonShiftedTests",
+	"pools" : [
+		 ],
+	"super" : "UiRadioButtonTests",
+	"type" : "normal" }

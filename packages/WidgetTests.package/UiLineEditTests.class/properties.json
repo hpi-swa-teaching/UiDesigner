@@ -1,0 +1,14 @@
+{
+	"category" : "WidgetTests-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "UiLineEditTests",
+	"pools" : [
+		 ],
+	"super" : "UiTextEditTests",
+	"type" : "normal" }

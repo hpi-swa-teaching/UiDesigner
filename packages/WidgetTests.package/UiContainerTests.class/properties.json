@@ -1,0 +1,15 @@
+{
+	"category" : "WidgetTests-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"container1",
+		"container2" ],
+	"name" : "UiContainerTests",
+	"pools" : [
+		 ],
+	"super" : "UiTestCase",
+	"type" : "normal" }

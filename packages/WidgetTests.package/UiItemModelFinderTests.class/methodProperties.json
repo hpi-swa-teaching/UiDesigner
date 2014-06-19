@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "mt 8/8/2012 11:18:58.923",
+		"test01" : "mt 2/9/2012 15:21:07.556",
+		"test02DepthFirstDo" : "mt 2/9/2012 15:21:46.585",
+		"test03BreadthFirstDo" : "mt 2/9/2012 15:22:20.22",
+		"test04Detect" : "mt 2/9/2012 15:33:44.866",
+		"test05DetectNil" : "mt 2/9/2012 15:33:40.008",
+		"test06IteratorNext" : "mt 7/9/2013 09:58:35.549",
+		"test07IteratorPrevious" : "mt 7/9/2013 09:58:44.382",
+		"test08New" : "mt 2/9/2012 15:37:41.562" } }

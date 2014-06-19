@@ -1,0 +1,14 @@
+{
+	"category" : "WidgetTests-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 3/22/2011 18:56:27.578",
+	"instvars" : [
+		 ],
+	"name" : "UiEventHandlerTests",
+	"pools" : [
+		 ],
+	"super" : "UiTestCase",
+	"type" : "normal" }

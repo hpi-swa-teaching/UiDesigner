@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"expectedFailures" : "mt 7/26/2013 09:37:54.221",
+		"test01New" : "mt 3/23/2011 11:46:35.988",
+		"test02HelpText" : "mt 3/23/2011 10:23:10.171",
+		"test03SetTextWithLineBreaks" : "mt 3/23/2011 10:31:30.289",
+		"test07LayoutingInContainer" : "mt 6/24/2011 09:45:23.592",
+		"testK01PressReturn" : "mt 3/23/2011 10:40:43.06",
+		"testK02DeferEditSignal" : "mt 7/26/2013 09:41:08.684" } }

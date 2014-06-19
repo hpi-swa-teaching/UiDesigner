@@ -1,0 +1,14 @@
+{
+	"category" : "WidgetTests-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mt 3/5/2011 08:54:28.885",
+	"instvars" : [
+		 ],
+	"name" : "UiCheckBoxShiftedTests",
+	"pools" : [
+		 ],
+	"super" : "UiCheckBoxTests",
+	"type" : "normal" }

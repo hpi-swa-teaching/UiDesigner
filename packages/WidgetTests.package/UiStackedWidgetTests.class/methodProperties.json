@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"test01AddEmptyPage" : "mt 11/6/2012 11:51:40.223",
+		"test02AddPage" : "mt 11/6/2012 11:52:32.525",
+		"test03CurrentIndexAndPage" : "mt 11/6/2012 13:22:41.586",
+		"test04EditMode" : "mt 11/6/2012 11:55:14.506",
+		"test05NextPreviousPage" : "mt 11/6/2012 13:22:58.314",
+		"test06RemoveCurrentPage" : "mt 11/6/2012 13:07:59.482",
+		"test07EditMode" : "mt 11/7/2012 11:09:00.618",
+		"test08Clear" : "mt 11/7/2012 11:08:35.986",
+		"test09CurrentIndexAnimated" : "mt 11/7/2012 16:01:11.988",
+		"test10InsertPageInFrontOf" : "mt 7/15/2013 08:38:27.053",
+		"test11InsertPageBehind" : "mt 7/15/2013 08:38:23.997",
+		"test12InsertPage" : "mt 7/15/2013 08:38:20.014" } }

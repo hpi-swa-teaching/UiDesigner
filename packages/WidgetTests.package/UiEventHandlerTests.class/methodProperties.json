@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "mt 3/22/2011 18:53:14.252",
+		"spyOn:" : "mt 3/22/2011 18:55:27.557",
+		"subjectClass" : "mt 3/22/2011 18:56:16.912",
+		"test01MouseClick" : "mt 3/23/2011 12:26:29.632",
+		"test02MousePress" : "mt 3/22/2011 18:57:06.949",
+		"test03MouseRelease" : "mt 3/22/2011 22:57:53.467",
+		"test04MouseDoubleClick" : "mt 3/22/2011 22:40:16.072",
+		"test05KeyStroke" : "mt 3/22/2011 22:36:18.625",
+		"test06MouseEnter" : "mt 3/23/2011 11:50:08.785",
+		"test07MouseLeave" : "mt 4/7/2011 14:25:49.108",
+		"test08SignalConnections" : "mt 3/28/2011 10:30:05.639" } }

@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"test01New" : "mt 8/1/2013 20:11:20.06",
+		"test02ValueChange" : "mt 8/1/2013 20:15:57.697",
+		"test03Fraction" : "mt 8/1/2013 20:16:45.646",
+		"test04NonIntegers" : "mt 8/1/2013 20:17:52.575",
+		"test05Indeterminate" : "mt 8/14/2013 12:55:44.294",
+		"test06IndeterminateCurrentValue" : "mt 8/14/2013 12:58:10.814" } }

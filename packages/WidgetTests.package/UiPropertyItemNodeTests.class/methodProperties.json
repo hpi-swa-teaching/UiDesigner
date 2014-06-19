@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"test01NewTreeFrom" : "mt 1/25/2013 14:41:24.78",
+		"test02Children" : "mt 1/25/2013 14:39:51.753",
+		"test03Value" : "mt 2/9/2012 15:16:02.364",
+		"test04Properties" : "mt 1/25/2013 14:40:46.112",
+		"test05NewTreeFromPaths" : "mt 11/7/2013 10:33:16.253",
+		"test06DataProperties" : "mt 1/25/2013 15:08:14.266",
+		"test07NewTreeFromPathsWithProperties" : "mt 11/7/2013 10:33:23.808",
+		"test08Groups" : "mt 1/25/2013 15:32:03.411",
+		"test09PropertyChanged" : "mt 1/25/2013 15:37:03.586",
+		"test10DeferredAddition" : "mt 1/25/2013 17:00:57.951" } }
