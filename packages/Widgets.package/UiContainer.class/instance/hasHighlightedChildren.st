@@ -1,4 +1,4 @@
-as yet unclassified
+highlighting
 hasHighlightedChildren
 	self children do: [ :i | (i isUiContainer) ifTrue: 
 								[(i isHighlighted) 

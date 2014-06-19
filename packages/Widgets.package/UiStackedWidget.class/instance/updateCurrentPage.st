@@ -1,6 +1,6 @@
 updating
 updateCurrentPage
-
+	
 	self removeAllMorphs.
 	
 	self currentPage ifNil: [^ self].

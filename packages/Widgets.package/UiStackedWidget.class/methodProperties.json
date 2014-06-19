@@ -4,7 +4,7 @@
 		"widgetClassName" : "mt 10/19/2010 14:05:23.132" },
 	"instance" : {
 		"acceptDroppingMorph:event:" : "mt 11/6/2012 13:21:27.938",
-		"addChild:" : "mt 11/6/2012 16:20:15.724",
+		"addChild:" : "SR 6/18/2014 16:29",
 		"addPage" : "mt 11/6/2012 16:41:58.652",
 		"addPage:" : "mt 5/8/2013 12:05:23.465",
 		"addPageSilently:" : "mt 5/8/2013 12:05:07.125",
@@ -34,7 +34,7 @@
 		"previousPage" : "mt 7/13/2010 10:16:13.279",
 		"removeCurrentPage" : "mt 11/6/2012 13:27:38.867",
 		"startDrag:" : "mt 7/13/2010 10:09:25.305",
-		"updateCurrentPage" : "mt 6/27/2013 09:45:58.174",
+		"updateCurrentPage" : "SR 6/18/2014 16:30",
 		"updateCurrentPageSelection" : "mt 11/6/2012 13:11:08.697",
 		"updateEditButtons" : "mt 11/6/2012 16:02:22.598",
 		"updateSelfSelection" : "mt 11/6/2012 15:59:11.993" } }

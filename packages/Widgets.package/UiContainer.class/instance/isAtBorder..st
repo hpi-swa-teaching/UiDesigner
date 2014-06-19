@@ -1,11 +1,9 @@
-as yet unclassified
+highlighting
 isAtBorder: evt
-	| threshold |
-	threshold:= 10.
-	(self top + threshold >= evt position y or: 
-	 	self bottom - threshold <= evt position y or:  
-		self left + threshold >= evt position x or: 
-	  	self right - threshold <= evt position x)
+	(self top     + self class borderTreshhold >= evt position y or: 
+ 	self bottom - self class borderTreshhold <= evt position y or:  
+	self left      + self class borderTreshhold >= evt position x or: 
+  	self right     - self class borderTreshhold <= evt position x)
 			ifTrue: [^true].
 
 	^ false
