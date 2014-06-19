@@ -1,4 +1,0 @@
-accessing
-classVars
-
-	^ classVars ifNil: [^ '']
