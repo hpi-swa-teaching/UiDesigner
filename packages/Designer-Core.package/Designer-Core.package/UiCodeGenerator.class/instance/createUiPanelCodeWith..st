@@ -7,7 +7,7 @@ createUiPanelCodeWith: aGenerator
 	
 	stream nextPutAll: '"This code is auto-generated. DO NOT modify it because another generation step will overwrite all changes."
 	
-	'.
+	panel := '.
 	
 	source setProperty: #objectNameTemp toValue: source objectName.
 	self injectUiCodeFor: source into: stream with: aGenerator.

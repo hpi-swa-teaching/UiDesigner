@@ -1,4 +1,4 @@
 templates
 submorphTemplate
 	
-	^'{1} addChild: {2}.'.
+	^'{1} addChild:'.

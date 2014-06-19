@@ -1,0 +1,14 @@
+{
+	"category" : "Designer-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"widget" ],
+	"name" : "UiCustomTransferMorph",
+	"pools" : [
+		 ],
+	"super" : "UiTransferMorph",
+	"type" : "normal" }

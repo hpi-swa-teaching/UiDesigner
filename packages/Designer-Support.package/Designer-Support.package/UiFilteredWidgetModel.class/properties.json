@@ -1,0 +1,14 @@
+{
+	"category" : "Designer-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"nameFilter" ],
+	"name" : "UiFilteredWidgetModel",
+	"pools" : [
+		 ],
+	"super" : "UiAbstractWidgetModel",
+	"type" : "normal" }

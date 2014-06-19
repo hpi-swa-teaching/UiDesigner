@@ -1,6 +1,9 @@
 codeInjection
 injectCreationCodeFor: aMorph into: stream
 
-	stream crtab; nextPutAll: (self creationTemplate format: {
+	stream crtab; 
+			nextPutAll: '| ', (aMorph valueOfProperty: #objectNameTemp),' |
+	';
+			nextPutAll: (self creationTemplate format: {
 		aMorph valueOfProperty: #objectNameTemp.
 		aMorph class name}).
