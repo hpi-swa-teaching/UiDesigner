@@ -1,0 +1,21 @@
+{
+	"category" : "Designer-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"warningLabel",
+		"saveWithSurroundingClass",
+		"okButton",
+		"cancelButton",
+		"classNameLabel",
+		"classNameInput",
+		"packageNameLabel",
+		"packageNameInput" ],
+	"name" : "UiSaveDialogUi",
+	"pools" : [
+		 ],
+	"super" : "UserInterface",
+	"type" : "normal" }
