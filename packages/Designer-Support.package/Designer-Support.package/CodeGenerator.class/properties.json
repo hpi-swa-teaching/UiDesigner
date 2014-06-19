@@ -1,0 +1,18 @@
+{
+	"category" : "Designer-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"category",
+		"generatedClassName",
+		"instVars",
+		"classVars",
+		"superClass" ],
+	"name" : "CodeGenerator",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
