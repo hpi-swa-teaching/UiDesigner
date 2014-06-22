@@ -10,7 +10,9 @@
 		"hierarchy",
 		"currentWidget",
 		"topLevelContainer",
-		"blacklistedMorphs" ],
+		"blacklistedMorphs",
+		"selectedWidget",
+		"selectedNode" ],
 	"name" : "UiWidgetHierarchyModel",
 	"pools" : [
 		 ],

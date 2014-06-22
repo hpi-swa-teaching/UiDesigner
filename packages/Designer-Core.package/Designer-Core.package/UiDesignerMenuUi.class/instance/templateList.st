@@ -1,5 +1,0 @@
-accessing
-templateList
-	"nil"
-	
-	^ templateList

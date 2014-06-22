@@ -6,6 +6,8 @@ addSubmorph: aMorph ToHierarchy: parentNode
 	morphNode := self createNodeFrom: aMorph.						
 	parentNode addChild: morphNode.
 	
+	(aMorph = self selectedWidget) ifTrue: [ self selectedNode: morphNode ].
+	
 	" only widget containers are allowed to have children! "
 	((morphClass = 'UiContainer') or: (morphClass = 'UiStackedWidget'))
 	ifTrue: [ aMorph submorphs do: [ :submorph |

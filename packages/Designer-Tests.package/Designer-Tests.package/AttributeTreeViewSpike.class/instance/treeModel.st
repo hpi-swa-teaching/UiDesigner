@@ -1,4 +1,0 @@
-accessing
-treeModel
-
-	^ treeModel
