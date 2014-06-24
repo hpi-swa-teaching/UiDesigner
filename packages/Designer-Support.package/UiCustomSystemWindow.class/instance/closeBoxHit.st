@@ -5,4 +5,6 @@ closeBoxHit
 	Preferences dismissAllOnOptionClose ifTrue:
 		[Sensor rawMacOptionKeyPressed ifTrue:
 			[^ self world closeUnchangedWindows]].
-	uiDesigner openQuitDialog.
+	uiDesigner = nil
+		ifFalse: [uiDesigner openQuitDialog.]
+		ifTrue: [self delete.]
