@@ -1,0 +1,14 @@
+{
+	"category" : "Designer-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"ui" ],
+	"name" : "UiWidgetAttributesWindow",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

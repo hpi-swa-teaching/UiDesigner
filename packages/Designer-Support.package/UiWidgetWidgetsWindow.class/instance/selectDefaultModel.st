@@ -1,4 +1,4 @@
-filter
+initialization
 selectDefaultModel
 
 	self ui widgetList

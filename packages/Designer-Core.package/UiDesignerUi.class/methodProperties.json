@@ -2,15 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"attributeTreeView" : "FW 6/1/2014 20:46",
-		"centralScroller" : "FW 6/1/2014 20:46",
-		"filterEdit" : "FW 6/1/2014 20:46",
-		"hierarchyWindowButton" : "FW 6/1/2014 20:46",
-		"initializePanel" : "FW 6/1/2014 21:11",
-		"newBtn" : "FW 6/1/2014 20:46",
-		"openBtn" : "FW 6/1/2014 20:46",
-		"packageNameEdit" : "FW 6/1/2014 20:46",
-		"prop" : "FW 6/1/2014 20:46",
-		"propertyScroller" : "mt 10/28/2010 16:56:19.091",
-		"saveBtn" : "FW 6/1/2014 20:46",
-		"widgetList" : "FW 6/1/2014 20:46" } }
+		"attributeTreeView" : "tg 6/24/2014 12:33",
+		"attributesWindowButton" : "tg 6/24/2014 12:33",
+		"centralScroller" : "tg 6/24/2014 12:33",
+		"hierarchyWindowButton" : "tg 6/24/2014 12:33",
+		"initializePanel" : "tg 6/24/2014 12:33",
+		"newBtn" : "tg 6/24/2014 12:33",
+		"openBtn" : "tg 6/24/2014 12:33",
+		"packageNameEdit" : "tg 6/24/2014 12:33",
+		"prop" : "tg 6/24/2014 12:33",
+		"saveBtn" : "tg 6/24/2014 12:33",
+		"widgetsWindowButton" : "tg 6/24/2014 12:33" } }

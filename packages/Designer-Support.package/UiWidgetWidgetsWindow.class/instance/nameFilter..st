@@ -1,4 +1,4 @@
-filter
+initialization
 nameFilter: aString
 
 	aString
