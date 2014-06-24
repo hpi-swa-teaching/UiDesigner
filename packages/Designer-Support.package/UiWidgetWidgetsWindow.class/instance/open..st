@@ -1,3 +1,4 @@
 initialization
-open: topLevelContainer
-  	self openInWindowLabeled: 'WidgetWidgetsWindow'
+open: aUiDesigner 
+	uiDesigner := aUiDesigner.
+  	self openInWindowLabeled: 'Widgets'

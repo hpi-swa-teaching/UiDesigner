@@ -1,4 +1,4 @@
 attribute editing
 openHierarchyWindow
 	self hierarchyWindow: UiWidgetHierarchyWindow new. 
-	self hierarchyWindow open: (self container).
+	self hierarchyWindow open: (self container) designer: self.

@@ -4,4 +4,5 @@ closeBoxHit
 	Preferences dismissAllOnOptionClose ifTrue:
 		[Sensor rawMacOptionKeyPressed ifTrue:
 			[^ self world closeUnchangedWindows]].
-	self delete
+	self delete.
+	self deleteOwnWindows.

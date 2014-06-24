@@ -1,4 +1,4 @@
 attribute editing
 openWidgetsWindow
 	self widgetsWindow: UiWidgetWidgetsWindow new. 
-	self widgetsWindow open.
+	self widgetsWindow open: self.

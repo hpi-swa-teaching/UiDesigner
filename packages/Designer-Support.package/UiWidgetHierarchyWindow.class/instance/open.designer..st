@@ -1,5 +1,6 @@
 accessing
-open: topLevelContainer
+open: topLevelContainer designer: aUiDesigner 
+	self uiDesigner: aUiDesigner.
 	self hierarchyModel: (UiWidgetHierarchyModel newWithContainer: topLevelContainer).
 	self ui treeView model: self hierarchyModel.
 	self hierarchyModel updateHierarchy: topLevelContainer.
@@ -7,4 +8,4 @@ open: topLevelContainer
 	self connect: topLevelContainer signal: #selectionChanged: to: self selector: #updateDisplayedHierarchy:.
 	self connect: (self hierarchyModel) signal: #publishSelectedNode: to: self selector: #selectDisplayedNode:.
 	
-  	self openInWindowLabeled: 'Hierarchy'
+  	self openInWindowLabeled: 'Widget Hierarchy'

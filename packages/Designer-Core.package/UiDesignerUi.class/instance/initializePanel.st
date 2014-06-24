@@ -169,80 +169,10 @@ package.').
 	saveBtn buttonStyle: (#textUnderIcon).
 	saveBtn setProperty: #objectName toValue: 'saveBtn'.
 	unnamedMorph1 addChild: saveBtn.
-	hierarchyWindowButton := UiToolButton new.
-	hierarchyWindowButton changeTableLayout.
-	hierarchyWindowButton extent: (48@16).
-	hierarchyWindowButton position: (114@11).
-	hierarchyWindowButton hResizing: (#shrinkWrap).
-	hierarchyWindowButton vResizing: (#shrinkWrap).
-	hierarchyWindowButton minWidth: (2).
-	hierarchyWindowButton minHeight: (2).
-	hierarchyWindowButton cellInset: (4).
-	hierarchyWindowButton cellPositioning: (#center).
-	hierarchyWindowButton cellSpacing: (#none).
-	hierarchyWindowButton layoutInset: (2@0 corner: 2@0).
-	hierarchyWindowButton listCentering: (#topLeft).
-	hierarchyWindowButton listDirection: (#leftToRight).
-	hierarchyWindowButton listSpacing: (#none).
-	hierarchyWindowButton maxCellSize: (1073741823).
-	hierarchyWindowButton minCellSize: (0).
-	hierarchyWindowButton wrapCentering: (#topLeft).
-	hierarchyWindowButton wrapDirection: (#none).
-	hierarchyWindowButton frameFractions: (0@0 corner: 1@1).
-	hierarchyWindowButton frameOffsets: (0@0 corner: 0@0).
-	hierarchyWindowButton balloonText: (nil).
-	hierarchyWindowButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
-	hierarchyWindowButton enabled: (true).
-	hierarchyWindowButton setProperty: #iconByDesigner toValue: 'nil'.
-	hierarchyWindowButton icon: (nil).
-	hierarchyWindowButton text: ('Hierarchy').
-	hierarchyWindowButton color: ((Color r: 1 g: 0.871 b: 0.0)).
-	hierarchyWindowButton checkable: (true).
-	hierarchyWindowButton checked: (false).
-	hierarchyWindowButton autoExclusive: (false).
-	hierarchyWindowButton autoRaise: (true).
-	hierarchyWindowButton buttonStyle: (#textBesideIcon).
-	hierarchyWindowButton setProperty: #objectName toValue: 'hierarchyWindowButton'.
-	unnamedMorph1 addChild: hierarchyWindowButton.
-	attributesWindowButton := UiToolButton new.
-	attributesWindowButton changeTableLayout.
-	attributesWindowButton extent: (53@16).
-	attributesWindowButton position: (168@11).
-	attributesWindowButton hResizing: (#shrinkWrap).
-	attributesWindowButton vResizing: (#shrinkWrap).
-	attributesWindowButton minWidth: (2).
-	attributesWindowButton minHeight: (2).
-	attributesWindowButton cellInset: (4).
-	attributesWindowButton cellPositioning: (#center).
-	attributesWindowButton cellSpacing: (#none).
-	attributesWindowButton layoutInset: (2@0 corner: 2@0).
-	attributesWindowButton listCentering: (#topLeft).
-	attributesWindowButton listDirection: (#leftToRight).
-	attributesWindowButton listSpacing: (#none).
-	attributesWindowButton maxCellSize: (1073741823).
-	attributesWindowButton minCellSize: (0).
-	attributesWindowButton wrapCentering: (#topLeft).
-	attributesWindowButton wrapDirection: (#none).
-	attributesWindowButton frameFractions: (0@0 corner: 1@1).
-	attributesWindowButton frameOffsets: (0@0 corner: 0@0).
-	attributesWindowButton balloonText: ('nil').
-	attributesWindowButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
-	attributesWindowButton enabled: (true).
-	attributesWindowButton setProperty: #iconByDesigner toValue: 'nil'.
-	attributesWindowButton icon: (nil).
-	attributesWindowButton text: ('Attributes').
-	attributesWindowButton color: ((Color r: 1 g: 0.871 b: 0.0)).
-	attributesWindowButton checkable: (true).
-	attributesWindowButton checked: (false).
-	attributesWindowButton autoExclusive: (false).
-	attributesWindowButton autoRaise: (true).
-	attributesWindowButton buttonStyle: (#textBesideIcon).
-	attributesWindowButton setProperty: #objectName toValue: 'attributesWindowButton'.
-	unnamedMorph1 addChild: attributesWindowButton.
 	widgetsWindowButton := UiToolButton new.
 	widgetsWindowButton changeTableLayout.
 	widgetsWindowButton extent: (44@16).
-	widgetsWindowButton position: (227@11).
+	widgetsWindowButton position: (114@11).
 	widgetsWindowButton hResizing: (#shrinkWrap).
 	widgetsWindowButton vResizing: (#shrinkWrap).
 	widgetsWindowButton minWidth: (2).
@@ -274,6 +204,76 @@ package.').
 	widgetsWindowButton buttonStyle: (#textBesideIcon).
 	widgetsWindowButton setProperty: #objectName toValue: 'widgetsWindowButton'.
 	unnamedMorph1 addChild: widgetsWindowButton.
+	attributesWindowButton := UiToolButton new.
+	attributesWindowButton changeTableLayout.
+	attributesWindowButton extent: (53@16).
+	attributesWindowButton position: (164@11).
+	attributesWindowButton hResizing: (#shrinkWrap).
+	attributesWindowButton vResizing: (#shrinkWrap).
+	attributesWindowButton minWidth: (2).
+	attributesWindowButton minHeight: (2).
+	attributesWindowButton cellInset: (4).
+	attributesWindowButton cellPositioning: (#center).
+	attributesWindowButton cellSpacing: (#none).
+	attributesWindowButton layoutInset: (2@0 corner: 2@0).
+	attributesWindowButton listCentering: (#topLeft).
+	attributesWindowButton listDirection: (#leftToRight).
+	attributesWindowButton listSpacing: (#none).
+	attributesWindowButton maxCellSize: (1073741823).
+	attributesWindowButton minCellSize: (0).
+	attributesWindowButton wrapCentering: (#topLeft).
+	attributesWindowButton wrapDirection: (#none).
+	attributesWindowButton frameFractions: (0@0 corner: 1@1).
+	attributesWindowButton frameOffsets: (0@0 corner: 0@0).
+	attributesWindowButton balloonText: ('nil').
+	attributesWindowButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
+	attributesWindowButton enabled: (true).
+	attributesWindowButton setProperty: #iconByDesigner toValue: 'nil'.
+	attributesWindowButton icon: (nil).
+	attributesWindowButton text: ('Attributes').
+	attributesWindowButton color: ((Color r: 1 g: 0.871 b: 0.0)).
+	attributesWindowButton checkable: (true).
+	attributesWindowButton checked: (false).
+	attributesWindowButton autoExclusive: (false).
+	attributesWindowButton autoRaise: (true).
+	attributesWindowButton buttonStyle: (#textBesideIcon).
+	attributesWindowButton setProperty: #objectName toValue: 'attributesWindowButton'.
+	unnamedMorph1 addChild: attributesWindowButton.
+	hierarchyWindowButton := UiToolButton new.
+	hierarchyWindowButton changeTableLayout.
+	hierarchyWindowButton extent: (48@16).
+	hierarchyWindowButton position: (223@11).
+	hierarchyWindowButton hResizing: (#shrinkWrap).
+	hierarchyWindowButton vResizing: (#shrinkWrap).
+	hierarchyWindowButton minWidth: (2).
+	hierarchyWindowButton minHeight: (2).
+	hierarchyWindowButton cellInset: (4).
+	hierarchyWindowButton cellPositioning: (#center).
+	hierarchyWindowButton cellSpacing: (#none).
+	hierarchyWindowButton layoutInset: (2@0 corner: 2@0).
+	hierarchyWindowButton listCentering: (#topLeft).
+	hierarchyWindowButton listDirection: (#leftToRight).
+	hierarchyWindowButton listSpacing: (#none).
+	hierarchyWindowButton maxCellSize: (1073741823).
+	hierarchyWindowButton minCellSize: (0).
+	hierarchyWindowButton wrapCentering: (#topLeft).
+	hierarchyWindowButton wrapDirection: (#none).
+	hierarchyWindowButton frameFractions: (0@0 corner: 1@1).
+	hierarchyWindowButton frameOffsets: (0@0 corner: 0@0).
+	hierarchyWindowButton balloonText: (nil).
+	hierarchyWindowButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
+	hierarchyWindowButton enabled: (true).
+	hierarchyWindowButton setProperty: #iconByDesigner toValue: 'nil'.
+	hierarchyWindowButton icon: (nil).
+	hierarchyWindowButton text: ('Hierarchy').
+	hierarchyWindowButton color: ((Color r: 1 g: 0.871 b: 0.0)).
+	hierarchyWindowButton checkable: (true).
+	hierarchyWindowButton checked: (false).
+	hierarchyWindowButton autoExclusive: (false).
+	hierarchyWindowButton autoRaise: (true).
+	hierarchyWindowButton buttonStyle: (#textBesideIcon).
+	hierarchyWindowButton setProperty: #objectName toValue: 'hierarchyWindowButton'.
+	unnamedMorph1 addChild: hierarchyWindowButton.
 	unnamedMorph2 := UiSpacer new.
 	unnamedMorph2 extent: (354@16).
 	unnamedMorph2 position: (276@11).

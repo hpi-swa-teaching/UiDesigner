@@ -1,3 +1,3 @@
 initialization
 open
-  	self openInWindowLabeled: 'WidgetAttributesWindow'
+  	self openInWindowLabeled: 'Attributes'
