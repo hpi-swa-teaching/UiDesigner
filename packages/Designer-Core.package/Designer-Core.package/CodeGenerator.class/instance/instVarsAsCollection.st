@@ -1,0 +1,6 @@
+accessing
+instVarsAsCollection
+
+	^(instVars subStrings: ' ')
+	
+	

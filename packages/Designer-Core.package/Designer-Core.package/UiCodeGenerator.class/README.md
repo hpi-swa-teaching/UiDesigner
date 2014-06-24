@@ -1,0 +1,1 @@
+Generate a subclass for UserInterface based on a given instance of Morph.
