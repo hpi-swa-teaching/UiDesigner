@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"ui",
 		"uiDesigner" ],
-	"name" : "UiCustomSystemWindow",
+	"name" : "UiQuitDialog",
 	"pools" : [
 		 ],
-	"super" : "SystemWindow",
+	"super" : "Morph",
 	"type" : "normal" }

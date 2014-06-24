@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"uiDesigner" ],
-	"name" : "UiCustomSystemWindow",
+		"quitButton",
+		"saveButton" ],
+	"name" : "UiQuitDialogUi",
 	"pools" : [
 		 ],
-	"super" : "SystemWindow",
+	"super" : "UserInterface",
 	"type" : "normal" }

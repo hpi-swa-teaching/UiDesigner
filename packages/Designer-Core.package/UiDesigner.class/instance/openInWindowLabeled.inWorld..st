@@ -3,6 +3,7 @@ openInWindowLabeled: aString inWorld: aWorld
 
 	| window extent |
 	window := (UiCustomSystemWindow labelled: aString) model: nil.
+	window uiDesigner: self.
 	window 
 		" guess at initial extent"
 		bounds:  (RealEstateAgent initialFrameFor: window initialExtent: self fullBounds extent world: aWorld);
