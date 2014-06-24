@@ -1,4 +1,4 @@
 attribute editing
 openAttributesWindow
-	self attributesWindows: UiWidgetAttributesWindow new. 
-	self attributesWindows open.
+	self attributesWindow: UiWidgetAttributesWindow new. 
+	self attributesWindow open: self.

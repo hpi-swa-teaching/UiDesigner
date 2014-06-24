@@ -5,8 +5,6 @@ initialize
 	self ui setupUi: self.
 	self ui prop addPaneSplitters.	
 	
-	self initializeAttributeView.
-	
 	self ui centralScroller
 		borderWidth: 0;
 		fillStyle: (BitmapFillStyle fromForm: self gridForm).

@@ -1,6 +1,6 @@
 initialization
 initializeAttributeView
-	self ui attributeTreeView removeAllColumns; model: nil; 
+	self ui treeView removeAllColumns; model: nil; 
 			addColumn: ((UiItemViewColumnSpec new)
 				textSelector: #yourself;
 				itemOrientation: #horizontalMaxHeight;
@@ -16,7 +16,7 @@ initializeAttributeView
 				checkedSelector: #isChecked).
 	
 
-	self ui attributeTreeView viewport eventHandler mouseDownPriority: 0.
-	self ui attributeTreeView model: self attributeTreeModel.
+	self ui treeView viewport eventHandler mouseDownPriority: 0.
+	self ui treeView model: self uiDesigner attributeTreeModel.
 	
-	self connect: (self attributeTreeModel) signal: #modelReset to: self selector: #expandAllAttributeCategories.
+	self connect: (self uiDesigner attributeTreeModel) signal: #modelReset to: self selector: #expandAllAttributeCategories.

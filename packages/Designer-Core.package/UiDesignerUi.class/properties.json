@@ -14,8 +14,7 @@
 		"widgetsWindowButton",
 		"packageNameEdit",
 		"prop",
-		"centralScroller",
-		"attributeTreeView" ],
+		"centralScroller" ],
 	"name" : "UiDesignerUi",
 	"pools" : [
 		 ],
