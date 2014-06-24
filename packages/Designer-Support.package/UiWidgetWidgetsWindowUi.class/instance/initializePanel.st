@@ -61,10 +61,10 @@ initializePanel
 	unnamedMorph1 borderStyle2: (#simple).
 	unnamedMorph1 borderColor: (Color black).
 	widgetList := UiTreeView new.
-	widgetList extent: (180@563).
-	widgetList position: (6@0).
-	widgetList hResizing: (#rigid).
-	widgetList vResizing: (#rigid).
+	widgetList extent: (192@569).
+	widgetList position: (0@0).
+	widgetList hResizing: (#spaceFill).
+	widgetList vResizing: (#spaceFill).
 	widgetList minWidth: (2).
 	widgetList minHeight: (2).
 	widgetList cellInset: (0).
@@ -97,7 +97,7 @@ initializePanel
 	unnamedMorph2 := UiContainer new.
 	unnamedMorph2 changeTableLayout.
 	unnamedMorph2 extent: (192@22).
-	unnamedMorph2 position: (0@567).
+	unnamedMorph2 position: (0@573).
 	unnamedMorph2 hResizing: (#spaceFill).
 	unnamedMorph2 vResizing: (#shrinkWrap).
 	unnamedMorph2 minWidth: (2).
@@ -124,7 +124,7 @@ initializePanel
 	unnamedMorph3 := UiLabel new.
 	unnamedMorph3 changeTableLayout.
 	unnamedMorph3 extent: (16@16).
-	unnamedMorph3 position: (0@570).
+	unnamedMorph3 position: (0@576).
 	unnamedMorph3 hResizing: (#shrinkWrap).
 	unnamedMorph3 vResizing: (#shrinkWrap).
 	unnamedMorph3 minWidth: (2).
@@ -150,7 +150,7 @@ initializePanel
 	unnamedMorph2 addChild: unnamedMorph3.
 	filterEdit := UiLineEdit new.
 	filterEdit extent: (167@20).
-	filterEdit position: (20@568).
+	filterEdit position: (20@574).
 	filterEdit hResizing: (#spaceFill).
 	filterEdit vResizing: (#rigid).
 	filterEdit minWidth: (2).

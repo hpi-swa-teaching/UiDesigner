@@ -11,7 +11,7 @@
 		"attributeTreeModel",
 		"attributeEditorTemplates",
 		"hierarchyWindow",
-		"attributesWindows",
+		"attributesWindow",
 		"widgetsWindow" ],
 	"name" : "UiDesigner",
 	"pools" : [

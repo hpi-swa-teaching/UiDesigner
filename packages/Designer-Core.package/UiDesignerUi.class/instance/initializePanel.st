@@ -397,7 +397,7 @@ package.').
 	prop borderColor: (Color black).
 	prop setProperty: #objectName toValue: 'prop'.
 	centralScroller := UiScrollArea new.
-	centralScroller extent: (600@558).
+	centralScroller extent: (480@558).
 	centralScroller position: (0@42).
 	centralScroller hResizing: (#spaceFill).
 	centralScroller vResizing: (#spaceFill).
@@ -414,7 +414,7 @@ package.').
 	centralScroller minCellSize: (0).
 	centralScroller wrapCentering: (#topLeft).
 	centralScroller wrapDirection: (#none).
-	centralScroller frameFractions: (0@0 corner: 0.75@1).
+	centralScroller frameFractions: (0@0 corner: 0.6@1).
 	centralScroller frameOffsets: (0@0 corner: 0@0).
 	centralScroller balloonText: (nil).
 	centralScroller balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
@@ -426,8 +426,8 @@ package.').
 	centralScroller setProperty: #objectName toValue: 'centralScroller'.
 	prop addChild: centralScroller.
 	attributeTreeView := UiTreeView new.
-	attributeTreeView extent: (200@558).
-	attributeTreeView position: (600@42).
+	attributeTreeView extent: (320@558).
+	attributeTreeView position: (480@42).
 	attributeTreeView hResizing: (#spaceFill).
 	attributeTreeView vResizing: (#spaceFill).
 	attributeTreeView minWidth: (2).
@@ -443,7 +443,7 @@ package.').
 	attributeTreeView minCellSize: (0).
 	attributeTreeView wrapCentering: (#topLeft).
 	attributeTreeView wrapDirection: (#none).
-	attributeTreeView frameFractions: (0.75@0 corner: 1@1).
+	attributeTreeView frameFractions: (0.6@0 corner: 1@1).
 	attributeTreeView frameOffsets: (0@0 corner: 0@0).
 	attributeTreeView balloonText: (nil).
 	attributeTreeView balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
