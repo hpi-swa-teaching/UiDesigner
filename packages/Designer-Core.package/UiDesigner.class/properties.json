@@ -12,7 +12,8 @@
 		"attributeEditorTemplates",
 		"hierarchyWindow",
 		"attributesWindow",
-		"widgetsWindow" ],
+		"widgetsWindow",
+		"quitDialog" ],
 	"name" : "UiDesigner",
 	"pools" : [
 		 ],

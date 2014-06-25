@@ -1,8 +1,8 @@
 save/load
 openQuitDialog
 	
-	| uiQuitDialog |
-	uiQuitDialog := UiQuitDialog new..
-	uiQuitDialog initializeWith: self.
-		
-	uiQuitDialog open.
+	quitDialog = nil
+		ifTrue: [	quitDialog := UiQuitDialog new.
+				quitDialog initializeWith: self.
+				quitDialog open. ]
+		ifFalse: [ quitDialog flashBounds ].
