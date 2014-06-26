@@ -1,9 +1,11 @@
 codeInjection
 injectCreationCodeFor: aMorph into: stream
 
-	stream crtab; 
+	(self hasInstVarNamed: (aMorph valueOfProperty: #objectNameTemp))
+		ifFalse: [stream crtab; 
 			nextPutAll: '| ', (aMorph valueOfProperty: #objectNameTemp),' |
-	';
-			nextPutAll: (self creationTemplate format: {
+	'.].
+
+	stream nextPutAll: (self creationTemplate format: {
 		aMorph valueOfProperty: #objectNameTemp.
 		aMorph class name}).

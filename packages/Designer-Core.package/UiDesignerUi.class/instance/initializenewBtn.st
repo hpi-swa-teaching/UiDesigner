@@ -1,8 +1,6 @@
 ui - private
 initializenewBtn
 		
-	
-	| newBtn |
 	newBtn := UiToolButton new.
 	newBtn changeTableLayout.
 	newBtn extent: (28@36).
@@ -26,7 +24,7 @@ initializenewBtn
 	newBtn frameOffsets: (0@0 corner: 0@0).
 	newBtn balloonText: ('Create a new user interface
 and close the current one.').
-	newBtn balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
+	newBtn balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
 	newBtn enabled: (true).
 	newBtn setProperty: #iconByDesigner toValue: 'UiSilkIcons pageWhiteIcon'.
 	newBtn icon: (UiSilkIcons pageWhiteIcon).

@@ -5,7 +5,7 @@ initializepanel
 	| panel |
 	panel := UiContainer new.
 	panel changeTableLayout.
-	panel extent: (800@600).
+	panel extent: (600@600).
 	panel position: (0@0).
 	panel hResizing: (#spaceFill).
 	panel vResizing: (#spaceFill).
@@ -25,7 +25,7 @@ initializepanel
 	panel frameFractions: (0@0 corner: 1@1).
 	panel frameOffsets: (0@0 corner: 0@0).
 	panel balloonText: (nil).
-	panel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
+	panel balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
 	panel color: (Color lightGray).
 	panel borderWidth: (0).
 	panel borderStyle2: (#simple).

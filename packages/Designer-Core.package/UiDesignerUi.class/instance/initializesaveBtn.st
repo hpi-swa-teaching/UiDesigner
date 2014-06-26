@@ -1,8 +1,6 @@
 ui - private
 initializesaveBtn
 		
-	
-	| saveBtn |
 	saveBtn := UiToolButton new.
 	saveBtn changeTableLayout.
 	saveBtn extent: (31@36).
@@ -27,7 +25,7 @@ initializesaveBtn
 	saveBtn balloonText: ('Save the current user
 interfaces in the defined
 package.').
-	saveBtn balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
+	saveBtn balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
 	saveBtn enabled: (true).
 	saveBtn setProperty: #iconByDesigner toValue: 'UiSilkIcons diskIcon'.
 	saveBtn icon: (UiSilkIcons diskIcon).

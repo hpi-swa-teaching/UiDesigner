@@ -1,4 +1,0 @@
-accessing
-filterEdit
-	
-	^ filterEdit

@@ -1,12 +1,10 @@
 ui - private
 initializehierarchyWindowButton
 		
-	
-	| hierarchyWindowButton |
 	hierarchyWindowButton := UiToolButton new.
 	hierarchyWindowButton changeTableLayout.
 	hierarchyWindowButton extent: (48@16).
-	hierarchyWindowButton position: (114@11).
+	hierarchyWindowButton position: (223@11).
 	hierarchyWindowButton hResizing: (#shrinkWrap).
 	hierarchyWindowButton vResizing: (#shrinkWrap).
 	hierarchyWindowButton minWidth: (2).
@@ -25,7 +23,7 @@ initializehierarchyWindowButton
 	hierarchyWindowButton frameFractions: (0@0 corner: 1@1).
 	hierarchyWindowButton frameOffsets: (0@0 corner: 0@0).
 	hierarchyWindowButton balloonText: (nil).
-	hierarchyWindowButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	hierarchyWindowButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	hierarchyWindowButton enabled: (true).
 	hierarchyWindowButton setProperty: #iconByDesigner toValue: 'nil'.
 	hierarchyWindowButton icon: (nil).

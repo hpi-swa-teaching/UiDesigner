@@ -1,4 +1,0 @@
-accessing
-widgetList
-	
-	^ widgetList

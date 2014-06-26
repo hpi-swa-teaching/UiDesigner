@@ -5,7 +5,7 @@ initializeunnamedMorph1
 	| unnamedMorph1 |
 	unnamedMorph1 := UiContainer new.
 	unnamedMorph1 changeTableLayout.
-	unnamedMorph1 extent: (800@37).
+	unnamedMorph1 extent: (600@37).
 	unnamedMorph1 position: (0@0).
 	unnamedMorph1 hResizing: (#spaceFill).
 	unnamedMorph1 vResizing: (#shrinkWrap).
@@ -25,7 +25,7 @@ initializeunnamedMorph1
 	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
 	unnamedMorph1 color: (Color transparent).
 	unnamedMorph1 borderWidth: (0).
 	unnamedMorph1 borderStyle2: (#simple).
@@ -33,8 +33,12 @@ initializeunnamedMorph1
 	unnamedMorph1 addChild:(self initializenewBtn).
 	unnamedMorph1 addChild:(self initializeopenBtn).
 	unnamedMorph1 addChild:(self initializesaveBtn).
+	unnamedMorph1 addChild:(self initializewidgetsWindowButton).
+	unnamedMorph1 addChild:(self initializeattributesWindowButton).
 	unnamedMorph1 addChild:(self initializehierarchyWindowButton).
 	unnamedMorph1 addChild:(self initializeunnamedMorph2).
 	unnamedMorph1 addChild:(self initializeunnamedMorph3).
+	unnamedMorph1 addChild:(self initializeunnamedMorph4).
+	unnamedMorph1 addChild:(self initializeunnamedMorph5).
 	unnamedMorph1 addChild:(self initializepackageNameEdit).
 	^ unnamedMorph1.

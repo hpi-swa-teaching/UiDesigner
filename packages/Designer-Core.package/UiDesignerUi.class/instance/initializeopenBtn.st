@@ -1,8 +1,6 @@
 ui - private
 initializeopenBtn
 		
-	
-	| openBtn |
 	openBtn := UiToolButton new.
 	openBtn changeTableLayout.
 	openBtn extent: (32@36).
@@ -26,7 +24,7 @@ initializeopenBtn
 	openBtn frameOffsets: (0@0 corner: 0@0).
 	openBtn balloonText: ('Open a present user
 interface.').
-	openBtn balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
+	openBtn balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
 	openBtn enabled: (true).
 	openBtn setProperty: #iconByDesigner toValue: 'UiSilkIcons folderIcon'.
 	openBtn icon: (UiSilkIcons folderIcon).

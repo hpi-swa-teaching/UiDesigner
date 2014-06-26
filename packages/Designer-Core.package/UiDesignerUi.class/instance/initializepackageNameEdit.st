@@ -1,11 +1,9 @@
 ui - private
 initializepackageNameEdit
 		
-	
-	| packageNameEdit |
 	packageNameEdit := UiLineEdit new.
 	packageNameEdit extent: (140@20).
-	packageNameEdit position: (655@9).
+	packageNameEdit position: (455@9).
 	packageNameEdit hResizing: (#rigid).
 	packageNameEdit vResizing: (#rigid).
 	packageNameEdit minWidth: (2).
@@ -24,7 +22,7 @@ initializepackageNameEdit
 	packageNameEdit frameFractions: (0@0 corner: 1@1).
 	packageNameEdit frameOffsets: (0@0 corner: 0@0).
 	packageNameEdit balloonText: (nil).
-	packageNameEdit balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.941)).
+	packageNameEdit balloonColor: ((TranslucentColor r: 0.91 g: 0.94 b: 1 alpha: 0.922)).
 	packageNameEdit widgetResizable: (false).
 	packageNameEdit horizontalScrollBarPolicy: (#alwaysOff).
 	packageNameEdit verticalScrollBarPolicy: (#alwaysOff).
