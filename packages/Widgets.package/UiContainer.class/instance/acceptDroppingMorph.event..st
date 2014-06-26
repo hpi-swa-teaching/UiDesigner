@@ -8,6 +8,8 @@ acceptDroppingMorph: aMorph event: evt
 			| widget |
 			widget := widgetClass new position: evt position.
 			self addMorphBack: widget.
+			self morphAdded: widget into: self.
+			
 			(widget isKindOf: UiContainer)
 				ifTrue: [widget editMode: self editMode].
 
