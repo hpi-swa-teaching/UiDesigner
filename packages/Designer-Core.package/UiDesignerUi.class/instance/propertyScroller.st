@@ -1,0 +1,5 @@
+accessing
+propertyScroller
+	"nil"
+	
+	^ propertyScroller

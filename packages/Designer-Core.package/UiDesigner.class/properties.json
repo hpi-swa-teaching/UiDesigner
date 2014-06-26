@@ -11,9 +11,8 @@
 		"attributeTreeModel",
 		"attributeEditorTemplates",
 		"hierarchyWindow",
-		"attributesWindow",
-		"widgetsWindow",
-		"quitDialog" ],
+		"historyActionInProgress",
+		"actionHistory" ],
 	"name" : "UiDesigner",
 	"pools" : [
 		 ],

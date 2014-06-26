@@ -1,4 +1,4 @@
-private - reading
+codeInjection
 injectUiCodeFor: aMorph into: stream
 
 	| creationTemplate submorphTemplate nameTemplate descrTemplate |

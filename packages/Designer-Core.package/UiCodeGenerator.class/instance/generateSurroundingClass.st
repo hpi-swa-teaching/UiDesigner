@@ -1,8 +1,10 @@
 code generation
 generateSurroundingClass 
+	| generator |
+	generator := self prepareGeneratorForSurroundingClass.
 	
-	self 
-		createSurroundingClass; 
-		createAccessor;
-		createInitialization;
-		createOpening.
+	generator generateClass.
+	generator generateMethod: 'ui' with: '^ui ifNil: [ui := ', self uiClassName, ' new.]' classified: 'accessing'.
+	generator generateMethod: 'initialize' with: 'super initialize.
+	self ui setupUi: self.' classified: 'initialization'.
+	generator generateMethod: 'open' with: 'self openInWindowLabeled: ''', self surroundingClassName , ''''.

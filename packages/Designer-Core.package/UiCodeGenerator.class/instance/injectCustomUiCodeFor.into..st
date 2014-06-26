@@ -1,4 +1,4 @@
-private - reading
+codeInjection
 injectCustomUiCodeFor: aMorph into: stream
 
 	| propertyTemplate propertyTemplate2 value isCode |
