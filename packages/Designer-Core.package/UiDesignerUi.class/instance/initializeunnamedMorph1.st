@@ -36,9 +36,9 @@ initializeunnamedMorph1
 	unnamedMorph1 addChild:(self initializewidgetsWindowButton).
 	unnamedMorph1 addChild:(self initializeattributesWindowButton).
 	unnamedMorph1 addChild:(self initializehierarchyWindowButton).
+	unnamedMorph1 addChild:(self initializeundoButton).
+	unnamedMorph1 addChild:(self initializeredoButton).
 	unnamedMorph1 addChild:(self initializeunnamedMorph2).
 	unnamedMorph1 addChild:(self initializeunnamedMorph3).
-	unnamedMorph1 addChild:(self initializeunnamedMorph4).
-	unnamedMorph1 addChild:(self initializeunnamedMorph5).
 	unnamedMorph1 addChild:(self initializepackageNameEdit).
 	^ unnamedMorph1.

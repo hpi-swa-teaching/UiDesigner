@@ -12,7 +12,8 @@
 		"attributeEditorTemplates",
 		"hierarchyWindow",
 		"historyActionInProgress",
-		"actionHistory" ],
+		"actionHistory",
+		"actionHistoryIndex" ],
 	"name" : "UiDesigner",
 	"pools" : [
 		 ],

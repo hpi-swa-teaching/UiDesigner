@@ -1,3 +1,3 @@
 as yet unclassified
 undo
-	^self subclassResponsibility.
+	(self getReverseCommand) execute.

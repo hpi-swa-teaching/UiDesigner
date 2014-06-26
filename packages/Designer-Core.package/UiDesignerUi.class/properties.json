@@ -12,6 +12,8 @@
 		"widgetsWindowButton",
 		"attributesWindowButton",
 		"hierarchyWindowButton",
+		"undoButton",
+		"redoButton",
 		"packageNameEdit",
 		"prop",
 		"centralScroller" ],

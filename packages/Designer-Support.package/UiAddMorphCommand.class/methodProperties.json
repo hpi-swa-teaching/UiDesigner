@@ -1,11 +1,10 @@
 {
 	"class" : {
-		"newWith:in:" : "SD 6/24/2014 12:11" },
+		"newWith:in:" : "FW 6/26/2014 16:01" },
 	"instance" : {
-		"execute" : "SD 6/24/2014 12:29",
+		"execute" : "FW 6/26/2014 16:08",
 		"getReverseCommand" : "SD 6/24/2014 12:12",
 		"morphContainer" : "SD 6/24/2014 11:41",
 		"morphContainer:" : "SD 6/24/2014 11:41",
 		"relevantMorph" : "SD 6/24/2014 12:29",
-		"relevantMorph:" : "SD 6/24/2014 12:29",
-		"undo" : "SD 6/24/2014 12:12" } }
+		"relevantMorph:" : "SD 6/24/2014 12:29" } }
