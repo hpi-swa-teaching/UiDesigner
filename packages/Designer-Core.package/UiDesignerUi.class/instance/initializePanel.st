@@ -6,7 +6,7 @@ initializePanel
 	
 	panel := UiContainer new.
 	panel changeTableLayout.
-	panel extent: (800@600).
+	panel extent: (600@600).
 	panel position: (0@0).
 	panel hResizing: (#spaceFill).
 	panel vResizing: (#spaceFill).
@@ -35,8 +35,8 @@ initializePanel
 	panel setProperty: #objectDescription toValue: 'This is the user interface layout for the morphic designer.'.
 	unnamedMorph1 := UiContainer new.
 	unnamedMorph1 changeTableLayout.
-	unnamedMorph1 extent: (800@37).
-	unnamedMorph1 position: (0@0).
+	unnamedMorph1 extent: (600@37).
+	unnamedMorph1 position: (0@1).
 	unnamedMorph1 hResizing: (#spaceFill).
 	unnamedMorph1 vResizing: (#shrinkWrap).
 	unnamedMorph1 minWidth: (2).
@@ -63,7 +63,7 @@ initializePanel
 	newBtn := UiToolButton new.
 	newBtn changeTableLayout.
 	newBtn extent: (28@36).
-	newBtn position: (4@0).
+	newBtn position: (4@1).
 	newBtn hResizing: (#shrinkWrap).
 	newBtn vResizing: (#shrinkWrap).
 	newBtn minWidth: (2).
@@ -99,7 +99,7 @@ and close the current one.').
 	openBtn := UiToolButton new.
 	openBtn changeTableLayout.
 	openBtn extent: (32@36).
-	openBtn position: (38@0).
+	openBtn position: (38@1).
 	openBtn hResizing: (#shrinkWrap).
 	openBtn vResizing: (#shrinkWrap).
 	openBtn minWidth: (2).
@@ -135,7 +135,7 @@ interface.').
 	saveBtn := UiToolButton new.
 	saveBtn changeTableLayout.
 	saveBtn extent: (31@36).
-	saveBtn position: (76@0).
+	saveBtn position: (76@1).
 	saveBtn hResizing: (#shrinkWrap).
 	saveBtn vResizing: (#shrinkWrap).
 	saveBtn minWidth: (2).
@@ -172,7 +172,7 @@ package.').
 	widgetsWindowButton := UiToolButton new.
 	widgetsWindowButton changeTableLayout.
 	widgetsWindowButton extent: (44@16).
-	widgetsWindowButton position: (114@11).
+	widgetsWindowButton position: (114@12).
 	widgetsWindowButton hResizing: (#shrinkWrap).
 	widgetsWindowButton vResizing: (#shrinkWrap).
 	widgetsWindowButton minWidth: (2).
@@ -207,7 +207,7 @@ package.').
 	attributesWindowButton := UiToolButton new.
 	attributesWindowButton changeTableLayout.
 	attributesWindowButton extent: (53@16).
-	attributesWindowButton position: (164@11).
+	attributesWindowButton position: (164@12).
 	attributesWindowButton hResizing: (#shrinkWrap).
 	attributesWindowButton vResizing: (#shrinkWrap).
 	attributesWindowButton minWidth: (2).
@@ -242,7 +242,7 @@ package.').
 	hierarchyWindowButton := UiToolButton new.
 	hierarchyWindowButton changeTableLayout.
 	hierarchyWindowButton extent: (48@16).
-	hierarchyWindowButton position: (223@11).
+	hierarchyWindowButton position: (223@12).
 	hierarchyWindowButton hResizing: (#shrinkWrap).
 	hierarchyWindowButton vResizing: (#shrinkWrap).
 	hierarchyWindowButton minWidth: (2).
@@ -275,8 +275,8 @@ package.').
 	hierarchyWindowButton setProperty: #objectName toValue: 'hierarchyWindowButton'.
 	unnamedMorph1 addChild: hierarchyWindowButton.
 	unnamedMorph2 := UiSpacer new.
-	unnamedMorph2 extent: (354@16).
-	unnamedMorph2 position: (276@11).
+	unnamedMorph2 extent: (154@16).
+	unnamedMorph2 position: (276@12).
 	unnamedMorph2 hResizing: (#spaceFill).
 	unnamedMorph2 vResizing: (#rigid).
 	unnamedMorph2 minWidth: (2).
@@ -305,7 +305,7 @@ package.').
 	unnamedMorph3 := UiLabel new.
 	unnamedMorph3 changeTableLayout.
 	unnamedMorph3 extent: (16@16).
-	unnamedMorph3 position: (634@11).
+	unnamedMorph3 position: (434@12).
 	unnamedMorph3 hResizing: (#shrinkWrap).
 	unnamedMorph3 vResizing: (#shrinkWrap).
 	unnamedMorph3 minWidth: (2).
@@ -331,7 +331,7 @@ package.').
 	unnamedMorph1 addChild: unnamedMorph3.
 	packageNameEdit := UiLineEdit new.
 	packageNameEdit extent: (140@20).
-	packageNameEdit position: (655@9).
+	packageNameEdit position: (455@10).
 	packageNameEdit hResizing: (#rigid).
 	packageNameEdit vResizing: (#rigid).
 	packageNameEdit minWidth: (2).
@@ -370,7 +370,7 @@ package.').
 	panel addChild: unnamedMorph1.
 	prop := UiContainer new.
 	prop changeProportionalLayout.
-	prop extent: (800@558).
+	prop extent: (600@558).
 	prop position: (0@42).
 	prop hResizing: (#spaceFill).
 	prop vResizing: (#spaceFill).
@@ -397,7 +397,7 @@ package.').
 	prop borderColor: (Color black).
 	prop setProperty: #objectName toValue: 'prop'.
 	centralScroller := UiScrollArea new.
-	centralScroller extent: (800@558).
+	centralScroller extent: (600@558).
 	centralScroller position: (0@42).
 	centralScroller hResizing: (#spaceFill).
 	centralScroller vResizing: (#spaceFill).
