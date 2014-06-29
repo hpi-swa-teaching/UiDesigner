@@ -1,5 +1,7 @@
 item model - slots
 updateHierarchy: selectedWidget
+	self selectedWidget: selectedWidget.
+	self selectedNode: nil.
 	self hierarchy: nil.
 	self hierarchy add: (self createNodeFrom: (self topLevelContainer)).
 						
@@ -8,4 +10,5 @@ updateHierarchy: selectedWidget
 	].
 	
 	self modelReset.
-	self publishSelectedNode: (self selectedNode).
+	
+	self selectedNode ifNotNil: [ self publishSelectedNode: (self selectedNode) ].
