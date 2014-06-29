@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"hierarchyModel" : "tg 6/24/2014 17:49",
+		"hierarchyModel:" : "tg 6/24/2014 17:49",
+		"initialize" : "tg 6/24/2014 17:50",
+		"initializeTreeView" : "tg 6/24/2014 17:50",
+		"open:" : "tg 6/24/2014 18:07",
+		"open:designer:" : "tg 6/24/2014 17:57",
+		"openInWindowLabeled:inWorld:" : "tg 6/26/2014 10:31",
+		"selectDisplayedNode:" : "tg 6/24/2014 17:50",
+		"selectWidget:" : "tg 6/24/2014 17:50",
+		"ui" : "tg 6/24/2014 17:55",
+		"ui:" : "tg 6/24/2014 17:49",
+		"uiDesigner" : "tg 6/24/2014 17:59",
+		"uiDesigner:" : "tg 6/24/2014 17:59",
+		"updateDisplayedHierarchy:" : "tg 6/24/2014 17:50" } }

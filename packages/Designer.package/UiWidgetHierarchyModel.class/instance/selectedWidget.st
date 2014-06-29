@@ -1,0 +1,4 @@
+accessing
+selectedWidget
+
+	^ selectedWidget

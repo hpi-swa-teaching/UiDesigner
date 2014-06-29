@@ -1,0 +1,21 @@
+{
+	"category" : "Designer-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"RecentDesigns" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"ui",
+		"container",
+		"attributeTreeModel",
+		"attributeEditorTemplates",
+		"hierarchyWindow",
+		"attributesWindow",
+		"widgetsWindow",
+		"quitDialog" ],
+	"name" : "UiDesigner",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

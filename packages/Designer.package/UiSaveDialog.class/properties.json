@@ -1,0 +1,20 @@
+{
+	"category" : "Designer-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"ui",
+		"editorFactory",
+		"editor",
+		"aMorph",
+		"s",
+		"uiDesigner",
+		"aUiDesigner" ],
+	"name" : "UiSaveDialog",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

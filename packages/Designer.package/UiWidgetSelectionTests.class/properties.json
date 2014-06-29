@@ -1,0 +1,18 @@
+{
+	"category" : "Designer-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"widget",
+		"topLevelContainer",
+		"child1",
+		"child2",
+		"model" ],
+	"name" : "UiWidgetSelectionTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

@@ -1,0 +1,20 @@
+{
+	"category" : "Designer-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"generator",
+		"testClassName",
+		"testSuperClass",
+		"testInstanceVariable",
+		"testPackage",
+		"testCategory",
+		"testMethodName" ],
+	"name" : "CodeGeneratorTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

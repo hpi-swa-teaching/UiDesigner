@@ -1,0 +1,22 @@
+{
+	"category" : "Designer-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"newBtn",
+		"openBtn",
+		"saveBtn",
+		"widgetsWindowButton",
+		"attributesWindowButton",
+		"hierarchyWindowButton",
+		"packageNameEdit",
+		"prop",
+		"centralScroller" ],
+	"name" : "UiDesignerUi",
+	"pools" : [
+		 ],
+	"super" : "UserInterface",
+	"type" : "normal" }

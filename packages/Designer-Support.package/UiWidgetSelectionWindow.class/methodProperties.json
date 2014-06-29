@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"expandWidgetCategories" : "tg 6/24/2014 12:16",
+		"initialize" : "tg 6/24/2014 12:18",
+		"nameFilter:" : "tg 6/24/2014 12:19",
+		"open" : "tg 6/24/2014 11:41",
+		"open:" : "tg 6/24/2014 18:07",
+		"openInWindowLabeled:inWorld:" : "tg 6/24/2014 18:01",
+		"selectDefaultModel" : "tg 6/24/2014 12:15",
+		"selectFilterModel" : "tg 6/24/2014 12:19",
+		"ui" : "tg 6/29/2014 10:43",
+		"ui:" : "tg 6/24/2014 17:43",
+		"uiDesigner" : "tg 6/24/2014 17:43",
+		"uiDesigner:" : "tg 6/24/2014 17:43" } }
