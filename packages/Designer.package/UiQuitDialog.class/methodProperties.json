@@ -1,9 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"initializeWith:" : "gb 6/24/2014 18:11",
-		"onQuitButton" : "gb 6/24/2014 19:05",
-		"onSaveButton" : "gb 6/24/2014 18:05",
-		"open" : "gb 6/24/2014 18:11",
-		"ui" : "gb 6/24/2014 18:11" } }
