@@ -1,6 +1,5 @@
 selection - manual
 selectedNodes: someNodes
-
 	(self selectedNodes size = someNodes size
 		and: [self selectedNodes includesAllOf: someNodes])
 			ifTrue: [^ self].
