@@ -16,7 +16,8 @@ openInWindowLabeled: aString inWorld: aWorld
 	aWorld addMorph: window.
 	window activate.
 	aWorld startSteppingSubmorphsOf: window.
-	window height: 200.
+	window height: 207.
+	window width: 385.
 	position := uiDesigner owner position + ((uiDesigner owner extent x)@( (uiDesigner owner height) - (window height) )).
 	window position: position.
 	^window

@@ -13,6 +13,7 @@ openInWindowLabeled: aString inWorld: aWorld
 	extent := self fullBounds extent + 
 			(window borderWidth@window labelHeight) + window borderWidth.
 	window extent: extent.
+	window height: uiDesigner owner height.
 	aWorld addMorph: window.
 	window activate.
 	aWorld startSteppingSubmorphsOf: window.
