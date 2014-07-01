@@ -13,7 +13,10 @@
 		"hierarchyWindow",
 		"historyActionInProgress",
 		"actionHistory",
-		"actionHistoryIndex" ],
+		"actionHistoryIndex",
+		"widgetsWindow",
+		"attributesWindow",
+		"quitDialog" ],
 	"name" : "UiDesigner",
 	"pools" : [
 		 ],

@@ -6,5 +6,11 @@ closeBoxHit
 		[Sensor rawMacOptionKeyPressed ifTrue:
 			[^ self world closeUnchangedWindows]].
 	uiDesigner = nil
-		ifFalse: [uiDesigner openQuitDialog.]
+		ifFalse: [
+			uiDesigner changesMade 
+				ifTrue: [	uiDesigner openQuitDialog.]
+				ifFalse:[ uiDesigner deleteOwnWindows.
+						self delete. 
+						]
+				]
 		ifTrue: [self delete.]
