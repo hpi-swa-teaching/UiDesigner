@@ -1,6 +1,9 @@
 accessing
 onOkButton
-		
+	
 	uiDesigner ui packageNameEdit theText: self ui packageNameInput theText.
 	uiDesigner save: false.
-	self owner delete.
+	closeDesignerAfterwards ifTrue: [ 	uiDesigner deleteOwnWindows. 
+									     	uiDesigner owner delete.
+									     	self owner delete. ]
+							ifFalse: [self owner delete. ]

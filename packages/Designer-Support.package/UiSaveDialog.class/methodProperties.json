@@ -2,13 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
+		"closeDesignerAfterwards" : "gb 7/1/2014 17:16",
+		"closeDesignerAfterwards:" : "gb 7/1/2014 17:15",
 		"connectViewWith:and:" : "tg 5/26/2014 11:55",
 		"detectClassExistsWarning:" : "SD 6/24/2014 18:17",
 		"initializeWith:" : "tg 6/10/2014 11:25",
 		"loadTextFrom:and:" : "FW 6/1/2014 21:46",
 		"onCancelButton" : "tg 5/16/2014 14:20",
-		"onOkButton" : "tg 6/10/2014 11:27",
-		"onSaveWithSurroundingClass" : "tg 6/10/2014 11:27",
+		"onOkButton" : "gb 7/1/2014 17:50",
+		"onSaveWithSurroundingClass" : "gb 7/1/2014 17:50",
 		"open" : "tg 6/10/2014 11:59",
 		"setValues:" : "tg 5/14/2014 14:32",
 		"ui" : "tg 5/13/2014 12:10",

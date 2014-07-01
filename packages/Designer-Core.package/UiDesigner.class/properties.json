@@ -16,7 +16,10 @@
 		"actionHistoryIndex",
 		"widgetsWindow",
 		"attributesWindow",
-		"quitDialog" ],
+		"quitDialog",
+		"propertyTable",
+		"openedByQuitDialog",
+		"closeDesignerAfterwards" ],
 	"name" : "UiDesigner",
 	"pools" : [
 		 ],

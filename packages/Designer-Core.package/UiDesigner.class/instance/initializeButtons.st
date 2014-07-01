@@ -1,7 +1,7 @@
 initialization
 initializeButtons		
 	self connect: self ui newBtn signal: #clicked: toSelector: #reset.
-	self connect: self ui saveBtn signal: #clicked: toSelector: #openSaveDialog.
+	self connect: self ui saveBtn signal: #clicked: toSelector: #openSaveDialogByButton.
 	self connect: self ui openBtn signal: #clicked: toSelector: #load.
 	
 	self connect: self ui hierarchyWindowButton signal: #toggled: toSelector: #toggleHierarchyWindow:.

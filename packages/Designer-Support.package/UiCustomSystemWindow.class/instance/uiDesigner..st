@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 uiDesigner: aUiDesigner
 
 	uiDesigner := aUiDesigner.

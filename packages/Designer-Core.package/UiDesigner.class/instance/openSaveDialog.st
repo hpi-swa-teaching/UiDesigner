@@ -7,7 +7,8 @@ openSaveDialog
 	uiSaveDialog 
 		connectViewWith: container and: propertyTable;
 		loadTextFrom: container and: ui packageNameEdit.
-		
+	
+	uiSaveDialog closeDesignerAfterwards: closeDesignerAfterwards.
 	uiSaveDialog open.
 	
 	"self addMorph: (UiSaveDialog new open)."

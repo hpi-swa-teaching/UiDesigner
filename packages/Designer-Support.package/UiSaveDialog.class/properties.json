@@ -12,7 +12,9 @@
 		"aMorph",
 		"s",
 		"uiDesigner",
-		"aUiDesigner" ],
+		"aUiDesigner",
+		"openedByQuitDialog",
+		"closeDesignerAfterwards" ],
 	"name" : "UiSaveDialog",
 	"pools" : [
 		 ],
