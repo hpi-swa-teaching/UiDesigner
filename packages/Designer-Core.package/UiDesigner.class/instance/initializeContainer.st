@@ -6,8 +6,7 @@ initializeContainer
 		dragEnabled: false.
 		
 	self connect: container signal: #selectionChanged: to: self attributeTreeModel selector: #setNewWidget:.
-	self connect: container signal: #morphAdded:into: to: self selector: #morphAdded:into:.
-	self connect: container signal: #removedMorph:from: to: self selector: #morphRemoved:from:.
+	self connectContainerToHistory: container.
 	
 	self ui centralScroller widget: container.
 	

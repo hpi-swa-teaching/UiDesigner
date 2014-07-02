@@ -1,4 +1,4 @@
-accessing
+slots
 onCancelButton.
 	
 	uiDesigner ui packageNameEdit theText: self ui packageNameInput theText.

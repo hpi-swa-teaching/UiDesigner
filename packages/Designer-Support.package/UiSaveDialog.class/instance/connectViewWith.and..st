@@ -1,4 +1,4 @@
-accessing
+initialize
 connectViewWith: aMorph and: aPropertyTable
 
 	self setValues: aMorph.

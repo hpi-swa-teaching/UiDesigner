@@ -1,4 +1,4 @@
-accessing
+initialize
 initializeWith: aUiDesigner 
 	
 	self ui setupUi: self.

@@ -1,4 +1,4 @@
-accessing
+initialize
 open  
 	
 	self openInWindowLabeled: 'Save'.

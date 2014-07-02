@@ -1,4 +1,4 @@
-accessing
+initialize
 loadTextFrom: aMorph and: anotherMorph
 	
 	self ui classNameInput theText: aMorph uiClassName.
