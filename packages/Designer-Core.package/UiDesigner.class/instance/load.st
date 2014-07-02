@@ -8,3 +8,5 @@ load
 	
 	result ifNotNil: [:designClass |
 		self load: designClass].
+	
+	self resetHistory.
