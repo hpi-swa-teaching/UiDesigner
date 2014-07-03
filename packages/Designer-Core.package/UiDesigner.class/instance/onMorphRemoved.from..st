@@ -8,5 +8,4 @@ onMorphRemoved: aMorph from: aContainer
 		self checkHistoryIndex.
 			
 		(aMorph class = UiContainer) ifTrue: [
-			aMorph disconnectSignal: aMorph from: self selector: #onMorphAdded:into:. 
-			aMorph disconnectSignal: #morphAdded:into: from: self selector: #onMorphAdded:into:. ]].
+			self disconnectContainerFromHistory: aMorph. ]].
