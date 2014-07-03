@@ -1,7 +1,7 @@
 testing
 testMouseLeave
 	| evt aHand|
-	container1 isHighlighted: true.
+	container2 highlight.
 	
 	aHand := HandMorph new.
 	aHand grabMorph: UiPushButton new.
@@ -9,7 +9,8 @@ testMouseLeave
 	evt := MouseEvent new.
 	evt setType: #mouseLeave position: container1 topLeft
 		 buttons: 0 hand: aHand.
-	container1 editMode: true.
-	container1 handleMouseLeave: evt.
+	container2 editMode: true.
+	container2 handleMouseLeave: evt.
 
-	self assert: (container1 isHighlighted = false).
+	self assert: (container1 isHighlighted = true).
+	self assert: (container2 isHighlighted = false).

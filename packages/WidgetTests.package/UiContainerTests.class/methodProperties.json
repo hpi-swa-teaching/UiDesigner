@@ -3,6 +3,7 @@
 		 },
 	"instance" : {
 		"initialize" : "SR 6/18/2014 14:42",
+		"testDragging" : "SR 7/3/2014 09:43",
 		"testHighlighting" : "SR 6/19/2014 16:37",
-		"testMouseEnter" : "SR 6/19/2014 16:41",
-		"testMouseLeave" : "SR 6/19/2014 17:21" } }
+		"testMouseEnter" : "SR 7/3/2014 09:43",
+		"testMouseLeave" : "SR 7/3/2014 09:43" } }

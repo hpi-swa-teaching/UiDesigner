@@ -1,7 +1,7 @@
 testing
 testMouseEnter
 	| evt aHand|
-	container1 isHighlighted: false.
+	container1 isHighlighted: true.
 	container2 isHighlighted: false.
 	
 	aHand := HandMorph new.
