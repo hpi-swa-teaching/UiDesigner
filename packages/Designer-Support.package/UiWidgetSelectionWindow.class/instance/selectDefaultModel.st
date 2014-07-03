@@ -1,4 +1,4 @@
-initialization
+slots
 selectDefaultModel
 
 	self ui widgetList

@@ -2,13 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
+		"close" : "tg 7/3/2014 16:18",
 		"hierarchyModel" : "tg 6/24/2014 17:49",
 		"hierarchyModel:" : "tg 6/24/2014 17:49",
 		"initialize" : "tg 6/24/2014 17:50",
 		"initializeTreeView" : "tg 6/24/2014 17:50",
 		"open:" : "tg 6/24/2014 18:07",
-		"open:designer:" : "tg 6/24/2014 17:57",
-		"openInWindowLabeled:inWorld:" : "tg 7/1/2014 11:18",
+		"open:designer:" : "tg 7/3/2014 16:24",
+		"openInWindowLabeled:inWorld:" : "tg 7/3/2014 16:19",
 		"selectDisplayedNode:" : "tg 6/30/2014 09:01",
 		"selectWidget:" : "tg 6/24/2014 17:50",
 		"ui" : "tg 6/24/2014 17:55",

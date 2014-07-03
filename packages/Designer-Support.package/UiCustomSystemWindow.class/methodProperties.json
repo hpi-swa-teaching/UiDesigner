@@ -2,5 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"closeBoxHit" : "gb 7/1/2014 14:58",
-		"uiDesigner:" : "gb 6/24/2014 17:46" } }
+		"checkIfUiDesigner" : "tg 7/3/2014 16:10",
+		"checkIfWidget" : "tg 7/3/2014 16:20",
+		"closeBoxHit" : "tg 7/3/2014 16:17",
+		"uiDesigner" : "tg 7/3/2014 15:59",
+		"uiDesigner:" : "gb 6/24/2014 17:46",
+		"widget" : "tg 7/3/2014 16:00",
+		"widget:" : "tg 7/3/2014 16:00" } }

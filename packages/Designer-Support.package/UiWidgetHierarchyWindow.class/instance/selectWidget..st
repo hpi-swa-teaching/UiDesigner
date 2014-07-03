@@ -1,4 +1,4 @@
-accessing
+slots
 selectWidget: aWidgetNode
 	| parent widget |
 	

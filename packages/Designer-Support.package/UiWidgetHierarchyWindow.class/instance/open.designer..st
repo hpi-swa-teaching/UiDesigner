@@ -1,4 +1,4 @@
-accessing
+initialization
 open: topLevelContainer designer: aUiDesigner 
 	self uiDesigner: aUiDesigner.
 	self hierarchyModel: (UiWidgetHierarchyModel newWithContainer: topLevelContainer).
@@ -8,4 +8,4 @@ open: topLevelContainer designer: aUiDesigner
 	self connect: topLevelContainer signal: #selectionChanged: to: self selector: #updateDisplayedHierarchy:.
 	self connect: (self hierarchyModel) signal: #publishSelectedNode: to: self selector: #selectDisplayedNode:.
 	
-  	self openInWindowLabeled: 'Widget Hierarchy'
+  	self openInWindowLabeled: 'Hierarchy'

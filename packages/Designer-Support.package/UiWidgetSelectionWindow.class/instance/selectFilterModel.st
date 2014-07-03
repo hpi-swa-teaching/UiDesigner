@@ -1,4 +1,4 @@
-initialization
+slots
 selectFilterModel
 
 	self ui widgetList

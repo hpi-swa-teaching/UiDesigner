@@ -1,4 +1,4 @@
-accessing
+initialization
 initializeTreeView
 	self ui treeView removeAllColumns; model: nil; 
 			addColumn: ((UiItemViewColumnSpec newFrom: {#text -> #yourself. #icon -> #yourself})

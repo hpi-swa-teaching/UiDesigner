@@ -1,8 +1,10 @@
 initialization
 openInWindowLabeled: aString inWorld: aWorld
 
-	| window extent position |
-	window := (UiCustomSystemWindow labelled: aString) model: nil.
+	| window extent position systemWindow |
+	systemWindow := UiCustomSystemWindow labelled: aString.
+	systemWindow widget: self.
+	window := systemWindow model: nil.
 	window 
 		" guess at initial extent"
 		bounds:  (RealEstateAgent initialFrameFor: window initialExtent: self fullBounds extent world: aWorld);
