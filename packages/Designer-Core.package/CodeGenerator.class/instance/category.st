@@ -1,4 +1,4 @@
 accessing
 category
 
-	^ category
+	^ category ifNil: [^ 'GeneratedClasses']
