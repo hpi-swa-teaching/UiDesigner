@@ -1,4 +1,4 @@
-attribute editing
+windowing
 openAttributesWindow
 	self attributesWindow: UiWidgetAttributesWindow new. 
 	self attributesWindow open: self.
