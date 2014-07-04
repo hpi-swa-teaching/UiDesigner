@@ -2,15 +2,17 @@ data insertion
 createCodeNodeWithName: name andValue: currentValue
 	| lineedit |
 	
-	lineedit := UiLineEdit new
-				hResizing: #spaceFill;
-				theText: currentValue;
-				converter: [:raw | | convertedValue |
-					convertedValue :=  [Compiler evaluate: raw asString] on: Error do: [nil].
-					
-					convertedValue 
-						ifNil: [ currentValue ] 
-						ifNotNil: [ self changeProperty: name To: convertedValue ] ].
+	lineedit := self getCachedOrNewWidget: UiLineEdit For: name.
+	
+	lineedit
+		hResizing: #spaceFill;
+		theText: currentValue;
+		converter: [:raw | | convertedValue |
+			convertedValue :=  [Compiler evaluate: raw asString] on: Error do: [nil].
+			
+			convertedValue 
+				ifNil: [ currentValue ] 
+				ifNotNil: [ self changeProperty: name To: convertedValue ] ].
 	
 	^ UiPropertyItemNode new
 		at: #propertyName put: name;

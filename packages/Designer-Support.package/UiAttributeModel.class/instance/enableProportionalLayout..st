@@ -4,4 +4,4 @@ enableProportionalLayout: aBoolean
 		ifTrue:  [self currentWidget changeProportionalLayout]
 		ifFalse: [self currentWidget layoutPolicy: nil; layoutChanged].
 		
-	self updateProperties: self currentWidget.
+	self setNewWidget: self currentWidget.

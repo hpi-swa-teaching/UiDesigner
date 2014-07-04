@@ -2,10 +2,12 @@ data insertion
 createBooleanNodeWithName: name andValue: value 
 	| checkbox node pattern |
 	
-	checkbox := UiCheckBox new
-				hResizing: #spaceFill;
-				checked: value;
-				text: ''.
+	checkbox := self getCachedOrNewWidget: UiCheckBox For: name.
+	
+	checkbox
+		hResizing: #spaceFill;
+		checked: value;
+		text: ''.
 	
 	node := UiPropertyItemNode new
 		at: #propertyName put: name;

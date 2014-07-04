@@ -11,5 +11,5 @@ addLayoutSettings: aMorph
 
 	layoutNode := self createBooleanNodeWithName: 'Proportional' andValue: (aMorph hasProportionalLayout).
 	(layoutNode at: #editorMorph) disconnectAllSignals.
-	self connect: (layoutNode at: #editorMorph) signal: #clicked: to: self selector: #enableTableLayout:.
+	self connect: (layoutNode at: #editorMorph) signal: #clicked: to: self selector: #enableProportionalLayout:.
 	topNode addChild: layoutNode.

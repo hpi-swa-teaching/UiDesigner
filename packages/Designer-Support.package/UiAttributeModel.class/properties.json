@@ -9,7 +9,8 @@
 	"instvars" : [
 		"attributes",
 		"currentWidget",
-		"nonModifiableVariableNames" ],
+		"nonModifiableVariableNames",
+		"widgetCache" ],
 	"name" : "UiAttributeModel",
 	"pools" : [
 		 ],
