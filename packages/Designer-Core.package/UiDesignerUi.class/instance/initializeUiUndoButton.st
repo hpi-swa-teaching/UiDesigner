@@ -1,5 +1,5 @@
 ui - private
-initializeundoButton
+initializeUiUndoButton
 		
 	undoButton := UiPushButton new.
 	undoButton changeTableLayout.
@@ -23,7 +23,7 @@ initializeundoButton
 	undoButton frameFractions: (0@0 corner: 1@1).
 	undoButton frameOffsets: (0@0 corner: 0@0).
 	undoButton balloonText: (nil).
-	undoButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
+	undoButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
 	undoButton enabled: (false).
 	undoButton setProperty: #iconByDesigner toValue: 'nil'.
 	undoButton icon: (nil).
@@ -33,4 +33,4 @@ initializeundoButton
 	undoButton checked: (false).
 	undoButton autoExclusive: (false).
 	undoButton setProperty: #objectName toValue: 'undoButton'.
-	^ undoButton.
+	^ undoButton

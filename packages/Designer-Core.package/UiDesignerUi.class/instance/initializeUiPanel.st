@@ -1,5 +1,5 @@
 ui - private
-initializepanel
+initializeUiPanel
 		
 	
 	| panel |
@@ -32,6 +32,6 @@ initializepanel
 	panel borderColor: (Color black).
 	panel setProperty: #objectName toValue: 'panel'.
 	panel setProperty: #objectDescription toValue: 'This is the user interface layout for the morphic designer.'.
-	panel addChild:(self initializeunnamedMorph1).
-	panel addChild:(self initializeprop).
-	^ panel.
+	panel addChild:(self initializeUnnamedUiContainer1).
+	panel addChild:(self initializeUiProp).
+	^ panel

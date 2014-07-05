@@ -3,6 +3,6 @@ testMethodGenerationError
 	| methodStub |
 	methodStub := '"some code..."'.
 	
-	generator := CodeGenerator new.
+	generator := UiGenericCodeGenerator new.
 	
 	self should: [generator generateMethod: testMethodName with: methodStub] raise: Exception 

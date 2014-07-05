@@ -5,7 +5,7 @@ injectInstVarsForMorph: aMorph into: aCollection
 	aMorph ~~ source ifTrue: [
 		aMorph
 			setProperty: #objectNameTemp
-			toValue: (aMorph objectName ifEmpty: [self nextDefaultName]).
+			toValue: (aMorph objectName ifEmpty: [self nextDefaultNameFor: aMorph]).
 		
 		aMorph
 			setProperty: #objectDescriptionTemp

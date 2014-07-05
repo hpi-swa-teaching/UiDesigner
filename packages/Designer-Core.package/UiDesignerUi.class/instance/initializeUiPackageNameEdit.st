@@ -1,5 +1,5 @@
 ui - private
-initializepackageNameEdit
+initializeUiPackageNameEdit
 		
 	packageNameEdit := UiLineEdit new.
 	packageNameEdit extent: (140@20).
@@ -38,4 +38,4 @@ initializepackageNameEdit
 	packageNameEdit helpText: ('Type target package...').
 	packageNameEdit hideCursor: (true).
 	packageNameEdit setProperty: #objectName toValue: 'packageNameEdit'.
-	^ packageNameEdit.
+	^ packageNameEdit

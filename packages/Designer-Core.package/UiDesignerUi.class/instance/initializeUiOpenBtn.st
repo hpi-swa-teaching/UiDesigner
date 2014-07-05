@@ -1,5 +1,5 @@
 ui - private
-initializeopenBtn
+initializeUiOpenBtn
 		
 	openBtn := UiToolButton new.
 	openBtn changeTableLayout.
@@ -36,4 +36,4 @@ interface.').
 	openBtn autoRaise: (true).
 	openBtn buttonStyle: (#textUnderIcon).
 	openBtn setProperty: #objectName toValue: 'openBtn'.
-	^ openBtn.
+	^ openBtn

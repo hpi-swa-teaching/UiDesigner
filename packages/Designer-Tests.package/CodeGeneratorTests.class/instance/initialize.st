@@ -6,4 +6,4 @@ initialize
 	testPackage := 'testPackage'.
 	testCategory := 'testCategory'.
 	testMethodName := 'testMehod'.
-	generator := CodeGenerator new.
+	generator := UiGenericCodeGenerator new.

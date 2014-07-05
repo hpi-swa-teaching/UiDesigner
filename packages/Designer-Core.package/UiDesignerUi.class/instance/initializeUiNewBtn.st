@@ -1,5 +1,5 @@
 ui - private
-initializenewBtn
+initializeUiNewBtn
 		
 	newBtn := UiToolButton new.
 	newBtn changeTableLayout.
@@ -36,4 +36,4 @@ and close the current one.').
 	newBtn autoRaise: (true).
 	newBtn buttonStyle: (#textUnderIcon).
 	newBtn setProperty: #objectName toValue: 'newBtn'.
-	^ newBtn.
+	^ newBtn

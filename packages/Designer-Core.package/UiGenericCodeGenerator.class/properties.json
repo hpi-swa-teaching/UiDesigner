@@ -11,7 +11,7 @@
 		"instVars",
 		"classVars",
 		"superClass" ],
-	"name" : "CodeGenerator",
+	"name" : "UiGenericCodeGenerator",
 	"pools" : [
 		 ],
 	"super" : "Object",

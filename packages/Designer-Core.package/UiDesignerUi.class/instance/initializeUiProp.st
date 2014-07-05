@@ -1,5 +1,5 @@
 ui - private
-initializeprop
+initializeUiProp
 		
 	prop := UiContainer new.
 	prop changeProportionalLayout.
@@ -29,5 +29,5 @@ initializeprop
 	prop borderStyle2: (#simple).
 	prop borderColor: (Color black).
 	prop setProperty: #objectName toValue: 'prop'.
-	prop addChild:(self initializecentralScroller).
-	^ prop.
+	prop addChild:(self initializeUiCentralScroller).
+	^ prop

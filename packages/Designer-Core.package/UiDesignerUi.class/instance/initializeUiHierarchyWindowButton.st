@@ -1,5 +1,5 @@
 ui - private
-initializehierarchyWindowButton
+initializeUiHierarchyWindowButton
 		
 	hierarchyWindowButton := UiToolButton new.
 	hierarchyWindowButton changeTableLayout.
@@ -35,4 +35,4 @@ initializehierarchyWindowButton
 	hierarchyWindowButton autoRaise: (true).
 	hierarchyWindowButton buttonStyle: (#textBesideIcon).
 	hierarchyWindowButton setProperty: #objectName toValue: 'hierarchyWindowButton'.
-	^ hierarchyWindowButton.
+	^ hierarchyWindowButton

@@ -1,7 +1,7 @@
 code generation
 prepareGeneratorForSurroundingClass
 	| generator |
-	generator := CodeGenerator new.
+	generator := UiGenericCodeGenerator new.
 	generator generatedClassName: (self surroundingClassName).
 	generator instVars: 'ui'.
 	generator category: (self category).

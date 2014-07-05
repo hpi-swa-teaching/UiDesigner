@@ -1,5 +1,5 @@
 ui - private
-initializecentralScroller
+initializeUiCentralScroller
 		
 	centralScroller := UiScrollArea new.
 	centralScroller extent: (600@558).
@@ -29,4 +29,4 @@ initializecentralScroller
 	centralScroller outerBorderWidth: (0).
 	centralScroller scrollBarThickness: (9).
 	centralScroller setProperty: #objectName toValue: 'centralScroller'.
-	^ centralScroller.
+	^ centralScroller

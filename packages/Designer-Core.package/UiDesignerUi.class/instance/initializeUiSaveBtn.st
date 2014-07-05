@@ -1,5 +1,5 @@
 ui - private
-initializesaveBtn
+initializeUiSaveBtn
 		
 	saveBtn := UiToolButton new.
 	saveBtn changeTableLayout.
@@ -37,4 +37,4 @@ package.').
 	saveBtn autoRaise: (true).
 	saveBtn buttonStyle: (#textUnderIcon).
 	saveBtn setProperty: #objectName toValue: 'saveBtn'.
-	^ saveBtn.
+	^ saveBtn

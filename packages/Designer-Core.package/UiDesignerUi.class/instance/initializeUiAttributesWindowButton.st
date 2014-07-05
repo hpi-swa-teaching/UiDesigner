@@ -1,5 +1,5 @@
 ui - private
-initializeattributesWindowButton
+initializeUiAttributesWindowButton
 		
 	attributesWindowButton := UiToolButton new.
 	attributesWindowButton changeTableLayout.
@@ -35,4 +35,4 @@ initializeattributesWindowButton
 	attributesWindowButton autoRaise: (true).
 	attributesWindowButton buttonStyle: (#textBesideIcon).
 	attributesWindowButton setProperty: #objectName toValue: 'attributesWindowButton'.
-	^ attributesWindowButton.
+	^ attributesWindowButton
