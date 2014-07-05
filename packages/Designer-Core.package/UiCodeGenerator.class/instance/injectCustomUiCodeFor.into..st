@@ -1,9 +1,7 @@
 codeInjection
 injectCustomUiCodeFor: aMorph into: stream
 
-	| propertyTemplate propertyTemplate2 value isCode |
-	propertyTemplate := '{1} {2}: ({5}{3}{4}{6}).'.
-	propertyTemplate2 := '{1} setProperty: #{2} toValue: ''{3}''.'.
+	| value isCode |
 	
 	aMorph class widgetProperties do: [:category |
 		category value do: [:property |
@@ -16,13 +14,13 @@ injectCustomUiCodeFor: aMorph into: stream
 					isCode := true.
 					
 					"Note down this special property for later use in designer"
-					stream crtab; nextPutAll: (propertyTemplate2 format: {
+					stream crtab; nextPutAll: (self propertyTemplate3 format: {
 						aMorph valueOfProperty: #objectNameTemp.
 						(property key, #ByDesigner).
 						value})]
 				ifFalse: [value := aMorph perform: property key].
 
-		stream crtab; nextPutAll: (propertyTemplate format: {
+		stream crtab; nextPutAll: (self propertyTemplate2 format: {
 			aMorph valueOfProperty: #objectNameTemp.
 			property key.
 			value isSymbol ifTrue: ['#'] ifFalse: [''].
