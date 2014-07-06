@@ -1,0 +1,23 @@
+{
+	"category" : "Designer-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"titleLbl",
+		"unnamedMorph1",
+		"recentLbl",
+		"recentList",
+		"openBtn",
+		"unnamedMorph2",
+		"templateLbl",
+		"templateList",
+		"newBtn",
+		"versionLbl" ],
+	"name" : "UiDesignerMenuUi",
+	"pools" : [
+		 ],
+	"super" : "UserInterface",
+	"type" : "normal" }

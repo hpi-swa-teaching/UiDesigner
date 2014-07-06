@@ -1,0 +1,19 @@
+{
+	"category" : "Designer-Support",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TUiItemModel classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"attributes",
+		"currentWidget",
+		"nonModifiableVariableNames",
+		"widgetCache" ],
+	"name" : "UiAttributeModel",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "TUiItemModel",
+	"type" : "normal" }

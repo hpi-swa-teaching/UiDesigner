@@ -1,0 +1,16 @@
+{
+	"category" : "Designer-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"ui",
+		"hierarchyModel",
+		"uiDesigner" ],
+	"name" : "UiWidgetHierarchyWindow",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

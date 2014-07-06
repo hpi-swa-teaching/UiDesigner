@@ -1,0 +1,15 @@
+{
+	"category" : "Designer-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"relevantMorph",
+		"morphContainer" ],
+	"name" : "UiDeleteMorphCommand",
+	"pools" : [
+		 ],
+	"super" : "UiCommand",
+	"type" : "normal" }

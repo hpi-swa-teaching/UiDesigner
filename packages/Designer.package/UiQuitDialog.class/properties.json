@@ -1,0 +1,15 @@
+{
+	"category" : "Designer-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"ui",
+		"uiDesigner" ],
+	"name" : "UiQuitDialog",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

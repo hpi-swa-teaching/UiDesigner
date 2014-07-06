@@ -1,0 +1,21 @@
+{
+	"category" : "Designer-Support",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TUiItemModel classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"hierarchy",
+		"currentWidget",
+		"topLevelContainer",
+		"blacklistedMorphs",
+		"selectedWidget",
+		"selectedNode" ],
+	"name" : "UiWidgetHierarchyModel",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "TUiItemModel",
+	"type" : "normal" }

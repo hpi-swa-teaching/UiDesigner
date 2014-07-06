@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"execute" : "SD 6/24/2014 11:16",
+		"getReverseCommand" : "SD 6/24/2014 12:04",
+		"undo" : "FW 6/26/2014 15:57" } }
