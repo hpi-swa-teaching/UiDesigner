@@ -2,6 +2,7 @@
 	"class" : {
 		"newWith:in:" : "FW 6/26/2014 16:01" },
 	"instance" : {
+		"convertToText" : "SD 7/7/2014 17:57",
 		"execute" : "SD 6/24/2014 12:13",
 		"getReverseCommand" : "SD 6/24/2014 12:08",
 		"morphClass" : "SD 6/24/2014 12:04",
