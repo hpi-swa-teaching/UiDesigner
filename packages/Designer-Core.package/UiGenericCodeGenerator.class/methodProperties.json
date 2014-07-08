@@ -8,9 +8,8 @@
 		"classVars:" : "SD 6/9/2014 12:47",
 		"generateAccessors" : "SD 6/10/2014 11:54",
 		"generateClass" : "SD 6/9/2014 13:18",
-		"generateMethod:with:" : "SD 6/9/2014 21:40",
-		"generateMethod:with:classified:" : "SD 6/12/2014 11:58",
-		"generateMethod:with:with:" : "SD 6/9/2014 22:05",
+		"generateMethod:with:" : "SD 7/8/2014 10:59",
+		"generateMethod:with:classified:" : "SD 7/8/2014 11:01",
 		"generatedClass" : "SD 6/9/2014 21:43",
 		"generatedClassName" : "SD 6/9/2014 13:04",
 		"generatedClassName:" : "SD 6/9/2014 12:37",
@@ -18,4 +17,5 @@
 		"instVars:" : "SD 6/9/2014 12:37",
 		"instVarsAsCollection" : "SD 6/10/2014 11:54",
 		"superClass" : "SD 6/9/2014 13:18",
-		"superClass:" : "SD 6/9/2014 13:18" } }
+		"superClass:" : "SD 6/9/2014 13:18",
+		"warningCommentTemplate" : "SD 7/8/2014 11:00" } }

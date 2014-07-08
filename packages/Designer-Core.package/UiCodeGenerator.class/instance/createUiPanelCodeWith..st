@@ -4,8 +4,7 @@ createUiPanelCodeWith: aGenerator
 	| stream |
 	stream := WriteStream on: ''.
 	
-	stream nextPutAll: self warningCommentTemplate; 
-						crtab;crtab; nextPutAll: 'panel := '.
+	stream nextPutAll: 'panel := '.
 	
 	source setProperty: #objectNameTemp toValue: source objectName.
 	self injectUiCodeFor: source into: stream with: aGenerator.

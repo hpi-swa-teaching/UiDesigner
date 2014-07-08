@@ -11,8 +11,5 @@ initialize
 	
 	"BAD: Viewport should not be accessed from the outside."
 	
-	
-	"self ui filterEdit deferEditSignalTime: 300."
-		
 	self initializeButtons.
 	

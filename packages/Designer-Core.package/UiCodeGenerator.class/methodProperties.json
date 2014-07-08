@@ -8,7 +8,7 @@
 		"category:" : "mt 6/30/2010 11:49:31.444",
 		"collectInstVars" : "mt 6/27/2010 12:49:00.982",
 		"createUiClassWith:" : "SD 6/26/2014 14:48",
-		"createUiPanelCodeWith:" : "SD 7/5/2014 16:59",
+		"createUiPanelCodeWith:" : "SD 7/8/2014 11:02",
 		"creationTemplate" : "SD 6/12/2014 10:15",
 		"descrTemplate" : "SD 6/12/2014 10:16",
 		"generateSurroundingClass" : "SD 6/12/2014 12:10",
@@ -44,5 +44,4 @@
 		"uiClassName" : "mt 7/19/2010 08:21:55.907",
 		"uiClassTemplate" : "SD 7/5/2014 16:56",
 		"unnamedInstVars" : "mt 5/18/2012 10:22:00.403",
-		"unnamedInstVarsString" : "SD 6/12/2014 13:28",
-		"warningCommentTemplate" : "SD 7/5/2014 16:58" } }
+		"unnamedInstVarsString" : "SD 6/12/2014 13:28" } }
