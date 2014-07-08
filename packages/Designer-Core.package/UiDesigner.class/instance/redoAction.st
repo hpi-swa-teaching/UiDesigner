@@ -4,12 +4,8 @@ redoAction
 	
 	self actionHistoryIndex: (self actionHistoryIndex + 1).
 	actionToBeRedone := self actionHistory at: (self actionHistoryIndex).
-	self checkHistoryIndex.
 	
-	self historyActionInProgress: true.
-	actionToBeRedone execute.
-	self historyActionInProgress: false.
-	
+	self saveExecuteCommand: actionToBeRedone.
 
 	self ui redoComboBox list removeLastRow.
 	self update: self ui undoComboBox with: actionToBeRedone.

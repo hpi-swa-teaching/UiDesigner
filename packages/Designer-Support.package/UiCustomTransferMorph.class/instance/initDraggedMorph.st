@@ -10,9 +10,7 @@ initDraggedMorph
 						asMorph).
 
 	self hasDropShadow: false.
-	
-	"self halt."
-	
+		
 	((self passenger first at: #class) isKindOf: (UiContainer class))
 		ifTrue: [widget borderWidth: 1;
 					borderColor: Color gray]. 

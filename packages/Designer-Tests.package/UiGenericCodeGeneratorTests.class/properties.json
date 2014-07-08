@@ -13,7 +13,7 @@
 		"testPackage",
 		"testCategory",
 		"testMethodName" ],
-	"name" : "CodeGeneratorTests",
+	"name" : "UiGenericCodeGeneratorTests",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

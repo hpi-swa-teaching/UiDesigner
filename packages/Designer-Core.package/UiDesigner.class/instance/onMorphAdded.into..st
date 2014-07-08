@@ -3,11 +3,8 @@ onMorphAdded: aMorph into: aContainer
 	| currentCommand |
 	((self historyActionInProgress not) and: (aMorph class ~= BorderedMorph) and: (aMorph class ~= UiCustomTransferMorph))
 	ifTrue: [
-		self amendHistory.
-		currentCommand := UiAddMorphCommand newWith: aMorph in: aContainer.
-		self actionHistory add: currentCommand.
-		self actionHistoryIndex: self actionHistoryIndex + 1.
-		self checkHistoryIndex.
+		currentCommand := (UiAddMorphCommand newWith: aMorph in: aContainer).
+		self addCommand: currentCommand.
 		
 		(aMorph class = UiContainer) ifTrue: [
 			self connectContainerToHistory: aMorph.].

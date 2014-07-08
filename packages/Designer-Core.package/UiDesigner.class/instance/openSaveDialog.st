@@ -10,5 +10,3 @@ openSaveDialog
 	
 	uiSaveDialog closeDesignerAfterwards: closeDesignerAfterwards.
 	uiSaveDialog open.
-	
-	"self addMorph: (UiSaveDialog new open)."
