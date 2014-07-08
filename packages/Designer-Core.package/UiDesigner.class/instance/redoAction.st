@@ -9,3 +9,7 @@ redoAction
 	self historyActionInProgress: true.
 	actionToBeRedone execute.
 	self historyActionInProgress: false.
+	
+
+	self ui redoComboBox list removeLastRow.
+	self update: self ui undoComboBox with: actionToBeRedone.

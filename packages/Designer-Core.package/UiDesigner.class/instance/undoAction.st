@@ -1,6 +1,6 @@
 history
 undoAction
-	| actionToBeUndone |
+	| actionToBeUndone peter |
 	
 	actionToBeUndone := self actionHistory at: (self actionHistoryIndex).
 	self actionHistoryIndex: (self actionHistoryIndex - 1).
@@ -9,3 +9,6 @@ undoAction
 	self historyActionInProgress: true.
 	actionToBeUndone undo.
 	self historyActionInProgress: false.
+	
+	self ui undoComboBox list removeLastRow.
+	self update: self ui redoComboBox with: actionToBeUndone.

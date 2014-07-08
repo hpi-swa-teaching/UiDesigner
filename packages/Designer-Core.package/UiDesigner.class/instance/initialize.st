@@ -15,3 +15,4 @@ initialize
 	"self ui filterEdit deferEditSignalTime: 300."
 		
 	self initializeButtons.
+	
