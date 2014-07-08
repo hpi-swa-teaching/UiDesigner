@@ -22,7 +22,7 @@ and will be overwritten.').
 	
 	Cursor wait showWhile:[
 		generator generateUiClassFor: container.
-		self expandWidgetCategories.	
+		self widgetsWindow expandWidgetCategories.	
 		self addRecentDesign: generator uiClassName asSymbol].
 
 	UserDialogBoxMorph

@@ -27,9 +27,8 @@ and will be overwritten.').
 		checkboxChecked
 			ifTrue: [generator generateSurroundingClass. ].
 		
-		"self expandWidgetCategories."	
 		self addRecentDesign: generator uiClassName asSymbol].
 	
 	self openSavedDialog: generator dependingOn: checkboxChecked.
 	
-			
+	self widgetsWindow expandWidgetCategories.		
