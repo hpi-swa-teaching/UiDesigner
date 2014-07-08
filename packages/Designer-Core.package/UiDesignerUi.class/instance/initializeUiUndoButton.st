@@ -1,6 +1,8 @@
 ui - private
 initializeUiUndoButton
 		
+	"This code is auto-generated. DO NOT modify it because another generation step will overwrite all changes."
+	
 	undoButton := UiPushButton new.
 	undoButton changeTableLayout.
 	undoButton extent: (36@20).
@@ -23,7 +25,7 @@ initializeUiUndoButton
 	undoButton frameFractions: (0@0 corner: 1@1).
 	undoButton frameOffsets: (0@0 corner: 0@0).
 	undoButton balloonText: (nil).
-	undoButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
+	undoButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	undoButton enabled: (false).
 	undoButton setProperty: #iconByDesigner toValue: 'nil'.
 	undoButton icon: (nil).

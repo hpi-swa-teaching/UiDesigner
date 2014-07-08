@@ -1,11 +1,13 @@
 ui - private
 initializeUnnamedUiSpacer2
 		
+	"This code is auto-generated. DO NOT modify it because another generation step will overwrite all changes."
+	
 	
 	| unnamedUiSpacer2 |
 	unnamedUiSpacer2 := UiSpacer new.
-	unnamedUiSpacer2 extent: (71@16).
-	unnamedUiSpacer2 position: (359@11).
+	unnamedUiSpacer2 extent: (26@16).
+	unnamedUiSpacer2 position: (404@11).
 	unnamedUiSpacer2 hResizing: (#spaceFill).
 	unnamedUiSpacer2 vResizing: (#rigid).
 	unnamedUiSpacer2 minWidth: (2).

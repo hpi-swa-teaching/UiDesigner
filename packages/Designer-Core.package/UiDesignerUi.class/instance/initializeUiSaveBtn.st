@@ -1,6 +1,8 @@
 ui - private
 initializeUiSaveBtn
 		
+	"This code is auto-generated. DO NOT modify it because another generation step will overwrite all changes."
+	
 	saveBtn := UiToolButton new.
 	saveBtn changeTableLayout.
 	saveBtn extent: (31@36).

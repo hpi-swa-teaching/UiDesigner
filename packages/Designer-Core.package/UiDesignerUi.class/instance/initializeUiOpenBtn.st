@@ -1,6 +1,8 @@
 ui - private
 initializeUiOpenBtn
 		
+	"This code is auto-generated. DO NOT modify it because another generation step will overwrite all changes."
+	
 	openBtn := UiToolButton new.
 	openBtn changeTableLayout.
 	openBtn extent: (32@36).

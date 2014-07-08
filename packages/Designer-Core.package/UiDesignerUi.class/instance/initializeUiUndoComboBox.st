@@ -1,6 +1,8 @@
 ui - private
-initializeundoComboBox
+initializeUiUndoComboBox
 		
+	"This code is auto-generated. DO NOT modify it because another generation step will overwrite all changes."
+	
 	undoComboBox := UiComboBox new.
 	undoComboBox extent: (17@20).
 	undoComboBox position: (319@9).
@@ -22,7 +24,7 @@ initializeundoComboBox
 	undoComboBox frameFractions: (0@0 corner: 1@1).
 	undoComboBox frameOffsets: (0@0 corner: 0@0).
 	undoComboBox balloonText: (nil).
-	undoComboBox balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
+	undoComboBox balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
 	undoComboBox readOnly: (true).
 	undoComboBox setProperty: #objectName toValue: 'undoComboBox'.
-	^ undoComboBox.
+	^ undoComboBox

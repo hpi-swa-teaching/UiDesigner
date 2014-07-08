@@ -1,6 +1,8 @@
 ui - private
 initializeUnnamedUiContainer1
 		
+	"This code is auto-generated. DO NOT modify it because another generation step will overwrite all changes."
+	
 	
 	| unnamedUiContainer1 |
 	unnamedUiContainer1 := UiContainer new.
@@ -37,7 +39,9 @@ initializeUnnamedUiContainer1
 	unnamedUiContainer1 addChild:(self initializeUiAttributesWindowButton).
 	unnamedUiContainer1 addChild:(self initializeUiHierarchyWindowButton).
 	unnamedUiContainer1 addChild:(self initializeUiUndoButton).
+	unnamedUiContainer1 addChild:(self initializeUiUndoComboBox).
 	unnamedUiContainer1 addChild:(self initializeUiRedoButton).
+	unnamedUiContainer1 addChild:(self initializeUiRedoComboBox).
 	unnamedUiContainer1 addChild:(self initializeUnnamedUiSpacer2).
 	unnamedUiContainer1 addChild:(self initializeUnnamedUiLabel3).
 	unnamedUiContainer1 addChild:(self initializeUiPackageNameEdit).
