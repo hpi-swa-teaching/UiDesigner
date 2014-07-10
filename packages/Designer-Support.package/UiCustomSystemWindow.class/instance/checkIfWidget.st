@@ -1,5 +1,4 @@
 open/close
 checkIfWidget
 
-	self widget = nil
-		ifFalse: [widget close.]
+	self widget ifNotNil: [widget close.]

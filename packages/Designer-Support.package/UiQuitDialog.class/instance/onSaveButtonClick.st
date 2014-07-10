@@ -1,5 +1,5 @@
 event handling
-onSaveButton
+onSaveButtonClick
 
 	uiDesigner closeDesignerAfterwards: true.
 	uiDesigner openSaveDialog.

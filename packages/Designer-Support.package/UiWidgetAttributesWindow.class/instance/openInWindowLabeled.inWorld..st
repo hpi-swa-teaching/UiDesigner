@@ -1,7 +1,7 @@
 initialization
 openInWindowLabeled: aString inWorld: aWorld
-
 	| window extent position systemWindow |
+	" this is jsut a copy of the original method - replacing the SystemWindow with our UiCustomSystemWindow "
 	systemWindow := UiCustomSystemWindow labelled: aString.
 	systemWindow widget: self.
 	window := systemWindow model: nil.

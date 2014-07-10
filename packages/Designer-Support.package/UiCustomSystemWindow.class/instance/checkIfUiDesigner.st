@@ -1,11 +1,10 @@
 open/close
 checkIfUiDesigner
 
-	uiDesigner = nil
-		ifFalse: [
+	uiDesigner ifNotNil: [
 			uiDesigner changesMade 
 				ifTrue: [	uiDesigner openQuitDialog.]
 				ifFalse:[ uiDesigner deleteOwnWindows.
-						self delete. ]]
-		ifTrue: [self delete.].
+						self delete ]]
+		ifNil: [ self delete ].
 	

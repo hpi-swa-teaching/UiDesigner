@@ -1,5 +1,5 @@
 event handling
-onQuitButton
+onQuitButtonClick
 	
 	uiDesigner deleteOwnWindows.
 	uiDesigner owner delete.

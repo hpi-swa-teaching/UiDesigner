@@ -1,4 +1,4 @@
-deletion
+windowing
 deleteOwnWindows 
 
 	self attributesWindow = nil
