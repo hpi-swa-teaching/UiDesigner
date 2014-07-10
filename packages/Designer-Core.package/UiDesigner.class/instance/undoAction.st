@@ -7,5 +7,5 @@ undoAction
 	
 	self saveExecuteCommand: actionToBeUndone.
 	
-	self ui undoComboBox list removeLastRow.
+	self ui undoComboBox list removeFirstRow.
 	self update: self ui redoComboBox with: actionToBeUndone.

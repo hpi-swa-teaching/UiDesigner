@@ -2,11 +2,11 @@ history
 forwardTo: item
 	
 	| list lastItem |
-	
 	[lastItem ~= item] whileTrue: [
-		list := self ui undoComboBox list.
-		lastItem := list items last.
-		self redoAction.].
+		list := self ui redoComboBox list.
+		lastItem := list items first.
+		self redoAction.
+		.].
 	
 	
 	
