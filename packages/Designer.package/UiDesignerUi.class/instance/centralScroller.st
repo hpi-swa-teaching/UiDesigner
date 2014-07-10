@@ -1,4 +1,0 @@
-accessing
-centralScroller
-	
-	^ centralScroller

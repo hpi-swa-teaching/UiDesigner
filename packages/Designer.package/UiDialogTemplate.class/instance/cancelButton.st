@@ -1,5 +1,0 @@
-accessing
-cancelButton
-	"nil"
-	
-	^ cancelButton

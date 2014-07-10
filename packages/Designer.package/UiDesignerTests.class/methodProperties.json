@@ -1,8 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"initialize" : "FW 7/4/2014 00:32",
-		"tearDown" : "FW 7/4/2014 00:35",
-		"testForHistoryAdding" : "FW 7/4/2014 00:45",
-		"testForInitialUndoRedoButtonDisabled" : "FW 7/4/2014 00:27" } }

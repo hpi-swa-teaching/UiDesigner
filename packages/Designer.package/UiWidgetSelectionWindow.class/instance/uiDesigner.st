@@ -1,4 +1,0 @@
-accessing
-uiDesigner
-
-	^ uiDesigner
