@@ -1,5 +1,0 @@
-accessing
-okButton
-	"nil"
-	
-	^ okButton

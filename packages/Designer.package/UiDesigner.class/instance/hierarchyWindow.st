@@ -1,4 +1,0 @@
-accessing
-hierarchyWindow
-
-	^ hierarchyWindow

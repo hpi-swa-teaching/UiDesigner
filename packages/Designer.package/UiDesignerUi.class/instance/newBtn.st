@@ -1,4 +1,0 @@
-accessing
-newBtn
-	
-	^ newBtn

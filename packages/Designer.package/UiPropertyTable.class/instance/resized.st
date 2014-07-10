@@ -1,4 +1,0 @@
-signals
-resized
-	
-	self emit.
