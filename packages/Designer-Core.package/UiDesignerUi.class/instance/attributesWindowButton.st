@@ -1,0 +1,4 @@
+accessing
+attributesWindowButton
+	
+	^ attributesWindowButton

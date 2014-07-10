@@ -1,0 +1,18 @@
+{
+	"category" : "Designer-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"category",
+		"generatedClassName",
+		"instVars",
+		"classVars",
+		"superClass" ],
+	"name" : "UiGenericCodeGenerator",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
