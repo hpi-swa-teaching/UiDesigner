@@ -16,8 +16,8 @@ createBooleanNodeWithName: name andValue: value
 		yourself.
 	
 	pattern := {#= . name asSymbol . 1} asArray.
+	
+	self disconnectSignal: #clicked: from: self selector: #changeProperty:To:. 
 	self connect: checkbox signal: #clicked: to: self selector: #changeProperty:To: pattern: pattern.
 	
 	^ node	
-	
-	
