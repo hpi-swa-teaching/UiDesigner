@@ -42,6 +42,7 @@
 		"removeChild:inGroup:" : "mt 1/25/2013 15:16:57.696",
 		"removeChildAt:" : "mt 1/27/2013 19:15:55.206",
 		"removeChildAt:inGroup:" : "mt 1/25/2013 15:17:37.273",
+		"removeFirstInGroup:" : "tg 7/8/2014 11:33",
 		"removeGroup:" : "mt 1/25/2013 14:20:52.19",
 		"removeKey:ifAbsent:" : "mt 8/29/2013 13:37:51.131",
 		"removeLast" : "mt 1/27/2013 19:17:13.622",

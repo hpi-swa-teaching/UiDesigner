@@ -5,6 +5,7 @@
 		"widgetClassName" : "mt 6/30/2010 21:21:46.085",
 		"widgetPropertiesToIgnore" : "mt 4/6/2011 14:08:09.843" },
 	"instance" : {
+		"addFirstIcon:text:" : "tg 7/8/2014 11:30",
 		"addIcon:text:" : "mt 1/27/2013 19:23:01.277",
 		"addIcon:text:at:" : "mt 1/27/2013 19:23:06.158",
 		"addItem:" : "mt 1/27/2013 19:11:43.264",
@@ -31,6 +32,7 @@
 		"items" : "mt 1/27/2013 19:02:02.506",
 		"modelClass:" : "mt 1/27/2013 19:53:48.368",
 		"onCurrentIndexChanged:" : "mt 4/6/2011 13:28:49.453",
+		"removeFirstRow" : "tg 7/8/2014 11:32",
 		"removeLastRow" : "mt 1/27/2013 19:26:07.545",
 		"removeRowAt:" : "mt 1/27/2013 19:26:33.256",
 		"select:" : "mt 6/30/2011 10:23:03.193",
