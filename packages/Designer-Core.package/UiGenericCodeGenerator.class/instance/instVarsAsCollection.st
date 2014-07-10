@@ -1,6 +1,0 @@
-accessing
-instVarsAsCollection
-
-	^(instVars subStrings: ' ')
-	
-	

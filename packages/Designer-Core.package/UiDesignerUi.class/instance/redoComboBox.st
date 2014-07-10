@@ -1,4 +1,0 @@
-accessing
-redoComboBox
-	
-	^ redoComboBox

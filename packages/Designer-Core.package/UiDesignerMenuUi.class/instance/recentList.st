@@ -1,5 +1,0 @@
-accessing
-recentList
-	"nil"
-	
-	^ recentList
