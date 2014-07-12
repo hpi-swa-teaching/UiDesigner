@@ -1,5 +1,5 @@
 initialize-release
-initialize
+setUp
 	| container |
 	
 	container := UiContainer new.

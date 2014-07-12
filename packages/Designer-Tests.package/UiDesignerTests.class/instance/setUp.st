@@ -1,3 +1,3 @@
 as yet unclassified
-initialize
+setUp
 	designer := UiDesigner new.

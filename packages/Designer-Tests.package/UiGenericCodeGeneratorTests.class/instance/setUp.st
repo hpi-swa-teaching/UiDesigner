@@ -1,5 +1,5 @@
 initialize-release
-initialize 
+setUp 
 	testClassName := 'TestClass'.
 	testSuperClass := Morph.
 	testInstanceVariable := 'testInstVar'.
