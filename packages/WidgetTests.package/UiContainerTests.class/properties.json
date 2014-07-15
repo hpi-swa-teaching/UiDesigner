@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"container1",
 		"container2" ],
 	"name" : "UiContainerTests",
 	"pools" : [

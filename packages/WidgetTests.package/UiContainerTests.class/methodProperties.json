@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "SR 6/18/2014 14:42",
-		"testDragging" : "SR 7/3/2014 09:43",
-		"testHighlighting" : "SR 6/19/2014 16:37",
-		"testMouseEnter" : "SR 7/3/2014 09:43",
-		"testMouseLeave" : "SR 7/3/2014 09:43" } }
+		"setUp" : "SR 7/15/2014 10:49",
+		"test01Highlighting" : "SR 7/15/2014 10:56",
+		"test02MouseEnter" : "SR 7/15/2014 10:46",
+		"test03MouseLeave" : "SR 7/15/2014 10:47",
+		"test04Dragging" : "SR 7/15/2014 10:48" } }

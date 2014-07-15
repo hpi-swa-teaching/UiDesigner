@@ -1,7 +1,7 @@
 testing
-testMouseEnter
+test02MouseEnter
 	| evt aHand|
-	container1 isHighlighted: true.
+	sut isHighlighted: true.
 	container2 isHighlighted: false.
 	
 	aHand := HandMorph new.
@@ -13,5 +13,5 @@ testMouseEnter
 	container2 editMode: true.
 	container2 handleMouseEnter: evt.
 
-	self assert: (container1 isHighlighted = false).		
+	self assert: (sut isHighlighted = false).		
 	self assert: (container2 isHighlighted = true).
