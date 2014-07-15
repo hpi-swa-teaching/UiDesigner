@@ -15,3 +15,6 @@ During our development, we employed the Extreme Programming (XP) process. We map
 and left off the following User Stories (Issues) started, but unfinished: #53 and #57
 
 If you want to complete these, you will find more information on the respective issue.
+
+Do not get irritated from the fact that Travis shows our build as failing. It has severe problems executing our tests
+and our priorities were different from fixing Travis. Locally, all our tests pass ;)
