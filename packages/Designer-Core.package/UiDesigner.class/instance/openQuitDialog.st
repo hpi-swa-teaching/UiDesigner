@@ -4,8 +4,9 @@ openQuitDialog
 	quitDialog = nil
 		ifTrue: [	
 			quitDialog := UiQuitDialog new.
-			quitDialog initializeWith: self.
-			quitDialog open. ]
+			quitDialog 
+				initializeWith: self;
+			 	open. ]
 		ifFalse: [
 			quitDialog owner delete. 
 			quitDialog delete.

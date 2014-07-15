@@ -8,8 +8,6 @@ initialize
 	self ui centralScroller
 		borderWidth: 0;
 		fillStyle: (BitmapFillStyle fromForm: self gridForm).
-	
 	"BAD: Viewport should not be accessed from the outside."
-	
 	self initializeButtons.
 	
