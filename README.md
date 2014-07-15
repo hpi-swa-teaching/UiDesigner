@@ -12,6 +12,6 @@ Contributing
 ============
 As of July 2014, the student project that contributed significantly to the development of this project has ended.
 During our development, we employed the Extreme Programming (XP) process. We mapped GitHub's issues to User Stories,
-and left off the following User Stories (Issues) started, but unfinished: #53, #59 and #57
+and left off the following User Stories (Issues) started, but unfinished: #53 and #57
 
 If you want to complete these, you will find more information on the respective issue.
