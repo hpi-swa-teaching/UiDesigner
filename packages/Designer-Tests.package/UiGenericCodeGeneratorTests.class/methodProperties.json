@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"initialize" : "SD 7/5/2014 16:10",
 		"setUp" : "FW 7/12/2014 15:35",
 		"tearDown" : "SD 6/9/2014 22:26",
 		"testAccessorGeneration" : "SD 6/10/2014 11:21",

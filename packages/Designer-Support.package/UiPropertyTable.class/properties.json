@@ -1,0 +1,16 @@
+{
+	"category" : "Designer-Support",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"nextRowColor",
+		"lastMorph",
+		"editorFactory" ],
+	"name" : "UiPropertyTable",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

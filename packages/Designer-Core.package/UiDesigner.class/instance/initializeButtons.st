@@ -10,5 +10,6 @@ initializeButtons
 	
 	self connect: self ui redoButton signal: #clicked: toSelector: #redoAction.
 	self connect: self ui undoButton signal: #clicked: toSelector: #undoAction.
-	"self ui redoComboBox converter: [:item | self forwardTo: (self ui redoComboBox) currentItem].
-	self ui undoComboBox converter: [:item | self revertUntil: (self ui undoComboBox) currentItem]."
+	
+	"self connect: self ui redoComboBox signal: #currentIndexChanged:text: toSelector: #forwardTo:text:.
+	self connect: self ui undoComboBox signal: #currentIndexChanged:text: toSelector: #revertUntil:text:"

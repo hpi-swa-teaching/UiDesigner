@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"initialize" : "FW 5/20/2014 21:42",
 		"setUp" : "FW 7/12/2014 15:35",
 		"testAttribute" : "FW 5/21/2014 10:19",
 		"testAttributesThatShouldNotBeListed" : "FW 5/21/2014 10:22",

@@ -3,7 +3,9 @@
 		 },
 	"instance" : {
 		"initializeWith:" : "FW 7/10/2014 13:00",
+		"onQuitButton" : "gb 6/24/2014 19:05",
 		"onQuitButtonClick" : "FW 7/10/2014 13:00",
+		"onSaveButton" : "gb 7/1/2014 17:40",
 		"onSaveButtonClick" : "FW 7/10/2014 13:00",
 		"open" : "gb 7/6/2014 18:42",
 		"ui" : "FW 7/10/2014 13:01" } }
