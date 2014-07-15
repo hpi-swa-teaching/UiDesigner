@@ -1,3 +1,4 @@
 as yet unclassified
 setUp
-	designer := UiDesigner new.
+	super setUp.
+	sut := UiDesigner new.

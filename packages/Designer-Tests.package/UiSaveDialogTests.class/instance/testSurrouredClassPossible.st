@@ -1,5 +1,5 @@
 tests
 testSurrouredClassPossible
 	
-	dialog detectClassExistsWarning: 'Morph'.
-	self assert: (dialog ui saveWithSurroundingClass visible not).
+	sut detectClassExistsWarning: 'Morph'.
+	self assert: (sut ui saveWithSurroundingClass visible not).

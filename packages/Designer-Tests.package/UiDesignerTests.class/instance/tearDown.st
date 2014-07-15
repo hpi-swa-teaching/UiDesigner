@@ -1,3 +1,3 @@
 as yet unclassified
 tearDown
-	designer delete.
+	sut delete.

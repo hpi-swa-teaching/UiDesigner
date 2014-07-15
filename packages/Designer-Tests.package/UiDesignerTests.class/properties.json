@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"designer" ],
+		 ],
 	"name" : "UiDesignerTests",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "UiTestCase",
 	"type" : "normal" }

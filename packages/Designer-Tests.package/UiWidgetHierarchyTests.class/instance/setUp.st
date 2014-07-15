@@ -1,5 +1,7 @@
 initialize
 setUp 
+
+	super setUp.
 	widget := UiWidgetHierarchyWindow new.
 	widget initializeTreeView.
 	child1 := UiPushButton new.

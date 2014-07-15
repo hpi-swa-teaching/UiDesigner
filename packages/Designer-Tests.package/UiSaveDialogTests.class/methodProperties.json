@@ -3,5 +3,6 @@
 		 },
 	"instance" : {
 		"initialize" : "FW 6/1/2014 21:56",
-		"testDetectWarning" : "FW 6/1/2014 21:51",
-		"testSurrouredClassPossible" : "SD 7/3/2014 13:59" } }
+		"setUp" : "SD 7/15/2014 10:50",
+		"testDetectWarning" : "SD 7/15/2014 10:50",
+		"testSurrouredClassPossible" : "SD 7/15/2014 10:50" } }

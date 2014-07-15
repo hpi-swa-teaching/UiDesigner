@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"dialog" ],
+		 ],
 	"name" : "UiSaveDialogTests",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "UiTestCase",
 	"type" : "normal" }

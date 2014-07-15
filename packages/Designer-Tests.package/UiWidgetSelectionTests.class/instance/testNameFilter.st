@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testNameFilter
 	| test |
 	widget nameFilter: 'Morph'.

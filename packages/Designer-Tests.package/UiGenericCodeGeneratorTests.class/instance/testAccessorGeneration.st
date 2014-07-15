@@ -1,11 +1,11 @@
 tests
 testAccessorGeneration
 	
-	generator generatedClassName: testClassName.
-	generator category: testCategory.
-	generator instVars: testInstanceVariable.
-	generator generateClass.
-	generator generateAccessors.
+	sut generatedClassName: testClassName.
+	sut category: testCategory.
+	sut instVars: testInstanceVariable.
+	sut generateClass.
+	sut generateAccessors.
 	
-	self assert: (generator generatedClass canUnderstand: (testInstanceVariable asSymbol ))
+	self assert: (sut generatedClass canUnderstand: (testInstanceVariable asSymbol ))
 	

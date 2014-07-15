@@ -1,10 +1,10 @@
 tests
 testMethodGeneration
 
-	generator generatedClassName: testClassName.
-	generator category: testCategory.
-	generator generateClass.
+	sut generatedClassName: testClassName.
+	sut category: testCategory.
+	sut generateClass.
 	
-	generator generateMethod: testMethodName with: '"some code..."'.
+	sut generateMethod: testMethodName with: '"some code..."'.
 	
-	self assert: (generator generatedClass canUnderstand: (testMethodName asSymbol)). 
+	self assert: (sut generatedClass canUnderstand: (testMethodName asSymbol)). 

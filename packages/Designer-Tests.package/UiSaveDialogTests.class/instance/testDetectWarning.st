@@ -1,5 +1,5 @@
 tests
 testDetectWarning
 	
-	dialog detectClassExistsWarning: 'Morph'.
-	self assert: (dialog ui warningLabel theText asString ~= '')
+	sut detectClassExistsWarning: 'Morph'.
+	self assert: (sut ui warningLabel theText asString ~= '')

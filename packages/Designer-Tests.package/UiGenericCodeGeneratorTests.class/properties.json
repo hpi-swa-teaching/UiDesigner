@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"generator",
 		"testClassName",
 		"testSuperClass",
 		"testInstanceVariable",
@@ -16,5 +15,5 @@
 	"name" : "UiGenericCodeGeneratorTests",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "UiTestCase",
 	"type" : "normal" }

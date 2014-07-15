@@ -8,6 +8,4 @@ testCategoryExistence
 	
 	model attributes do: [ :category | | categoryIndex |
 		categoryIndex := categories indexOf: category.
-		
-		self assert: (categoryIndex > 0) equals: false.
-		]
+		self assert: (categoryIndex > 0) equals: false.]
