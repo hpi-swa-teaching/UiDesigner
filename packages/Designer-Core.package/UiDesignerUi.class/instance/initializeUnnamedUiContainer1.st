@@ -2,6 +2,8 @@ ui - private
 initializeUnnamedUiContainer1
 		
 	"This code is auto-generated. DO NOT modify it because another generation step will overwrite all changes."
+	
+	
 	| unnamedUiContainer1 |
 	unnamedUiContainer1 := UiContainer new.
 	unnamedUiContainer1 changeTableLayout.

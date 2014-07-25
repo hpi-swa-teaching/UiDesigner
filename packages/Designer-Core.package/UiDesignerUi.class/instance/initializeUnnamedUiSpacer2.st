@@ -2,6 +2,8 @@ ui - private
 initializeUnnamedUiSpacer2
 		
 	"This code is auto-generated. DO NOT modify it because another generation step will overwrite all changes."
+	
+	
 	| unnamedUiSpacer2 |
 	unnamedUiSpacer2 := UiSpacer new.
 	unnamedUiSpacer2 extent: (26@16).

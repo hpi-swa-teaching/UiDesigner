@@ -2,6 +2,7 @@ ui - private
 initializeUiPackageNameEdit
 		
 	"This code is auto-generated. DO NOT modify it because another generation step will overwrite all changes."
+	
 	packageNameEdit := UiLineEdit new.
 	packageNameEdit extent: (140@20).
 	packageNameEdit position: (455@9).
