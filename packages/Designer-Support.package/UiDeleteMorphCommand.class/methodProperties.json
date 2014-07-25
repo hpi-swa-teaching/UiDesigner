@@ -1,10 +1,10 @@
 {
 	"class" : {
-		"newWith:in:" : "tg 7/25/2014 15:21" },
+		"newWith:in:" : "SR 7/25/2014 15:20" },
 	"instance" : {
-		"convertToText" : "SD 7/7/2014 17:57",
-		"execute" : "SD 6/24/2014 12:13",
-		"getReverseCommand" : "SD 6/24/2014 12:08",
+		"convertToText" : "SR 7/25/2014 15:15",
+		"execute" : "SR 7/25/2014 15:15",
+		"getReverseCommand" : "SR 7/25/2014 15:15",
 		"morphClass" : "SD 6/24/2014 12:04",
 		"morphContainer" : "SD 6/24/2014 11:58",
 		"morphContainer:" : "SD 6/24/2014 11:58",

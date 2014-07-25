@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
+		"closeDesignerAfterwards" : "gb 7/1/2014 17:16",
+		"closeDesignerAfterwards:" : "gb 7/1/2014 17:15",
 		"connectViewWith:and:" : "FW 7/25/2014 14:30",
 		"detectClassExistsWarning:" : "FW 7/25/2014 14:37",
 		"initializeWith:" : "tg 7/25/2014 15:27",

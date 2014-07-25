@@ -1,3 +1,4 @@
-as yet unclassified
+accessing
 getReverseCommand
+
 	^ (UiAddMorphCommand newWith: (self relevantMorph) in: (self morphContainer))

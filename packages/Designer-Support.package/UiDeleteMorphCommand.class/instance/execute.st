@@ -1,3 +1,4 @@
-as yet unclassified
+execution
 execute 
-	self morphContainer removeMorph: (self relevantMorph).
+
+	self morphContainer removeMorph: (self relevantMorph)

@@ -2,9 +2,9 @@
 	"class" : {
 		"newWith:in:" : "tg 7/25/2014 15:21" },
 	"instance" : {
-		"convertToText" : "SD 7/7/2014 17:57",
-		"execute" : "FW 6/26/2014 16:08",
-		"getReverseCommand" : "SD 6/24/2014 12:12",
+		"convertToText" : "SR 7/25/2014 15:10",
+		"execute" : "SR 7/25/2014 15:10",
+		"getReverseCommand" : "SR 7/25/2014 15:10",
 		"morphContainer" : "SD 6/24/2014 11:41",
 		"morphContainer:" : "SD 6/24/2014 11:41",
 		"relevantMorph" : "SD 6/24/2014 12:29",

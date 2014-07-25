@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"newWithContainer:" : "FW 5/27/2014 20:39" },
+		"newWithContainer:" : "SR 7/25/2014 15:16" },
 	"instance" : {
 		"addSubmorph:ToHierarchy:" : "FW 6/22/2014 16:44",
 		"blacklistedMorphs" : "FW 6/1/2014 21:01",
@@ -8,7 +8,7 @@
 		"createNodeFrom:" : "FW 6/10/2014 12:10",
 		"currentWidget" : "FW 5/27/2014 20:38",
 		"currentWidget:" : "FW 5/27/2014 20:38",
-		"extractNameFromWidget:" : "tg 7/25/2014 15:22",
+		"extractNameFromWidget:" : "SR 7/25/2014 15:20",
 		"groups" : "FW 5/27/2014 20:38",
 		"hierarchy" : "FW 5/27/2014 20:38",
 		"hierarchy:" : "FW 5/27/2014 20:38",

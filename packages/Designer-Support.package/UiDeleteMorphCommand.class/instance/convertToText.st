@@ -1,3 +1,4 @@
-as yet unclassified
+converting
 convertToText
+
 	^'Morph Removed'

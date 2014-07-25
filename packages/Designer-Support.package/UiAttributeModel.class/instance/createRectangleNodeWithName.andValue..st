@@ -1,9 +1,9 @@
 data insertion
 createRectangleNodeWithName: name andValue: value
+	
 	| lineedit |
 	
 	lineedit := self getCachedOrNewWidget: UiLineEdit For: name.
-	
 	lineedit
 		theText: value;
 		hResizing: #spaceFill;
@@ -14,7 +14,7 @@ createRectangleNodeWithName: name andValue: value
 				ifFalse: [0@0 corner: 0@0]].
 	
 	^ UiPropertyItemNode new
-		at: #propertyName put: name;
-		at: #type put: Rectangle;
-		at: #editorMorph put: lineedit;
-		yourself.
+			at: #propertyName put: name;
+			at: #type put: Rectangle;
+			at: #editorMorph put: lineedit;
+			yourself

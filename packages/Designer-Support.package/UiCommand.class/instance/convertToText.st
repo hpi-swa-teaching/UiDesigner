@@ -1,3 +1,4 @@
-as yet unclassified
+converting
 convertToText
-	self subclassResponsibility.
+
+	self subclassResponsibility

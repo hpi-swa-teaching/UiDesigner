@@ -1,4 +1,5 @@
-as yet unclassified
+initialization
 newWithContainer: container
+
 	^ self new
-		topLevelContainer: container.
+		topLevelContainer: container

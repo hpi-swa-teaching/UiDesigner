@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"convertToText" : "SD 7/7/2014 17:56",
-		"execute" : "SD 6/24/2014 11:16",
-		"getReverseCommand" : "FW 7/25/2014 14:44",
-		"undo" : "FW 6/26/2014 15:57" } }
+		"convertToText" : "SR 7/25/2014 15:14",
+		"execute" : "SR 7/25/2014 15:14",
+		"getReverseCommand" : "SR 7/25/2014 15:08",
+		"undo" : "SR 7/25/2014 15:14" } }

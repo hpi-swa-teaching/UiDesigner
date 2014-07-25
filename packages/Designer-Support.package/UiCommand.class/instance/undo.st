@@ -1,3 +1,4 @@
-as yet unclassified
+execution
 undo
-	(self getReverseCommand) execute.
+
+	(self getReverseCommand) execute

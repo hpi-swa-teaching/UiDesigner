@@ -3,7 +3,6 @@ createPointNodeWithName: name andValue: value
 	| lineedit |
 	
 	lineedit := self getCachedOrNewWidget: UiLineEdit For: name.
-	
 	lineedit 
 		theText: value;
 		hResizing: #spaceFill;
@@ -14,7 +13,7 @@ createPointNodeWithName: name andValue: value
 				ifFalse: [ value ]].
 	
 	^ UiPropertyItemNode new
-		at: #propertyName put: name;
-		at: #type put: Point;
-		at: #editorMorph put: lineedit;
-		yourself.
+			at: #propertyName put: name;
+			at: #type put: Point;
+			at: #editorMorph put: lineedit;
+			yourself

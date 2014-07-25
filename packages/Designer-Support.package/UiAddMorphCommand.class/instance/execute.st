@@ -1,3 +1,4 @@
-as yet unclassified
+execution
 execute 
-	self morphContainer addMorph: (self relevantMorph).
+
+	self morphContainer addMorph: (self relevantMorph)
