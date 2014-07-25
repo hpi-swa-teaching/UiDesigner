@@ -14,7 +14,7 @@
 		"uiDesigner",
 		"aUiDesigner",
 		"openedByQuitDialog",
-		"closeDesignerAfterwards" ],
+		"shallCloseDesignerAfterwards" ],
 	"name" : "UiSaveDialog",
 	"pools" : [
 		 ],

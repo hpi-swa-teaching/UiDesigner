@@ -1,4 +1,4 @@
 accessing
 uiDesigner
 
-	^ UiDesigner
+	^ uiDesigner

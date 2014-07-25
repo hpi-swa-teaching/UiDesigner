@@ -8,5 +8,5 @@ openSaveDialog
 		connectViewWith: container and: propertyTable;
 		loadTextFrom: container and: ui packageNameEdit.
 	
-	uiSaveDialog closeDesignerAfterwards: closeDesignerAfterwards.
+	uiSaveDialog shallCloseDesignerAfterwards: closeDesignerAfterwards.
 	uiSaveDialog open.

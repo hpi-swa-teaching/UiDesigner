@@ -1,4 +1,4 @@
 open/close
 checkIfWidget
 
-	self widget ifNotNil: [widget close.]
+	self widget ifNotNil: [widget close]

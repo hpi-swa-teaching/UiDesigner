@@ -1,6 +1,6 @@
 event handling
 onSaveButtonClick
 
-	uiDesigner closeDesignerAfterwards: true.
-	uiDesigner openSaveDialog.
+	self uiDesigner shallCloseDesignerAfterwards: true.
+	self uiDesigner openSaveDialog.
 	self owner delete.

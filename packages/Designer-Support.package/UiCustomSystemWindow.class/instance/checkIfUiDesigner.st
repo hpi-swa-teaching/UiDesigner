@@ -6,5 +6,4 @@ checkIfUiDesigner
 				ifTrue: [	uiDesigner openQuitDialog.]
 				ifFalse:[ uiDesigner deleteOwnWindows.
 						self delete ]]
-		ifNil: [ self delete ].
-	
+		ifNil: [ self delete ]

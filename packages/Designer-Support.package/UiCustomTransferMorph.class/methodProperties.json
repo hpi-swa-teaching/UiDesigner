@@ -2,6 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"aboutToBeGrabbedBy:" : "FW 7/10/2014 12:51",
-		"colorFirstMorph" : "FW 7/10/2014 12:56",
-		"initDraggedMorph" : "FW 7/10/2014 12:59" } }
+		"aboutToBeGrabbedBy:" : "FW 7/25/2014 14:21",
+		"colorFirstMorph" : "FW 7/25/2014 14:23",
+		"initDraggedMorph" : "FW 7/25/2014 14:24",
+		"makeMorphTransparent" : "FW 7/25/2014 14:23",
+		"widget" : "FW 7/25/2014 14:22",
+		"widget:" : "FW 7/25/2014 14:22" } }

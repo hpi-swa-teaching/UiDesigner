@@ -2,4 +2,4 @@ initialization
 open
 	
 	self openInWindowLabeled: 'Quit Dialog'.
-	owner position: (uiDesigner owner) position.
+	self owner position: (self uiDesigner owner) position.

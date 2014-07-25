@@ -1,4 +1,4 @@
 accessing
 uiDesigner: aUiDesigner
 
-	uiDesigner := aUiDesigner.
+	uiDesigner := aUiDesigner
