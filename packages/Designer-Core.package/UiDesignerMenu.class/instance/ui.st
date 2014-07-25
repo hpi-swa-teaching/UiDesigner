@@ -1,4 +1,4 @@
 accessing
 ui
 
-	^ ui ifNil: [ui := UiDesignerMenuUi new].
+	^ ui ifNil: [ui := UiDesignerMenuUi new]

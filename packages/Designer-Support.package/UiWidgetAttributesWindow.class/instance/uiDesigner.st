@@ -1,3 +1,4 @@
 initialization
 uiDesigner 
- 	^uiDesigner.
+
+ 	^uiDesigner

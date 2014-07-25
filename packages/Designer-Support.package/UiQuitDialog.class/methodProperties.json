@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initializeWith:" : "FW 7/25/2014 14:27",
+		"initializeWith:" : "tg 7/25/2014 15:26",
 		"onQuitButton" : "gb 6/24/2014 19:05",
 		"onQuitButtonClick" : "FW 7/10/2014 13:00",
 		"onSaveButton" : "FW 7/25/2014 14:34",

@@ -1,7 +1,6 @@
 item model - signals
 extractNameFromWidget: aWidget
-	| name |
 	
+	| name |
 	name := aWidget objectName , ' (' , aWidget class , ')'.
-
-	^name.
+	^name
