@@ -26,6 +26,8 @@ injectCustomUiCodeFor: aMorph into: stream
 			value isSymbol ifTrue: ['#'] ifFalse: [''].
 			value isText ifTrue: [value asString] ifFalse: [value].
 			"add string quotation"
-			value isSymbol not & isCode not & (value isString | value isText) ifTrue: [''''] ifFalse: [''].
-			value isSymbol not & isCode not & (value isString | value isText) ifTrue: [''''] ifFalse: ['']})]].
+			value isSymbol not & isCode not 
+				& (value isString | value isText) ifTrue: [''''] ifFalse: [''].
+			value isSymbol not & isCode not 
+				& (value isString | value isText) ifTrue: [''''] ifFalse: ['']})]].
 	

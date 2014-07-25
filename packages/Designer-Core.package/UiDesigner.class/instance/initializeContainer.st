@@ -9,5 +9,4 @@ initializeContainer
 	self connectContainerToHistory: container.
 	
 	self ui centralScroller widget: container.
-	
-	self attributeTreeModel setNewWidget: container.
+	self attributeTreeModel setNewWidget: container

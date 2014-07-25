@@ -14,5 +14,4 @@ openSavedDialog: aGenerator dependingOn: checkboxChecked
 	UserDialogBoxMorph
 		inform: informText
 		title: 'Done.'
-		at: self center.	
-			
+		at: self center.

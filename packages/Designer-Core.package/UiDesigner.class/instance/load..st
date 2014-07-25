@@ -10,4 +10,4 @@ load: aDesignClassOrSymbol
 	ui initializePanel.
 	container:= ui panel.
 	self initializeContainer.
-	self ui packageNameEdit theText: class category.
+	self ui packageNameEdit theText: class category

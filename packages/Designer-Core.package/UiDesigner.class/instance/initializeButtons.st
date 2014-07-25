@@ -12,5 +12,6 @@ initializeButtons
 	self connect: self ui redoButton signal: #clicked: toSelector: #redoAction.
 	self connect: self ui undoButton signal: #clicked: toSelector: #undoAction.
 	
-	"self connect: self ui redoComboBox signal: #currentIndexChanged:text: toSelector: #forwardTo:text:.
+	"THIS CONNECTS THE FUNCTION MULTI-REDO
+	self connect: self ui redoComboBox signal: #currentIndexChanged:text: toSelector: #forwardTo:text:.
 	self connect: self ui undoComboBox signal: #currentIndexChanged:text: toSelector: #revertUntil:text:"
