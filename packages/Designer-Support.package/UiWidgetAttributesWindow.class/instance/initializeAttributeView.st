@@ -19,4 +19,7 @@ initializeAttributeView
 	self ui treeView viewport eventHandler mouseDownPriority: 0.
 	self ui treeView model: self uiDesigner attributeTreeModel.
 	
-	self connect: (self uiDesigner attributeTreeModel) signal: #modelReset to: self selector: #expandAllAttributeCategories.
+	self connect: (self uiDesigner attributeTreeModel) 
+		signal: #modelReset 
+		to: self 
+		selector: #expandAllAttributeCategories

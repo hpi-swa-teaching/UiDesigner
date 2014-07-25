@@ -1,5 +1,5 @@
 private
-colorFirstMorph
+drawBorderForContainer
 
 	((self passenger first at: #class) isKindOf: (UiContainer class))
 		ifTrue: [ self widget 

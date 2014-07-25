@@ -5,8 +5,7 @@ initDraggedMorph
 	
 	self
 		makeMorphTransparent;
-		hasDropShadow: false;
-		colorFirstMorph;
+		drawBorderForContainer;
 		addMorphBack: self widget;
-		updateCopyIcon;
-		changed; fullBounds
+		changed; 
+		fullBounds
