@@ -8,7 +8,6 @@ testPrepareGeneratorForSurroundingClass
 	uicodegenerator source: source.
 	generator := uicodegenerator prepareGeneratorForUiClass.
 	
-	
 	self assert: (generator superClass = UserInterface).
 	self assert: (generator instVars = '').
 	self assert: (generator category = uicodegenerator category). 

@@ -1,13 +1,12 @@
 testing
 testPrepareGeneratorForUiClass
+
 	| generator uicodegenerator source |
-	
 	source := Morph new.
 	source uiClassName: 'SomeClass'.
 	uicodegenerator := UiCodeGenerator new.
 	uicodegenerator source: source.
 	generator := uicodegenerator prepareGeneratorForSurroundingClass.
-	
 	
 	self assert: (generator superClass = Morph).
 	self assert: (generator instVars = 'ui').

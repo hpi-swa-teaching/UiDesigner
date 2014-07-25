@@ -1,6 +1,5 @@
 initialize
-setUp 
-
+setUp
 	super setUp.
 	widget := UiWidgetHierarchyWindow new.
 	widget initializeTreeView.

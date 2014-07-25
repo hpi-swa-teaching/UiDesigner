@@ -2,15 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "FW 5/20/2014 21:42",
-		"setUp" : "SD 7/15/2014 10:54",
+		"initialize" : "FW 7/25/2014 16:12",
+		"setUp" : "FW 7/25/2014 16:16",
 		"testAttribute" : "FW 5/21/2014 10:19",
 		"testAttributesThatShouldNotBeListed" : "SD 7/15/2014 10:56",
 		"testBooleanAttributePropagation" : "SD 7/15/2014 10:56",
-		"testCategoryExistence" : "SD 7/15/2014 10:55",
+		"testCategoryExistence" : "FW 7/25/2014 16:16",
 		"testChangePropagation" : "SD 7/15/2014 10:56",
 		"testIntegerAttributePropagation" : "SD 7/15/2014 10:55",
 		"testLayoutSettingsPresence" : "SD 7/15/2014 10:55",
-		"testListAttributePropagation" : "SD 7/15/2014 10:56",
+		"testListAttributePropagation" : "FW 7/25/2014 16:16",
 		"testPointAttributePropagation" : "SD 7/15/2014 10:56",
 		"testRectangleAttributePropagation" : "SD 7/15/2014 10:56" } }
