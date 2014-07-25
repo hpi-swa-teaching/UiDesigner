@@ -1,5 +1,6 @@
 initialize
 initializeWith: aUiDesigner 
+
 	self ui setupUi: self.
 	uiDesigner := aUiDesigner.
 	

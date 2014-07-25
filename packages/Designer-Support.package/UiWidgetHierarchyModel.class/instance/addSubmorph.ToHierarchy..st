@@ -1,7 +1,7 @@
 updating
 addSubmorph: aMorph ToHierarchy: parentNode
-	| morphNode morphClass |
 	
+	| morphNode morphClass |
 	morphClass := aMorph class asString.
 	morphNode := self createNodeFrom: aMorph.						
 	parentNode addChild: morphNode.
@@ -11,4 +11,4 @@ addSubmorph: aMorph ToHierarchy: parentNode
 	" only widget containers are allowed to have children! "
 	((morphClass = 'UiContainer') or: (morphClass = 'UiStackedWidget'))
 	ifTrue: [ aMorph submorphs do: [ :submorph |
-		self addSubmorph: submorph ToHierarchy: morphNode ] ].
+		self addSubmorph: submorph ToHierarchy: morphNode ] ]

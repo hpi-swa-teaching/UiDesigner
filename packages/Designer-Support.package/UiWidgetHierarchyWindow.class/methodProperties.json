@@ -1,19 +1,20 @@
 {
 	"class" : {
-		 },
+		"height" : "SR 7/25/2014 16:46",
+		"width" : "SR 7/25/2014 16:46" },
 	"instance" : {
-		"close" : "tg 7/3/2014 16:18",
+		"close" : "SR 7/25/2014 17:05",
 		"hierarchyModel" : "tg 6/24/2014 17:49",
 		"hierarchyModel:" : "tg 6/24/2014 17:49",
-		"initialize" : "tg 6/24/2014 17:50",
-		"initializeTreeView" : "tg 6/24/2014 17:50",
-		"open:" : "tg 6/24/2014 18:07",
-		"open:designer:" : "FW 7/10/2014 13:14",
-		"openInWindowLabeled:inWorld:" : "tg 7/3/2014 16:19",
-		"selectDisplayedNode:" : "SR 7/10/2014 15:23",
-		"selectWidget:" : "tg 6/24/2014 17:50",
+		"initialize" : "SR 7/25/2014 17:05",
+		"initializeTreeView" : "SR 7/25/2014 17:05",
+		"open:" : "SR 7/25/2014 17:06",
+		"open:designer:" : "SR 7/25/2014 17:05",
+		"openInWindowLabeled:inWorld:" : "SR 7/25/2014 16:46",
+		"selectDisplayedNode:" : "SR 7/25/2014 17:06",
+		"selectWidget:" : "SR 7/25/2014 17:06",
 		"ui" : "tg 6/24/2014 17:55",
 		"ui:" : "tg 6/24/2014 17:49",
 		"uiDesigner" : "tg 6/24/2014 17:59",
 		"uiDesigner:" : "tg 6/24/2014 17:59",
-		"updateDisplayedHierarchy:" : "FW 7/4/2014 14:53" } }
+		"updateDisplayedHierarchy:" : "SR 7/25/2014 17:06" } }

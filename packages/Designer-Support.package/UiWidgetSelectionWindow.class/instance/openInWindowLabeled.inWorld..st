@@ -7,7 +7,9 @@ openInWindowLabeled: aString inWorld: aWorld
 	window := systemWindow model: nil.
 	window 
 		" guess at initial extent"
-		bounds:  (RealEstateAgent initialFrameFor: window initialExtent: self fullBounds extent world: aWorld);
+		bounds:  (RealEstateAgent initialFrameFor: window 
+									initialExtent: self fullBounds extent 
+									world: aWorld);
 		addMorph: self frame: (0@0 extent: 1@1);
 		updatePaneColors.
 	" calculate extent after adding in case any size related attributes were changed.  Use
@@ -21,4 +23,5 @@ openInWindowLabeled: aString inWorld: aWorld
 	aWorld startSteppingSubmorphsOf: window.
 	position := uiDesigner owner position - ((extent x)@0).
 	window position: position.
-	^window
+	
+	^ window

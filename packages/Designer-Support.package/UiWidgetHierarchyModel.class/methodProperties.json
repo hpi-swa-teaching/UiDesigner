@@ -2,7 +2,7 @@
 	"class" : {
 		"newWithContainer:" : "SR 7/25/2014 15:16" },
 	"instance" : {
-		"addSubmorph:ToHierarchy:" : "FW 6/22/2014 16:44",
+		"addSubmorph:ToHierarchy:" : "SR 7/25/2014 16:43",
 		"blacklistedMorphs" : "FW 6/1/2014 21:01",
 		"blacklistedMorphs:" : "FW 6/1/2014 21:01",
 		"createNodeFrom:" : "FW 6/10/2014 12:10",
@@ -21,4 +21,4 @@
 		"topLevelContainer" : "FW 5/27/2014 20:38",
 		"topLevelContainer:" : "FW 5/27/2014 20:38",
 		"updateHierarchy" : "FW 6/10/2014 12:06",
-		"updateHierarchy:" : "FW 6/29/2014 13:30" } }
+		"updateHierarchy:" : "SR 7/25/2014 16:44" } }

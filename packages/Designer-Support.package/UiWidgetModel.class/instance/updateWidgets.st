@@ -16,4 +16,4 @@ updateWidgets
 					at: #class put: c;
 					yourself)]].
 	
-	self modelReset.
+	self modelReset

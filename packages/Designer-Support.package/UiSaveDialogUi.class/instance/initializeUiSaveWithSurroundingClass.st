@@ -24,7 +24,7 @@ initializeUiSaveWithSurroundingClass
 	saveWithSurroundingClass frameFractions: (0@0 corner: 1@1).
 	saveWithSurroundingClass frameOffsets: (0@0 corner: 0@0).
 	saveWithSurroundingClass balloonText: (nil).
-	saveWithSurroundingClass balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.725)).
+	saveWithSurroundingClass balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	saveWithSurroundingClass enabled: (true).
 	saveWithSurroundingClass setProperty: #iconByDesigner toValue: 'nil'.
 	saveWithSurroundingClass icon: (nil).

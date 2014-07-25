@@ -1,7 +1,7 @@
 data insertion
 createBooleanNodeWithName: name andValue: value 
-	| checkbox node pattern |
 	
+	| checkbox node pattern |
 	checkbox := self getCachedOrNewWidget: UiCheckBox For: name.
 	
 	checkbox
@@ -18,6 +18,10 @@ createBooleanNodeWithName: name andValue: value
 	pattern := {#= . name asSymbol . 1} asArray.
 	
 	self disconnectSignal: #clicked: from: self selector: #changeProperty:To:. 
-	self connect: checkbox signal: #clicked: to: self selector: #changeProperty:To: pattern: pattern.
+	self connect: checkbox 
+		signal: #clicked: 
+		to: self 
+		selector: #changeProperty:To: 
+		pattern: pattern.
 	
-	^ node	
+	^ node

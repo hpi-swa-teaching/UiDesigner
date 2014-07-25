@@ -2,7 +2,6 @@ data insertion
 createRectangleNodeWithName: name andValue: value
 	
 	| lineedit |
-	
 	lineedit := self getCachedOrNewWidget: UiLineEdit For: name.
 	lineedit
 		theText: value;

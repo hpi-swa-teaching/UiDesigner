@@ -1,13 +1,14 @@
 {
 	"class" : {
-		 },
+		"height" : "SR 7/25/2014 16:41",
+		"width" : "SR 7/25/2014 16:41" },
 	"instance" : {
-		"close" : "tg 7/3/2014 16:18",
-		"expandAllAttributeCategories" : "FW 7/25/2014 15:49",
-		"initialize" : "tg 6/24/2014 15:11",
-		"initializeAttributeView" : "SR 7/25/2014 16:16",
-		"open" : "tg 6/24/2014 18:07",
-		"open:" : "tg 7/3/2014 16:24",
-		"openInWindowLabeled:inWorld:" : "FW 7/10/2014 13:08",
-		"ui" : "tg 6/24/2014 11:48",
+		"close" : "SR 7/25/2014 17:01",
+		"expandAllAttributeCategories" : "SR 7/25/2014 17:01",
+		"initialize" : "SR 7/25/2014 17:01",
+		"initializeAttributeView" : "SR 7/25/2014 16:31",
+		"open" : "SR 7/25/2014 17:01",
+		"open:" : "SR 7/25/2014 17:01",
+		"openInWindowLabeled:inWorld:" : "SR 7/25/2014 16:42",
+		"ui" : "SR 7/25/2014 17:01",
 		"uiDesigner" : "SR 7/25/2014 15:20" } }

@@ -2,5 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initializePanel" : "FW 6/1/2014 21:12",
-		"treeView" : "FW 6/1/2014 20:31" } }
+		"initializePanel" : "SR 7/25/2014 17:09",
+		"initializeUiPanel" : "SR 7/25/2014 17:09",
+		"initializeUiTreeView" : "SR 7/25/2014 17:09",
+		"treeView" : "SR 7/25/2014 17:09" } }

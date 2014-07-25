@@ -1,5 +1,6 @@
 initialization
 initializeAttributeView
+
 	self ui treeView removeAllColumns; model: nil; 
 			addColumn: ((UiItemViewColumnSpec new)
 				textSelector: #yourself;
@@ -15,7 +16,6 @@ initializeAttributeView
 				checkableSelector: #isCheckable;
 				checkedSelector: #isChecked).
 	
-
 	self ui treeView viewport eventHandler mouseDownPriority: 0.
 	self ui treeView model: self uiDesigner attributeTreeModel.
 	

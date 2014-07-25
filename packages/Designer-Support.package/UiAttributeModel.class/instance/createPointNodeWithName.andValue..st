@@ -1,7 +1,7 @@
 data insertion
 createPointNodeWithName: name andValue: value
-	| lineedit |
 	
+	| lineedit |
 	lineedit := self getCachedOrNewWidget: UiLineEdit For: name.
 	lineedit 
 		theText: value;

@@ -1,4 +1,4 @@
 accessing
 closeDesignerAfterwards: aBool
 
-	closeDesignerAfterwards := aBool
+	shallCloseDesignerAfterwards := aBool

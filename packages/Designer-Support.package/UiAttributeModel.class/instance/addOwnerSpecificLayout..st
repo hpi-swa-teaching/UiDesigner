@@ -2,7 +2,6 @@ updating
 addOwnerSpecificLayout: aMorph
 
 	| topNode |
-	
 	topNode := self createParentNodeFrom: 'Owner-specific layout'.
 	
 	self addChildNodesFor: topNode With: aMorph.

@@ -8,4 +8,4 @@ nameFilter: aString
 		ifNotEmpty: [
 			self ui widgetList model isFilteredModel
 				ifFalse: [self selectFilterModel].
-			self ui widgetList model nameFilter: aString].
+			self ui widgetList model nameFilter: aString]
