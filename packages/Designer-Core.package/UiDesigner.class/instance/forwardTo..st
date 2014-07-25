@@ -5,8 +5,7 @@ forwardTo: item
 	[lastItem ~= item] whileTrue: [
 		list := self ui redoComboBox list.
 		lastItem := list items first.
-		self redoAction.
-		.].
+		self redoAction]
 	
 	
 	

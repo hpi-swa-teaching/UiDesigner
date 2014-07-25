@@ -4,11 +4,12 @@
 	"instance" : {
 		"close" : "mt 10/30/2010 14:50:29.139",
 		"closed" : "mt 10/30/2010 14:50:09.439",
+		"connectActions" : "tg 7/25/2014 15:06",
 		"designTemplateSelected:" : "mt 10/30/2010 13:06:23.239",
 		"drawOn:" : "mt 10/30/2010 14:46:26.966",
 		"drawShadowOn:" : "mt 10/30/2010 14:46:14.872",
-		"initialize" : "FW 7/10/2014 13:21",
+		"initialize" : "tg 7/25/2014 15:04",
 		"outerBounds" : "mt 10/30/2010 14:45:56.642",
 		"recentDesignSelected:" : "mt 10/30/2010 13:05:41.413",
-		"setFillStyle" : "FW 7/10/2014 13:19",
+		"setFillStyle" : "tg 7/25/2014 15:01",
 		"ui" : "mt 10/30/2010 13:25:16.262" } }

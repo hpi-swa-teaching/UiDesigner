@@ -31,4 +31,5 @@ and will be overwritten.').
 	
 	self openSavedDialog: generator dependingOn: checkboxChecked.
 	
-	self widgetsWindow expandWidgetCategories.		
+	self widgetsWindow
+		ifNotNil: [self widgetsWindow expandWidgetCategories]

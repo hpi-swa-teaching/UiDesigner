@@ -1,4 +1,4 @@
-save/load
+initialization
 openSavedDialog: aGenerator dependingOn: checkboxChecked
 
 	| informText |

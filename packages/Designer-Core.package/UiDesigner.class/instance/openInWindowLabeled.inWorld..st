@@ -1,5 +1,6 @@
 initialization
 openInWindowLabeled: aString inWorld: aWorld
+	"This method overrides the partent method(Morph) which looks exactly as terrible as this therefore we did not change it"
 
 	| window extent |
 	window := (UiCustomSystemWindow labelled: aString) model: nil.

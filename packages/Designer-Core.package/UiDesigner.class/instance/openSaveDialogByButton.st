@@ -1,4 +1,4 @@
-save/load
+initialization
 openSaveDialogByButton
 	
 	closeDesignerAfterwards := false.

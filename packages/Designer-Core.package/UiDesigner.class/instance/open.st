@@ -1,4 +1,4 @@
 initialization
 open
 
-	self openInWindowLabeled: 'Morphic Designer'.
+	self openInWindowLabeled: 'Morphic Designer'

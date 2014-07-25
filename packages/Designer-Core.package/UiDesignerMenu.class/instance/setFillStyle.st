@@ -1,5 +1,6 @@
 drawing
 setFillStyle
+
 	self ui panel fillStyle: ((GradientFillStyle ramp: {
 			0.0 -> (self ui panel color adjustBrightness: 0.1).
 			0.1-> (self ui panel color adjustBrightness: 0.05).

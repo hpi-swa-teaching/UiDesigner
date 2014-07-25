@@ -3,10 +3,9 @@ openSaveDialog
 	
 	| uiSaveDialog |
 	uiSaveDialog := UiSaveDialog new..
-	uiSaveDialog initializeWith: self.
 	uiSaveDialog 
+		initializeWith: self; 
 		connectViewWith: container and: propertyTable;
-		loadTextFrom: container and: ui packageNameEdit.
-	
-	uiSaveDialog shallCloseDesignerAfterwards: closeDesignerAfterwards.
-	uiSaveDialog open.
+		loadTextFrom: container and: ui packageNameEdit;
+		shallCloseDesignerAfterwards: closeDesignerAfterwards;
+		open
