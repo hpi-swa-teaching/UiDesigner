@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 designTemplates
 
 	^ UserInterface subclasses select: [:class | class isTemplate]

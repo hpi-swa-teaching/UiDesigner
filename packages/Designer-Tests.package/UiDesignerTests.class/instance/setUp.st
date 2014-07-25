@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 setUp
 	super setUp.
 	sut := UiDesigner new.

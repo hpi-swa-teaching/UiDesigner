@@ -1,4 +1,4 @@
-as yet unclassified
+version
 versionString
 
 	^ ((Smalltalk at: #ConfigurationOfDesigner ifAbsent: [])

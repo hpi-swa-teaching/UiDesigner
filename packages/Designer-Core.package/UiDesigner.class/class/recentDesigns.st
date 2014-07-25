@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 recentDesigns
 
 	RecentDesigns ifNil: [RecentDesigns := OrderedCollection new].
