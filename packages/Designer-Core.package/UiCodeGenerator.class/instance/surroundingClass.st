@@ -1,4 +1,4 @@
 accessing
 surroundingClass
 
-	^ Smalltalk at: self surroundingClassName.
+	^ Smalltalk at: self surroundingClassName

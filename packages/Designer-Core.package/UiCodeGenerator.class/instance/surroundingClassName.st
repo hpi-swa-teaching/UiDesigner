@@ -1,4 +1,4 @@
 accessing
 surroundingClassName
 
-	^ source uiClassName capitalized asSymbol.
+	^ source uiClassName capitalized asSymbol
