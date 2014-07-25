@@ -2,7 +2,6 @@ ui - private
 initializeUiRedoButton
 		
 	"This code is auto-generated. DO NOT modify it because another generation step will overwrite all changes."
-	
 	redoButton := UiPushButton new.
 	redoButton changeTableLayout.
 	redoButton extent: (35@20).

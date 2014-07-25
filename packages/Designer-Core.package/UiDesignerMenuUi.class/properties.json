@@ -7,11 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"titleLbl",
-		"unnamedMorph1",
 		"recentLbl",
 		"recentList",
 		"openBtn",
-		"unnamedMorph2",
 		"templateLbl",
 		"templateList",
 		"newBtn",

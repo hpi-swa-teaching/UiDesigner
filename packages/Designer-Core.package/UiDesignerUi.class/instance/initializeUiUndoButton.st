@@ -2,7 +2,6 @@ ui - private
 initializeUiUndoButton
 		
 	"This code is auto-generated. DO NOT modify it because another generation step will overwrite all changes."
-	
 	undoButton := UiPushButton new.
 	undoButton changeTableLayout.
 	undoButton extent: (36@20).

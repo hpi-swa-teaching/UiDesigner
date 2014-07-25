@@ -2,7 +2,6 @@ ui - private
 initializeUiCentralScroller
 		
 	"This code is auto-generated. DO NOT modify it because another generation step will overwrite all changes."
-	
 	centralScroller := UiScrollArea new.
 	centralScroller extent: (600@558).
 	centralScroller position: (0@42).

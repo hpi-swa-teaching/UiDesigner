@@ -1,0 +1,15 @@
+{
+	"category" : "Designer-Templates",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"okButton",
+		"cancelButton" ],
+	"name" : "UiDialogTemplateUi",
+	"pools" : [
+		 ],
+	"super" : "UserInterface",
+	"type" : "normal" }

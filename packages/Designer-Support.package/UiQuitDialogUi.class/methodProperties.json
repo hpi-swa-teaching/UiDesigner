@@ -2,6 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initializePanel" : "gb 6/24/2014 17:17",
-		"quitButton" : "gb 6/24/2014 17:17",
-		"saveButton" : "gb 6/24/2014 17:17" } }
+		"initializePanel" : "FW 7/25/2014 14:59",
+		"initializeUiPanel" : "FW 7/25/2014 14:59",
+		"initializeUiQuitButton" : "FW 7/25/2014 14:59",
+		"initializeUiSaveButton" : "FW 7/25/2014 14:59",
+		"initializeUnnamedUiLabel1" : "FW 7/25/2014 14:59",
+		"quitButton" : "FW 7/25/2014 14:59",
+		"saveButton" : "FW 7/25/2014 14:59" } }

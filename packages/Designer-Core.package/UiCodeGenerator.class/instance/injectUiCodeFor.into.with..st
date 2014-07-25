@@ -14,4 +14,4 @@ injectUiCodeFor: aMorph into: stream with: aGenerator
 	
 	aGenerator generateMethod: methodName with: (newStream contents) classified: 'ui - private'.
 	
-	stream nextPutAll: '(self ',methodName,').'.
+	stream nextPutAll: '(self ',methodName,').'

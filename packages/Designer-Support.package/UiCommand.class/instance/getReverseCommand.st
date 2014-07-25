@@ -1,3 +1,3 @@
 as yet unclassified
 getReverseCommand
-	^self subclassResponsibility.
+	^self subclassResponsibility

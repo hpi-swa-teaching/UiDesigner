@@ -5,6 +5,5 @@ generateMethod: aMethodName with: aMethodStub classified: aClassification
 		aMethodName,'
 		
 	', self warningCommentTemplate,'
-	
 	', aMethodStub
 	) classified: aClassification.

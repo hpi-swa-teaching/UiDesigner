@@ -1,5 +1,4 @@
 accessing
 templateLbl
-	"nil"
 	
 	^ templateLbl

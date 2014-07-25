@@ -2,7 +2,6 @@ ui - private
 initializeUiProp
 		
 	"This code is auto-generated. DO NOT modify it because another generation step will overwrite all changes."
-	
 	prop := UiContainer new.
 	prop changeProportionalLayout.
 	prop extent: (600@558).

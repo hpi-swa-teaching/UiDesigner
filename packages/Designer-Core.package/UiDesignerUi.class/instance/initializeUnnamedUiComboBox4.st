@@ -2,8 +2,6 @@ ui - private
 initializeUnnamedUiComboBox4
 		
 	"This code is auto-generated. DO NOT modify it because another generation step will overwrite all changes."
-	
-	
 	| unnamedUiComboBox4 |
 	unnamedUiComboBox4 := UiComboBox new.
 	unnamedUiComboBox4 extent: (150@20).
@@ -26,6 +24,6 @@ initializeUnnamedUiComboBox4
 	unnamedUiComboBox4 frameFractions: (0@0 corner: 1@1).
 	unnamedUiComboBox4 frameOffsets: (0@0 corner: 0@0).
 	unnamedUiComboBox4 balloonText: (nil).
-	unnamedUiComboBox4 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
+	unnamedUiComboBox4 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
 	unnamedUiComboBox4 readOnly: (true).
 	^ unnamedUiComboBox4

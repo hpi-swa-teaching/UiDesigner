@@ -2,7 +2,6 @@ ui - private
 initializeUiRedoComboBox
 		
 	"This code is auto-generated. DO NOT modify it because another generation step will overwrite all changes."
-	
 	redoComboBox := UiComboBox new.
 	redoComboBox extent: (14@20).
 	redoComboBox position: (384@9).
@@ -24,7 +23,7 @@ initializeUiRedoComboBox
 	redoComboBox frameFractions: (0@0 corner: 1@1).
 	redoComboBox frameOffsets: (0@0 corner: 0@0).
 	redoComboBox balloonText: (nil).
-	redoComboBox balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
+	redoComboBox balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
 	redoComboBox readOnly: (true).
 	redoComboBox setProperty: #objectName toValue: 'redoComboBox'.
 	^ redoComboBox

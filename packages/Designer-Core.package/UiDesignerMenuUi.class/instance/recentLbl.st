@@ -1,5 +1,4 @@
 accessing
 recentLbl
-	"nil"
 	
 	^ recentLbl

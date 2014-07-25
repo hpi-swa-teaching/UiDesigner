@@ -1,5 +1,4 @@
 accessing
 templateList
-	"nil"
 	
 	^ templateList

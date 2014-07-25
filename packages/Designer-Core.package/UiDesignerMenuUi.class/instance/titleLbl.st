@@ -1,5 +1,4 @@
 accessing
 titleLbl
-	"nil"
 	
 	^ titleLbl
