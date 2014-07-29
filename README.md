@@ -1,6 +1,6 @@
-SWTI2014-Project-03
+UiDesigner
 ===================
-[![Build Status](https://travis-ci.org/SWTI2014/SWTI2014-Project-03.svg)](https://travis-ci.org/SWTI2014/SWTI2014-Project-03)
+[![Build Status](https://travis-ci.org/SWTI2014/UiDesigner.svg)](https://travis-ci.org/SWTI2014/UiDesigner)
 
 The Morphic Designer is an application to create Morphic user interfaces with ease. It follows basic ideas of the QtDesigner from the ​Nokia Qt Framework.
 
