@@ -1,1 +1,0 @@
-(name 'Widgets-mt.111'message '- mouse wheel event handling in UiEventHandler refactored/fixed- mouse wheel event simulation added to tests- mouse wheel event handling in item view still not working'id '8a723b7c-8f0a-4c43-84d0-60d31f91c270'date '21 March 2011'time '9:50:09.772 am'author 'mt'ancestors ((id '8142cec8-dbff-7e48-beb2-872bc808bc6b'))stepChildren ())

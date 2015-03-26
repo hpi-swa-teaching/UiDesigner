@@ -1,1 +1,0 @@
-(name 'Widgets-mt.343'message 'BUGFIX: text edit preserves selection on resizing, even if autoFit is on'id '73c47f58-cddb-b646-8bac-908e289993cb'date '6 September 2012'time '11:38:19.516 am'author 'mt'ancestors ((id '53ab039d-6e7f-f74f-825e-ddf99d4fab3d'))stepChildren ())

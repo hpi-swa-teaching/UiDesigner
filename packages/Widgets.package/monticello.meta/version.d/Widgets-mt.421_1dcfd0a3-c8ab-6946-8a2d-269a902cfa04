@@ -1,1 +1,0 @@
-(name 'Widgets-mt.421'message 'FIX: reset of scrolling behavior in text edit makes vertical scroll bar appear #asNeeded again (was initial value but NOT the previous one)'id '1dcfd0a3-c8ab-6946-8a2d-269a902cfa04'date '22 July 2013'time '1:56:17.144 pm'author 'mt'ancestors ((id '6e4fb2ba-b0a0-a24d-858d-e31cc0d9d4db'))stepChildren ())

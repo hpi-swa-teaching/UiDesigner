@@ -1,1 +1,0 @@
-(name 'Widgets-mt.332'message '- BUGFIX: insertion in list views works again (#ensureRowFor: was broken)- item views may show a help text if empty (like UiLineEdit)- item views now support dropping if empty'id 'c93c2207-0f6c-6b4d-822a-e6f405b34c66'date '22 August 2012'time '3:52:35.653 pm'author 'mt'ancestors ((id 'b88750f8-c218-2647-8a59-c7fa5bde757d'))stepChildren ())

@@ -1,1 +1,0 @@
-(name 'Widgets-mt.157'message '- convenient method added to escape html text characters- bugfix in list widget; #currentRow: can now be nil'id 'fc673f8c-151d-5a4c-bc75-d3a138379926'date '14 April 2011'time '8:27:51.157 pm'author 'mt'ancestors ((id 'ee0ec281-a0d4-3146-831e-d3d64a67ab2b'))stepChildren ())

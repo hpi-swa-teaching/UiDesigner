@@ -1,1 +1,0 @@
-(name 'Widgets-mt.238'message '- bugfix in convenient #rowCountFor: implementations in list and table models- no column change anymore when navigating by key in a tree view with expanding children'id 'cd2f7fb0-78ba-2b4c-8080-33d2088bdee5'date '18 July 2011'time '11:02:29.208 am'author 'mt'ancestors ((id '8ed67d72-6aae-804c-b08e-cfa5ab037124'))stepChildren ())

@@ -1,1 +1,0 @@
-(name 'Widgets-mt.66'message '- single selection in itme view does not accept "nil" as new selection anymore -> use #clear instead'id 'b04d7e33-74d5-d94b-84fa-ee73bd43a1b0'date '30 October 2010'time '6:30:51.848 pm'author 'mt'ancestors ((id 'e61ce0eb-4b7e-c94b-8a01-c3a00d8beffe'))stepChildren ())

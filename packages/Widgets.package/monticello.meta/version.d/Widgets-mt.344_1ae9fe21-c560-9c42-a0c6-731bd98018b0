@@ -1,1 +1,0 @@
-(name 'Widgets-mt.344'message 'ITERATOR- #cancelled signal is not emitted anymore if iteration has finishedITEM VIEWS- setting the #helpText: via the item view api triggers a redraw now'id '1ae9fe21-c560-9c42-a0c6-731bd98018b0'date '7 September 2012'time '11:03:25.111 am'author 'mt'ancestors ((id '73c47f58-cddb-b646-8bac-908e289993cb'))stepChildren ())

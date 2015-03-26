@@ -1,1 +1,0 @@
-(name 'Widgets-mt.142'message '- multiple calls to UserInterface>>setupUi: will not create new panels anymore'id '88f2e100-3804-b942-b9e1-bf860e9be9b3'date '11 April 2011'time '5:16:06.935 pm'author 'mt'ancestors ((id '4a44fa0f-456c-439a-a8f5-f012f3985106'))stepChildren ())

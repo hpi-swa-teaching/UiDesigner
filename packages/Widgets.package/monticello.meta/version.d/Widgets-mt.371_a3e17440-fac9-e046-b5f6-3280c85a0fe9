@@ -1,1 +1,0 @@
-(name 'Widgets-mt.371'message 'BUGFIX: setting a #selectBlock: in item views does not DNU anymore if parts of the selection were hidden then'id 'a3e17440-fac9-e046-b5f6-3280c85a0fe9'date '11 February 2013'time '11:11:03.426 am'author 'mt'ancestors ((id '7bd21fcf-8b0b-4243-8b34-f741d6de47a3'))stepChildren ())

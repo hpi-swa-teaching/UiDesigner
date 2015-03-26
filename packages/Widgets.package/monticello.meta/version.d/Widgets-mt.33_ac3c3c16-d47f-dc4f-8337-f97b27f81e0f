@@ -1,1 +1,0 @@
-(name 'Widgets-mt.33'message '- first version of a tree view added, try this:UiTreeView new	model: UiSmalltalkModel new;	reset;	openInHand.'id 'ac3c3c16-d47f-dc4f-8337-f97b27f81e0f'date '9 October 2010'time '8:33:23.087 pm'author 'mt'ancestors ((id 'a0b9753b-1028-2949-8889-922f0895041a'))stepChildren ())

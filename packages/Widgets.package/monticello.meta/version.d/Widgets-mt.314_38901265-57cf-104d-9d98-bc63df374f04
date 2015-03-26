@@ -1,1 +1,0 @@
-(name 'Widgets-mt.314'message 'Item Views- drag/drop spec uses string representation of object by default if no #textSelector was configured- bugfix in start-drag-operation in viewport'id '38901265-57cf-104d-9d98-bc63df374f04'date '25 July 2012'time '6:07:07.891 pm'author 'mt'ancestors ((id 'a6ac5399-e988-9442-8d15-26d4c456fbeb'))stepChildren ())

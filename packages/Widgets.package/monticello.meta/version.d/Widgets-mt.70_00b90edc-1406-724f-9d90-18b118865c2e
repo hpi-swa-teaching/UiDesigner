@@ -1,1 +1,0 @@
-(name 'Widgets-mt.70'message '- renamed list view to "UiListView"- first version of a table widget added- minor code refactoring in list/table widget- some class comments added'id '00b90edc-1406-724f-9d90-18b118865c2e'date '11 November 2010'time '10:36:27.13 am'author 'mt'ancestors ((id '842769a4-f0d4-3345-b077-e66330a454ea'))stepChildren ())

@@ -1,1 +1,0 @@
-(name 'Widgets-mt.379'message 'BUGFIX in push buttons: overlong texts are now cut if button has no #shrinkWrap size.'id '4101a7b9-f015-9045-9cbc-1f3e882bc88f'date '5 March 2013'time '4:50:22.78 pm'author 'mt'ancestors ((id '7b177634-2c01-5145-a116-a607df15a410'))stepChildren ())

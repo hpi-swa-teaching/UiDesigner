@@ -1,1 +1,0 @@
-(name 'Widgets-mt.115'message '- added more user input event simulation tests- added logical time to event simulation (use #wait: to advance time)'id 'ccfb9cd8-8e55-ed49-aa80-8187b7862f49'date '22 March 2011'time '11:00:07.672 pm'author 'mt'ancestors ((id 'fdc4023f-b805-4d4c-8e09-a28305cdb686'))stepChildren ())
