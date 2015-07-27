@@ -3,14 +3,11 @@ baseline: spec
     <baseline>
     spec
         for: #'common'
-        do: [ 
-            spec
-                project: 'Widgets' with: [ spec
-     						className: 'ConfigurationOfWidgets';
-     						versionString: #development;
-						loads: #('full');		
-       						repository: 'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/MetacelloRepository';
-						yourself ];
+        do: [
+        	spec baseline: 'Widgets' with: [
+			spec
+				repository: 'github://hpi-swa/widgets:master/repository';
+				loads: #(full)].
                 package: 'Designer-Core' with: [ spec requires: #('Widgets' 'Designer-Support') ];
                 package: 'Designer-Support' with: [ spec requires: #('Widgets') ];
                 package: 'Designer-Templates' with: [ spec requires: #('Widgets') ];
