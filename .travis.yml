@@ -2,8 +2,7 @@ language: erlang
 
 # Choose which platforms you want your builds run against (done in parallel)
 env:
-   - ST=Squeak-4.4
-   - ST=Squeak-4.5
+   - ST=Squeak-4.6
    - ST=Squeak-Trunk
 
 matrix:
@@ -14,7 +13,7 @@ matrix:
 install:
    - export PROJECT_HOME="$(pwd)"
    - cd $HOME
-   - wget -q -O builderCI.zip https://github.com/dalehenrich/builderCI/archive/v1.0.0.zip
+   - wget -q -O builderCI.zip https://github.com/dalehenrich/builderCI/archive/master.zip
    - unzip -q builderCI.zip
    - cd builderCI-*
    - source build_env_vars
